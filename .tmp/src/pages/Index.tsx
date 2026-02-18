@@ -15,6 +15,7 @@ import { ContentResults } from "@/components/home/ContentResults";
 import { ContentCaseStudies } from "@/components/home/ContentCaseStudies";
 import { CloserLookGoods } from "@/components/home/CloserLookGoods";
 import { GetItDoneRight } from "@/components/home/GetItDoneRight";
+import { FaqSection } from "@/components/home/FaqSection";
 
 const Index = () => {
   return (
@@ -37,6 +38,7 @@ const Index = () => {
         <ContentCaseStudies />
         <CloserLookGoods />
         <GetItDoneRight />
+        <FaqSection />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
