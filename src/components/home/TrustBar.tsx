@@ -27,7 +27,7 @@ export const TrustBar = () => {
         {/* Brand Logos Marquee */}
         <div className="mb-24 py-12 border-y border-gray-50 overflow-hidden relative">
           <motion.div 
-            animate={{ x: [0, "-50%"] }}
+            animate={{ x: ["0%", "-50%"] }}
             transition={{
               duration: 30,
               repeat: Infinity,
