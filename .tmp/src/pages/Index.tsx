@@ -13,6 +13,7 @@ import { DailyOptimizations } from "@/components/home/DailyOptimizations";
 import { ClientVideoTestimonial } from "@/components/home/ClientVideoTestimonial";
 import { ContentResults } from "@/components/home/ContentResults";
 import { ContentCaseStudies } from "@/components/home/ContentCaseStudies";
+import { CloserLookGoods } from "@/components/home/CloserLookGoods";
 
 const Index = () => {
   return (
@@ -33,6 +34,7 @@ const Index = () => {
         <ClientVideoTestimonial />
         <ContentResults />
         <ContentCaseStudies />
+        <CloserLookGoods />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
