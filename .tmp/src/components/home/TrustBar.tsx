@@ -93,8 +93,8 @@ export const TrustBar = () => {
             viewport={{ once: true }}
             className="absolute -top-3 left-1/2 -translate-x-1/2 bg-white px-6"
           >
-            <p className="font-sans font-bold text-gray-400 uppercase tracking-[0.2em] text-[10px] whitespace-nowrap">
-              Industry Certified Partners
+            <p className="font-sans font-bold text-gray-400 uppercase tracking-[0.2em] text-[20px] whitespace-nowrap">
+              Certified By
             </p>
           </motion.div>
           
@@ -112,7 +112,7 @@ export const TrustBar = () => {
                     key={logo.alt}
                     src={logo.src}
                     alt={logo.alt}
-                    className="h-14 md:h-20 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300"
+                    className="h-30 md:h-20 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300"
                   />
                 ))}
               </div>
