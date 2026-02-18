@@ -27,7 +27,7 @@ export const WorkShowcase = () => {
         </motion.h2>
       </div>
 
-      <div className="relative -rotate-3 scale-110 py-12">
+      <div className="relative -rotate-3 scale-110 py-24">
         <div className="flex space-x-8 overflow-hidden">
           <motion.div 
             className="flex space-x-8 whitespace-nowrap"
@@ -41,7 +41,7 @@ export const WorkShowcase = () => {
             {marqueeImages.map((image, index) => (
               <div 
                 key={index} 
-                className="w-[400px] h-[500px] flex-shrink-0 rounded-2xl overflow-hidden shadow-2xl border-4 border-white"
+                className="w-[400px] h-[700px] flex-shrink-0 rounded-2xl overflow-hidden shadow-2xl border-4 border-white"
               >
                 <img
                   src={image}
