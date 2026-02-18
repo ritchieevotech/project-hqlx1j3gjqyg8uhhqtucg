@@ -52,11 +52,6 @@ export const WorkShowcase = () => {
         </div>
       </div>
       
-      <div className="mt-16 text-center">
-        <p className="text-muted-foreground font-sans uppercase tracking-widest text-sm opacity-60">
-          Scroll-stopping visual assets for category leaders
-        </p>
-      </div>
     </section>
   );
 };
