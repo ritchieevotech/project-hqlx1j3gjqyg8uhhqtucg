@@ -15,8 +15,8 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="font-display text-7xl md:text-9xl text-primary leading-[0.85] tracking-tight uppercase"
           >
-            THE ENGINE THAT POWERS<br />
-            <span className="squiggly-underline">AGENCY SUCCESS</span>
+            STOP SETTING FOR AVERAGE <br />
+            <span className="squiggly-underline">AMAZON CREATIVE</span>
           </motion.h1>
           
           <motion.p 
@@ -25,8 +25,9 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="mt-8 font-sans text-xl md:text-2xl text-foreground/70 max-w-2xl mx-auto"
           >
-            Your white-label operations powerhouse.<br />
-            <span className="font-semibold text-primary">(No overhead, just scale.)</span>
+            We build high-converting listings and storefronts designed by creative marketers, not just designers. 
+            <br />
+            <span className="font-semibold text-primary">No long-term retainers—just high-impact assets that make your products stand out and sell.No long-term retainers—just high-impact assets that make your products stand out and sell.</span>
           </motion.p>
         </div>
 
@@ -58,15 +59,13 @@ export function Hero() {
               transition={{ delay: 0.6, duration: 0.6 }}
             >
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary leading-tight">
-                Want to scale your agency without the hiring headache?
+                Ready to Scale on the World’s #1 Marketplace?
               </h2>
-              <p className="mt-4 font-sans text-lg text-foreground/80 leading-relaxed">
-                We handle the heavy lifting of operations, fulfillment, and technical execution so you can focus on winning more business. High-quality output, predictable costs, and infinite scalability.
-              </p>
+              
               
               <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <Button size="lg" className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold text-xl rounded-full px-10 py-8 shadow-lg shadow-brand-blue/20">
-                  GET A QUOTE
+                  Book Your Custom Quote
                 </Button>
                 
                 <div className="flex items-center gap-3 px-4 py-2 bg-secondary/10 rounded-full border border-secondary/20">
