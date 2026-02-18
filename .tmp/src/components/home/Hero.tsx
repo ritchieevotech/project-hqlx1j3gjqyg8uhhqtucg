@@ -44,9 +44,9 @@ export function Hero() {
               className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white"
             >
               <img 
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/c74ea1f6-3f15-4968-8859-ec38abeece83.png" 
-                alt="Friendly professional woman presenting"
-                className="w-full h-auto object-contain"
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/01b59f58-4654-46a7-8ab6-3187c013933a.png" 
+                alt="Photo-real portrait of a friendly professional woman"
+                className="w-full h-auto object-cover"
               />
             </motion.div>
           </div>
