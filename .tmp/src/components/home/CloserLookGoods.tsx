@@ -21,6 +21,7 @@ export const CloserLookGoods = () => {
 
         <DetailRow
           isFirst
+          isReversed
           title="Product Images"
           imageSrc="https://images.pexels.com/photos/4109990/pexels-photo-4109990.jpeg?auto=compress&cs=tinysrgb&w=1200"
           imageAlt="Colorful packaged snacks arranged in a bold product image layout"
@@ -30,7 +31,6 @@ export const CloserLookGoods = () => {
         />
 
         <DetailRow
-          isReversed
           delay={0.1}
           title="SEO Listing Copy"
           imageSrc="https://images.pexels.com/photos/2740954/pexels-photo-2740954.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -41,6 +41,7 @@ export const CloserLookGoods = () => {
         />
 
         <DetailRow
+          isReversed
           delay={0.15}
           title="Enhanced Main Images"
           imageSrc="https://images.pexels.com/photos/8478050/pexels-photo-8478050.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -51,7 +52,6 @@ export const CloserLookGoods = () => {
         />
 
         <DetailRow
-          isReversed
           delay={0.2}
           title="Premium A+ Content"
           imageSrc="https://images.pexels.com/photos/7319295/pexels-photo-7319295.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -62,6 +62,7 @@ export const CloserLookGoods = () => {
         />
 
         <DetailRow
+          isReversed
           delay={0.25}
           title="Storefront Homepage"
           imageSrc="https://images.pexels.com/photos/4194625/pexels-photo-4194625.jpeg?auto=compress&cs=tinysrgb&w=1200"

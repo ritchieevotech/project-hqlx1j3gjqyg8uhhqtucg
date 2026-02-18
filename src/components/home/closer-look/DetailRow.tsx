@@ -34,7 +34,7 @@ export const DetailRow = ({
     >
       <div
         className={`bg-brand-blue rounded-[3rem] flex items-center justify-center py-16 px-8 shadow-2xl relative overflow-hidden group ${
-          isReversed ? "order-1 md:order-none" : ""
+          isReversed ? "md:order-2" : ""
         }`}
       >
         <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -47,7 +47,7 @@ export const DetailRow = ({
         </div>
       </div>
 
-      <div className={`flex flex-col justify-center space-y-8 ${isReversed ? "order-2 md:order-none" : ""}`}>
+      <div className={`flex flex-col justify-center space-y-8 ${isReversed ? "md:order-1" : ""}`}>
         <div className="space-y-4">
           <h3 className="font-heading text-3xl md:text-5xl text-primary tracking-tight">
             {title}
