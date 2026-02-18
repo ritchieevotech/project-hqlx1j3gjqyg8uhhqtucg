@@ -3,6 +3,7 @@ import { Hero } from "@/components/home/Hero";
 import { WorkShowcase } from "@/components/home/WorkShowcase";
 import { SocialProof } from "@/components/home/SocialProof";
 import { TrustBar } from "@/components/home/TrustBar";
+import { CreativeWorks } from "@/components/home/CreativeWorks";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
         <WorkShowcase />
         <SocialProof />
         <TrustBar />
+        <CreativeWorks />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
