@@ -44,9 +44,9 @@ export function Hero() {
               className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white"
             >
               <img 
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/ad7914d1-06fa-415a-9afa-89620be5ea07.png" 
-                alt="Engin8 Team working together"
-                className="w-full h-auto object-cover"
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/c74ea1f6-3f15-4968-8859-ec38abeece83.png" 
+                alt="Friendly professional woman presenting"
+                className="w-full h-auto object-contain"
               />
             </motion.div>
           </div>
