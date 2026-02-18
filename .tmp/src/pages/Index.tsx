@@ -18,6 +18,7 @@ import { GetItDoneRight } from "@/components/home/GetItDoneRight";
 import { FaqSection } from "@/components/home/FaqSection";
 import { WhyAgenciesPartner } from "@/components/home/WhyAgenciesPartner";
 import { AboutEngin8 } from "@/components/home/AboutEngin8";
+import { MiniAuditCta } from "@/components/home/MiniAuditCta";
 
 const Index = () => {
   return (
@@ -43,6 +44,7 @@ const Index = () => {
         <FaqSection />
         <WhyAgenciesPartner />
         <AboutEngin8 />
+        <MiniAuditCta />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
