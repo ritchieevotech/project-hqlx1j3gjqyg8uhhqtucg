@@ -9,6 +9,7 @@ import { Storefronts } from "@/components/home/Storefronts";
 import { StorefrontGallery } from "@/components/home/StorefrontGallery";
 import { ListingOptimization } from "@/components/home/ListingOptimization";
 import { HowItWorks } from "@/components/home/HowItWorks";
+import { DailyOptimizations } from "@/components/home/DailyOptimizations";
 
 const Index = () => {
   return (
@@ -25,6 +26,7 @@ const Index = () => {
         <StorefrontGallery />
         <ListingOptimization />
         <HowItWorks />
+        <DailyOptimizations />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
