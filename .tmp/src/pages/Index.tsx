@@ -60,7 +60,7 @@ const Index = () => {
                 <img
                   src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407501460-2.png"
                   alt="Engin8 logo"
-                  className="w-40 md:w-52 h-auto drop-shadow-lg"
+                  className="w-40 md:w-52 h-auto"
                 />
                 <p className="font-sans text-sm md:text-base text-primary/80 max-w-sm">
                   The engine quietly powering your Amazon and marketplace wins behind the scenes.
