@@ -44,8 +44,8 @@ export const CloserLookGoods = () => {
           isReversed
           delay={0.15}
           title="Enhanced Main Images"
-          imageSrc="https://images.pexels.com/photos/8478050/pexels-photo-8478050.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          imageAlt="Hero product image on a clean background representing enhanced main images"
+          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771442386194-Untitled-design-10.png"
+          imageAlt="Pink DIA hydration supplement jar with strawberries and vitamin callouts"
           theWhat={<>The hero image is the product-on-white image that draws shoppers to click into your Amazon product listing from the search results. Optimizing main images is the <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">#1 way to improve your click-through rate</span>.</>}
           theHow={<>Our goal is to steal clicks from the competition. We create <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">eye-candy hero image concepts</span> you can test in your own Amazon experiments so shoppers (and Amazon) tell you which main image will win.</>}
           bonus="Includes split testing suggestions so you can gather real feedback from Amazon Prime shoppers before you roll out a winner."
