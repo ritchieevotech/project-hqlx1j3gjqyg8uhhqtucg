@@ -1,4 +1,5 @@
 import { Header } from "@/components/layout/Header";
+import { Mail, Linkedin } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
 import { WorkShowcase } from "@/components/home/WorkShowcase";
 import { SocialProof } from "@/components/home/SocialProof";
@@ -49,15 +50,65 @@ const Index = () => {
         <MoreCreativeWorks />
       </main>
       
-      <footer className="bg-primary text-white py-12 px-6 relative z-10">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="font-heading text-2xl font-bold">Engin8</div>
-          <div className="font-sans text-sm text-white/60">
-            © {new Date().getFullYear()} Engin8. All rights reserved.
+      <footer className="bg-secondary text-primary py-12 md:py-16 px-6 relative z-10">
+        <div className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-16">
+          {/* top row */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-16 items-start">
+            {/* Left: logo / brand */}
+            <div className="md:col-span-2 flex items-center">
+              <div>
+                <div className="font-heading text-4xl md:text-5xl font-bold tracking-tight leading-none">
+                  Engin<span className="text-primary">8</span>
+                </div>
+                <p className="mt-3 font-sans text-sm md:text-base text-primary/80 max-w-sm">
+                  The engine quietly powering your Amazon and marketplace wins behind the scenes.
+                </p>
+              </div>
+            </div>
+
+            {/* Middle: Services */}
+            <div>
+              <h3 className="font-heading text-base md:text-lg font-semibold mb-3">Services</h3>
+              <ul className="space-y-1.5 font-sans text-sm md:text-base text-primary/90">
+                <li>Amazon Services</li>
+                <li>Walmart Services</li>
+                <li>Listing Optimization</li>
+                <li>Traffic &amp; TikTok</li>
+              </ul>
+            </div>
+
+            {/* Right: Resources and Contact Us */}
+            <div className="flex flex-col gap-6 md:items-start">
+              <div>
+                <h3 className="font-heading text-base md:text-lg font-semibold mb-3">Resources</h3>
+                <ul className="space-y-1.5 font-sans text-sm md:text-base text-primary/90">
+                  <li>About Us</li>
+                  <li>Contact</li>
+                  <li>Legal</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-heading text-base md:text-lg font-semibold mb-3">Contact Us</h3>
+                <div className="space-y-2 font-sans text-sm md:text-base text-primary/90">
+                  <div className="flex items-center gap-2">
+                    <Mail className="w-4 h-4" />
+                    <a href="mailto:jeff@engin8.com" className="hover:underline">jeff@engin8.com</a>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Linkedin className="w-4 h-4" />
+                    <a href="#" className="hover:underline">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-secondary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-secondary transition-colors">Terms of Service</a>
+
+          {/* divider and bottom copyright */}
+          <div className="h-px w-full bg-primary/40" />
+          <div className="flex justify-center">
+            <p className="mt-4 font-sans text-xs md:text-sm text-primary/80 text-center">
+              © {new Date().getFullYear()} Engin8. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
