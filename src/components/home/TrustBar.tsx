@@ -23,6 +23,25 @@ const brandLogos = [
   }
 ];
 
+const certificationLogos = [
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771414704994-pasted-image-1771414671349.png",
+    alt: "PickFu certified partner badge",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771414704995-pasted-image-1771414683868.png",
+    alt: "Helium 10 trusted partner badge",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771414704995-pasted-image-1771414693503.png",
+    alt: "Data Dive Tools partner badge",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771414704996-pasted-image-1771414700847.png",
+    alt: "Intellivy partner badge",
+  },
+];
+
 export const TrustBar = () => {
   return (
     <section className="py-24 bg-white overflow-hidden border-t border-gray-50">
@@ -86,12 +105,17 @@ export const TrustBar = () => {
             viewport={{ once: true }}
             className="flex justify-center items-center mt-12"
           >
-            <div className="w-full max-w-xl md:max-w-lg px-4">
-              <img 
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/546b26f5-defb-4c12-9ccf-ca68b7d80b14.png" 
-                alt="PickFu, Helium 10, Data Dive, Intellivy Certified" 
-                className="w-full h-auto object-contain"
-              />
+            <div className="w-full max-w-xl md:max-w-2xl px-4">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 md:gap-8 items-center justify-items-center">
+                {certificationLogos.map((logo) => (
+                  <img
+                    key={logo.alt}
+                    src={logo.src}
+                    alt={logo.alt}
+                    className="h-14 md:h-20 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300"
+                  />
+                ))}
+              </div>
             </div>
           </motion.div>
         </div>
