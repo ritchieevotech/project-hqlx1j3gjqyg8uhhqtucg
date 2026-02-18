@@ -56,11 +56,13 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-16 items-start">
             {/* Left: logo / brand */}
             <div className="md:col-span-2 flex items-center">
-              <div>
-                <div className="font-heading text-4xl md:text-5xl font-bold tracking-tight leading-none">
-                  Engin<span className="text-primary">8</span>
-                </div>
-                <p className="mt-3 font-sans text-sm md:text-base text-primary/80 max-w-sm">
+              <div className="flex flex-col gap-3">
+                <img
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407501460-2.png"
+                  alt="Engin8 logo"
+                  className="w-40 md:w-52 h-auto drop-shadow-lg"
+                />
+                <p className="font-sans text-sm md:text-base text-primary/80 max-w-sm">
                   The engine quietly powering your Amazon and marketplace wins behind the scenes.
                 </p>
               </div>
