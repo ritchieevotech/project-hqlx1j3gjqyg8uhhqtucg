@@ -41,7 +41,7 @@ export function Hero() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.8 }}
-              className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white"
+              className="relative rounded-3xl overflow-hidden"
             >
               <img 
                 src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/01b59f58-4654-46a7-8ab6-3187c013933a.png" 
