@@ -67,17 +67,7 @@ export function Hero() {
                 <Button size="lg" className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold text-xl rounded-full px-10 py-8 shadow-lg shadow-brand-blue/20">
                   Book Your Custom Quote
                 </Button>
-                
-                <div className="flex items-center gap-3 px-4 py-2 bg-secondary/10 rounded-full border border-secondary/20">
-                  <div className="flex -space-x-2">
-                    {[1,2,3].map(i => (
-                      <div key={i} className="w-8 h-8 rounded-full border-2 border-white bg-secondary/40 flex items-center justify-center text-[10px] font-bold text-primary overflow-hidden">
-                        <Users size={14} />
-                      </div>
-                    ))}
-                  </div>
-                  
-                </div>
+
               </div>
             </motion.div>
           </div>
