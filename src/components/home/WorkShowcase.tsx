@@ -40,7 +40,7 @@ export const WorkShowcase = () => {
   const [current, setCurrent] = React.useState(0);
 
   const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: false })
+    Autoplay({ delay: 4000, stopOnInteraction: false })
   );
 
   React.useEffect(() => {
@@ -106,9 +106,9 @@ export const WorkShowcase = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="hidden md:block">
-            <CarouselPrevious className="left-6 bg-white/20 hover:bg-white/40 border-none text-white h-12 w-12 opacity-0 group-hover:opacity-100 transition-opacity" />
-            <CarouselNext className="right-6 bg-white/20 hover:bg-white/40 border-none text-white h-12 w-12 opacity-0 group-hover:opacity-100 transition-opacity" />
+          <div className="flex items-center">
+            <CarouselPrevious className="left-2 md:left-6 bg-white/90 hover:bg-white text-primary shadow-xl h-10 w-10 md:h-12 md:w-12 border-none transition-all z-20" />
+            <CarouselNext className="right-2 md:right-6 bg-white/90 hover:bg-white text-primary shadow-xl h-10 w-10 md:h-12 md:w-12 border-none transition-all z-20" />
           </div>
         </Carousel>
 
@@ -133,6 +133,9 @@ export const WorkShowcase = () => {
             </button>
           ))}
         </div>
+        <p className="text-center text-xs text-muted-foreground mt-4 font-sans italic opacity-70">
+          Use the arrows or thumbnails to browse our creative work
+        </p>
       </div>
     </section>
   );
