@@ -15,16 +15,6 @@ export const ListingOptimization = () => {
           What Is Amazon Listing Optimization?
         </motion.h2>
 
-        <motion.p 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="font-sans text-sm md:text-base text-muted-foreground mb-6"
-        >
-          In a nutshell...
-        </motion.p>
-
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -32,11 +22,27 @@ export const ListingOptimization = () => {
           viewport={{ once: true }}
           className="space-y-6 font-sans text-base md:text-lg text-foreground leading-relaxed"
         >
-          <p className="font-semibold">Listing Optimization:</p>
           <p>
-            It's the fluffy phrase Amazon experts like to throw around 50 times
-            in a conversation without ever getting specific.
+            At its core, listing optimization is what determines whether your traffic converts — or disappears.
           </p>
+          <p>
+            It’s the difference between a product page that simply exists and one that actively sells.
+          </p>
+          <p>
+            Most Amazon listings blend together. Standard product images. Generic descriptions. No clear positioning. So even when paid traffic arrives, shoppers hesitate — and leave.
+          </p>
+          <p>
+            You already understand the upside of better creative and stronger messaging. The real gap is execution — aligning visuals, copy, and structure in a way that actually increases conversion.
+          </p>
+          <p>
+That’s where we step in.
+          </p>
+<p>
+          We built the <b>Conversation Stack</b>  to intentionally upgrade every layer of your listing — premium, benefit-driven creative, psychology-informed messaging, and structured split testing to validate what performs before scaling.
+</p>       
+
+
+          
 
           <p className="font-semibold pt-4">But you know what it really is?</p>
           <p>
