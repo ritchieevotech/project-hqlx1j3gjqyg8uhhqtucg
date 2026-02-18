@@ -76,7 +76,7 @@ export function Hero() {
                       </div>
                     ))}
                   </div>
-                  <span className="font-heading font-bold text-primary text-sm tracking-tight">300+ Expert Team</span>
+                  
                 </div>
               </div>
             </motion.div>
