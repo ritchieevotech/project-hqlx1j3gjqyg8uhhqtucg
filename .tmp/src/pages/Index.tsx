@@ -7,6 +7,7 @@ import { CreativeWorks } from "@/components/home/CreativeWorks";
 import { APlusShowcase } from "@/components/home/APlusShowcase";
 import { Storefronts } from "@/components/home/Storefronts";
 import { StorefrontGallery } from "@/components/home/StorefrontGallery";
+import { ListingOptimization } from "@/components/home/ListingOptimization";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
         <APlusShowcase />
         <Storefronts />
         <StorefrontGallery />
+        <ListingOptimization />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
