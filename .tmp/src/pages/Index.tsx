@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/Header";
 import { Hero } from "@/components/home/Hero";
 import { WorkShowcase } from "@/components/home/WorkShowcase";
 import { SocialProof } from "@/components/home/SocialProof";
+import { TrustBar } from "@/components/home/TrustBar";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
         <Hero />
         <WorkShowcase />
         <SocialProof />
+        <TrustBar />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
