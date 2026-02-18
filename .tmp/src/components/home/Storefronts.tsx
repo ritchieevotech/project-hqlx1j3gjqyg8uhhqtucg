@@ -42,22 +42,18 @@ export const Storefronts = () => {
         >
           <div>
             <h3 className="font-heading text-3xl md:text-4xl text-primary mb-4 leading-tight">
-              Make a Great First Impression
+              We build Storefronts using the ENGIN8 Framework — a structured approach designed for visibility, clarity, and conversion.
             </h3>
             <p className="font-sans text-lg text-foreground/80 leading-relaxed max-w-xl">
-              Your Amazon Storefront is your brand's digital flagship. It's where shoppers go to discover your full story and product lineup.
-            </p>
-            <p className="mt-4 font-sans text-lg text-foreground/80 leading-relaxed max-w-xl">
-              We design immersive, high-converting storefronts that build trust and drive repeat purchases through stunning visual storytelling.
+              Elevate your storefront with:
             </p>
           </div>
 
           <div className="space-y-4 mt-2">
             {[
-              { title: "Custom Imagery", desc: "Bespoke lifestyle and product visuals that breathe life into your brand." },
-              { title: "Animation and Movement", desc: "Dynamic videos and GIFs that capture attention and explain features." },
-              { title: "Mobile Optimization", desc: "Pixel-perfect layouts designed specifically for the thumb-scrolling shopper." },
-              { title: "Engagement and Fun", desc: "Interactive elements and UGC-style content that resonates with modern buyers." },
+              { title: "E — Experience Architecture", desc: "Design a guided journey, not a product catalog. Clear sections, intentional flow, and mobile-first layout improve engagement and conversion." },
+              { title: "N — Narrative Positioning", desc: "Use benefit-driven headlines and brand-specific imagery that clearly communicate who the product is for and what problem it solves." },
+              { title: "G — Growth Signals", desc: "Integrate videos, keyword-aligned content, and structured messaging that strengthens search visibility and improves Rufus discoverability." },
             ].map((item, idx) => (
               <div key={idx} className="flex items-start gap-4">
                 <span className="text-secondary text-2xl mt-0.5">⚡</span>
