@@ -1,0 +1,103 @@
+import * as React from "react";
+import { motion } from "framer-motion";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+const storefronts = [
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/c78b3b42-58f8-415c-afc1-1c84b1c0f033.png",
+    brand: "Skinrefit",
+  },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6bfb001c-8707-4748-abd2-30dc8eeaa9c4.png",
+    brand: "RishiTea",
+  },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6ce65393-b8e6-49dc-b770-8e185898535f.png",
+    brand: "Lilly's Love",
+  },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/c78b3b42-58f8-415c-afc1-1c84b1c0f033.png",
+    brand: "GlowHaus",
+  },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6bfb001c-8707-4748-abd2-30dc8eeaa9c4.png",
+    brand: "Peak Pantry",
+  },
+];
+
+export const StorefrontGallery = () => {
+  return (
+    <section className="py-20 bg-background border-t border-border/50">
+      <div className="max-w-6xl mx-auto px-6 mb-10 flex items-baseline justify-between">
+        <motion.p
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-xs md:text-sm font-sans tracking-[0.25em] uppercase text-muted-foreground"
+        >
+          Selected Storefront Designs
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, x: 20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="hidden md:block text-sm text-muted-foreground font-sans italic"
+        >
+          Swipe or click to explore
+        </motion.p>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-4 md:px-6 relative">
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+            slidesToScroll: 1,
+          }}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-4 md:-ml-6">
+            {storefronts.map((item, index) => (
+              <CarouselItem
+                key={index}
+                className="pl-4 md:pl-6 basis-full sm:basis-1/2 lg:basis-1/3"
+              >
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="flex flex-col h-full"
+                >
+                  <div className="relative w-full aspect-[4/5] md:aspect-[5/6] rounded-[2rem] overflow-hidden shadow-2xl border border-border bg-white group">
+                    <img
+                      src={item.image}
+                      alt={`${item.brand} Storefront`}
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  </div>
+                  <p className="mt-4 text-base md:text-lg font-heading font-bold text-primary text-center uppercase tracking-widest">
+                    {item.brand}
+                  </p>
+                </motion.div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <div className="flex justify-center md:block">
+            <CarouselPrevious className="-left-2 sm:-left-4 md:-left-8 top-1/2 -translate-y-1/2 h-10 w-10 md:h-12 md:w-12 bg-white text-primary shadow-2xl border-none hover:bg-secondary hover:text-white transition-all duration-300" />
+            <CarouselNext className="-right-2 sm:-right-4 md:-right-8 top-1/2 -translate-y-1/2 h-10 w-10 md:h-12 md:w-12 bg-white text-primary shadow-2xl border-none hover:bg-secondary hover:text-white transition-all duration-300" />
+          </div>
+        </Carousel>
+      </div>
+    </section>
+  );
+};
