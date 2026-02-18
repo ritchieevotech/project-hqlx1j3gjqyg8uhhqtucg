@@ -1,5 +1,13 @@
 import { motion } from "framer-motion";
 
+const brandLogos = [
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
+];
+
 export const TrustBar = () => {
   return (
     <section className="py-24 bg-white overflow-hidden border-t border-gray-50">
@@ -16,22 +24,31 @@ export const TrustBar = () => {
           </motion.h2>
         </div>
 
-        {/* Brand Logos Row */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="flex justify-center items-center mb-24"
-        >
-          <div className="w-full max-w-5xl grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-700 ease-in-out px-4">
-            <img 
-              src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png" 
-              alt="Hippie Crafter, Otto's Naturals, Samsonite, Akasha Superfoods, Rishi" 
-              className="w-full h-auto object-contain mx-auto"
-            />
-          </div>
-        </motion.div>
+        {/* Brand Logos Marquee */}
+        <div className="mb-24 py-12 border-y border-gray-50 overflow-hidden relative">
+          <motion.div 
+            animate={{ x: [0, "-50%"] }}
+            transition={{
+              duration: 30,
+              repeat: Infinity,
+              ease: "linear",
+            }}
+            className="flex whitespace-nowrap items-center"
+          >
+            {[...brandLogos, ...brandLogos].map((logo, index) => (
+              <div 
+                key={index} 
+                className="flex-shrink-0 px-8 md:px-16"
+              >
+                <img 
+                  src={logo} 
+                  alt="Brand Partner" 
+                  className="h-10 md:h-14 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                />
+              </div>
+            ))}
+          </motion.div>
+        </div>
 
         {/* Certifications Section */}
         <div className="pt-20 border-t border-gray-100 relative">
@@ -54,7 +71,7 @@ export const TrustBar = () => {
             viewport={{ once: true }}
             className="flex justify-center items-center mt-12"
           >
-            <div className="w-full max-w-4xl px-4">
+            <div className="w-full max-w-xl md:max-w-lg px-4">
               <img 
                 src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/546b26f5-defb-4c12-9ccf-ca68b7d80b14.png" 
                 alt="PickFu, Helium 10, Data Dive, Intellivy Certified" 
