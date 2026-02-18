@@ -20,9 +20,9 @@ export const MiniAuditCta = () => {
           className="flex flex-col items-center"
         >
           <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Take Us For a{" "}
+            Identify the{" "}
             <span className="relative inline-block text-secondary">
-              <span className="relative z-10">Test Drive</span>
+              <span className="relative z-10">Gaps</span>
               <motion.span 
                 initial={{ width: 0 }}
                 whileInView={{ width: "100%" }}
@@ -33,14 +33,21 @@ export const MiniAuditCta = () => {
             </span>
           </h2>
 
-          <div className="space-y-4 mb-10">
-            <p className="font-heading text-xl md:text-2xl text-white/95 font-medium tracking-wide uppercase">
-              Try The Mini Audit
+          <div className="space-y-6 mb-10">
+            <p className="font-heading text-xl md:text-2xl text-white/95 font-medium tracking-wide">
+              Free Mini Amazon Conversion Gap Analysis
             </p>
-            <p className="font-sans text-base md:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
-              Get our expert eyes on your product page for a detailed list of recommendations. 
-              See exactly how we engineer listings for maximum conversion.
-            </p>
+            
+            <div className="font-sans text-base md:text-lg text-white/90 max-w-2xl mx-auto leading-relaxed space-y-3">
+              <p>A focused review of your listing to uncover:</p>
+              <ul className="space-y-1 text-sm md:text-base text-white/90">
+                <li>• CTR opportunities</li>
+                <li>• SEO + Rufus gaps</li>
+                <li>• Conversion friction</li>
+                <li>• A+ and storefront misalignment</li>
+              </ul>
+              <p className="text-white/90">Clear, prioritized insights on where revenue may be leaking.</p>
+            </div>
           </div>
 
           <div className="flex flex-col items-center gap-6">
@@ -55,9 +62,9 @@ export const MiniAuditCta = () => {
             <Button
               asChild
               variant="secondary"
-              className="px-12 py-8 rounded-xl font-heading text-lg tracking-widest uppercase bg-white text-brand-blue hover:bg-white/90 hover:scale-105 transition-all duration-300 shadow-xl"
+              className="px-12 py-8 rounded-xl font-heading text-sm md:text-base tracking-widest uppercase bg-white text-brand-blue hover:bg-white/90 hover:scale-105 transition-all duration-300 shadow-xl h-auto whitespace-normal text-center"
             >
-              <a href="#">Learn More</a>
+              <a href="#">Request the FREE Mini Gap Analysis</a>
             </Button>
           </div>
         </motion.div>
