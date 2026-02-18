@@ -4,33 +4,38 @@ import { motion } from "framer-motion";
 const optimizations = [
   {
     emoji: "✨",
-    title: "A/B testing main images",
-    description: "to improve click through rate",
+    title: "Main image A/B testing",
+    description: "to improve click-through rate (CTR)",
   },
   {
     emoji: "🚀",
-    title: "SEO keyword research",
-    description: "to ensure your products are found by shoppers",
+    title: "SEO + Rufus optimization",
+    description: "(keyword research + intent mapping so your listing can be found in search and surfaced by Amazon’s AI assistant)",
   },
   {
     emoji: "🎯",
-    title: "Persuasive sales copy",
-    description: "that speaks directly to your ideal customer",
+    title: "Review & Q&A analysis",
+    description: "to extract objections, FAQs, and language customers actually use — then build it into your creative and copy",
   },
   {
     emoji: "📈",
-    title: "Product image stack testing",
-    description: "to boost conversion rates by up to 30%",
+    title: "Persuasive, conversion-driven copy",
+    description: " rooted in buyer psychology and category patterns",
   },
   {
     emoji: "🎨",
-    title: "Custom A+ Content",
-    description: "that showcases your brand story and product features",
+    title: "Product image stack testing",
+    description: " to improve clarity, differentiation, and conversion performance",
   },
   {
     emoji: "🛡️",
-    title: "Custom storefronts",
-    description: "that nurture, build trust & convert visitors into fans",
+    title: "Custom A+ Content",
+    description: " designed to build trust fast and increase conversion",
+  },
+  {
+    emoji: "🛡️",
+    title: "Custom Storefronts",
+    description: " that nurture, educate, and convert (mobile-first)",
   },
 ];
 
@@ -47,7 +52,7 @@ export const DailyOptimizations = () => {
           className="flex flex-col"
         >
           <h2 className="font-heading text-3xl md:text-4xl text-primary mb-8 leading-tight">
-            Here are some of the specific Amazon optimizations we do daily:
+            Here are some of the Amazon optimizations we execute daily (including Rufus readiness):
           </h2>
           
           <div className="space-y-6 font-sans text-base md:text-lg text-foreground">
