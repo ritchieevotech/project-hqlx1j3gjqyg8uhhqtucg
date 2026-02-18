@@ -20,7 +20,7 @@ const slides = [
       "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6bfb001c-8707-4748-abd2-30dc8eeaa9c4.png",
       "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6ce65393-b8e6-49dc-b770-8e185898535f.png",
     ],
-    quote: "The visual transformation Engin8 provided was the single most effective change we've ever made to our listings.",
+    quote: "Engin8 didn’t just give us a new visual identity — they gave us a new level of confidence. Their team understood our brand so deeply that every idea felt both unexpected and completely right. The process was fast, collaborative, and honestly a lot of fun.",
     author: "Sarah Jenkins",
     role: "Founder, Champagne Fabulous",
     statLabel: "+160%",
