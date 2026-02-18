@@ -6,7 +6,7 @@ const linkedinTestimonials = [
   {
     name: "Sarah Jenkins",
     role: "CEO at GrowthFlow",
-    avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/8fc11f93-cfd9-40d1-9ce3-e559946e3c9f.png",
+    avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/9cd917c9-d4cc-499d-a0de-72f147eaa629.png",
     text: "Their team are among the most gifted... true experts in their field. Engin8 didn't just build a tool; they built a revenue engine.",
     timestamp: "2d",
     connections: "1st"
@@ -14,7 +14,7 @@ const linkedinTestimonials = [
   {
     name: "Marcus Thorne",
     role: "Head of Product, Nexa Labs",
-    avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/9cd917c9-d4cc-499d-a0de-72f147eaa629.png",
+    avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/8fc11f93-cfd9-40d1-9ce3-e559946e3c9f.png",
     text: "Working with Engin8 was a masterclass in efficiency. They transformed our messy workflow into a streamlined machine in record time.",
     timestamp: "1w",
     connections: "2nd"
