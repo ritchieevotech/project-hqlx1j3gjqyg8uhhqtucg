@@ -19,6 +19,7 @@ import { FaqSection } from "@/components/home/FaqSection";
 import { WhyAgenciesPartner } from "@/components/home/WhyAgenciesPartner";
 import { AboutEngin8 } from "@/components/home/AboutEngin8";
 import { MiniAuditCta } from "@/components/home/MiniAuditCta";
+import { MoreCreativeWorks } from "@/components/home/MoreCreativeWorks";
 
 const Index = () => {
   return (
@@ -45,6 +46,7 @@ const Index = () => {
         <WhyAgenciesPartner />
         <AboutEngin8 />
         <MiniAuditCta />
+        <MoreCreativeWorks />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
