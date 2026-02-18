@@ -4,6 +4,7 @@ import { WorkShowcase } from "@/components/home/WorkShowcase";
 import { SocialProof } from "@/components/home/SocialProof";
 import { TrustBar } from "@/components/home/TrustBar";
 import { CreativeWorks } from "@/components/home/CreativeWorks";
+import { APlusShowcase } from "@/components/home/APlusShowcase";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
         <SocialProof />
         <TrustBar />
         <CreativeWorks />
+        <APlusShowcase />
       </main>
       
       <footer className="bg-primary text-white py-12 px-6 relative z-10">
