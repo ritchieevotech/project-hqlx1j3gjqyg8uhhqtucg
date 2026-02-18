@@ -112,7 +112,7 @@ export const TrustBar = () => {
                     key={logo.alt}
                     src={logo.src}
                     alt={logo.alt}
-                    className="h-30 md:h-10 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300"
+                    className="h-16 md:h-20 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300"
                   />
                 ))}
               </div>
