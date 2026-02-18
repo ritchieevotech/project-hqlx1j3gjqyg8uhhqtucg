@@ -43,35 +43,6 @@ That’s where we step in.
 
 
           
-
-          <p className="font-semibold pt-4">But you know what it really is?</p>
-          <p>
-            It's the reason your Amazon ads are bleeding money while your
-            product pages just sit there not converting.
-          </p>
-
-          <p>
-            You've seen those listings. Generic product shots, bland copy,
-            nothing thumb-stopping. Your competitors are doing it, and frankly,
-            you might be too.
-          </p>
-
-          <p>
-            You know you need to fix it. You just don't have the time, the design
-            team, or the energy to run a thousand A/B tests.
-          </p>
-
-          <p className="font-semibold pt-4">We're that team.</p>
-          
-          <p>
-            The Engin8 approach transforms basic listings into high-converting
-            assets with drool-worthy visuals, conversion-focused copy, and
-            data-backed testing.
-          </p>
-          
-          <p className="font-bold text-primary italic">
-            Let's turn your ad spend into revenue, not regret.
-          </p>
         </motion.div>
       </div>
     </section>
