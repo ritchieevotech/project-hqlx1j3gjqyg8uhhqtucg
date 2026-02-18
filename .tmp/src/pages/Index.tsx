@@ -1,5 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Hero } from "@/components/home/Hero";
+import { WorkShowcase } from "@/components/home/WorkShowcase";
+import { SocialProof } from "@/components/home/SocialProof";
 
 const Index = () => {
   return (
@@ -7,10 +9,11 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <WorkShowcase />
+        <SocialProof />
       </main>
       
-      {/* Additional sections can be added here */}
-      <footer className="bg-primary text-white py-12 px-6 mt-20">
+      <footer className="bg-primary text-white py-12 px-6 relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="font-heading text-2xl font-bold">Engin8</div>
           <div className="font-sans text-sm text-white/60">
