@@ -32,7 +32,7 @@ export const APlusShowcase = () => {
         <div className="relative py-8">
           <div className="flex overflow-hidden">
             <motion.div 
-              className="flex gap-6 md:gap-8 whitespace-nowrap"
+              className="flex items-center gap-6 md:gap-8 whitespace-nowrap"
               animate={{ x: [0, -1400] }}
               transition={{ 
                 duration: 25, 
@@ -40,18 +40,25 @@ export const APlusShowcase = () => {
                 ease: "linear" 
               }}
             >
-              {marqueeImages.map((image, index) => (
-                <div 
-                  key={index} 
-                  className="w-[240px] md:w-[280px] lg:w-[320px] flex-shrink-0 rounded-2xl md:rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-border bg-slate-100 h-fit"
-                >
-                  <img
-                    src={image}
-                    alt={`Amazon A+ creative panel ${index + 1}`}
-                    className="w-full h-auto block transition-transform duration-500 hover:scale-105"
-                  />
-                </div>
-              ))}
+              {marqueeImages.map((image, index) => {
+                const isTall = index % 2 === 1;
+                return (
+                  <div 
+                    key={index} 
+                    className={`${
+                      isTall 
+                        ? "w-[260px] md:w-[300px] lg:w-[330px]" 
+                        : "w-[220px] md:w-[250px] lg:w-[270px]"
+                    } flex-shrink-0 rounded-2xl md:rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-border bg-slate-100 h-fit`}
+                  >
+                    <img
+                      src={image}
+                      alt={`Amazon A+ creative panel ${index + 1}`}
+                      className="w-full h-auto block object-contain transition-transform duration-500 hover:scale-105"
+                    />
+                  </div>
+                );
+              })}
             </motion.div>
           </div>
         </div>
