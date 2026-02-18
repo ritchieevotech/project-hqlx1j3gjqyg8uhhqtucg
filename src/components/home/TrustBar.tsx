@@ -1,11 +1,26 @@
 import { motion } from "framer-motion";
 
 const brandLogos = [
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/d0d8989e-3be8-4587-83ce-cf028ffa2017.png",
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943113-pasted-image-1771408853393.png",
+    alt: "Emeril Lagasse logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408859909.png",
+    alt: "Black+Decker logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408869336.png",
+    alt: "Vega logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408875728.png",
+    alt: "Remington logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408906562.png",
+    alt: "Copper Chef logo"
+  }
 ];
 
 export const TrustBar = () => {
@@ -35,14 +50,14 @@ export const TrustBar = () => {
             }}
             className="flex whitespace-nowrap items-center"
           >
-            {[...brandLogos, ...brandLogos].map((logo, index) => (
+            {[...brandLogos, ...brandLogos, ...brandLogos].map((logo, index) => (
               <div 
                 key={index} 
                 className="flex-shrink-0 px-8 md:px-16"
               >
                 <img 
-                  src={logo} 
-                  alt="Brand Partner" 
+                  src={logo.src} 
+                  alt={logo.alt} 
                   className="h-10 md:h-14 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
                 />
               </div>
