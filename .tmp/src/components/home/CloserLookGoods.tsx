@@ -54,8 +54,8 @@ export const CloserLookGoods = () => {
         <DetailRow
           delay={0.2}
           title="Premium A+ Content"
-          imageSrc="https://images.pexels.com/photos/7319295/pexels-photo-7319295.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          imageAlt="Colorful tabletop with puzzle-like artwork representing premium A+ content"
+          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771442674455-Untitled-design-4.png"
+          imageAlt="Popfully microwave popcorn Premium A+ content graphic with bold headline and flavor callouts"
           theWhat={<>One of the best ways to improve listing performance is with A+ Content. Brands upgrading from basic to Premium A+ are often seeing up to <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">300% increases in sales</span>.</>}
           theHow={<>Our signature strategy uses large, scroll-stopping modules to create a <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">story-driven landing page effect</span>, backed by keywords that boost your organic SEO reach on and off Amazon.</>}
           bonus="We’ll help you unlock your Premium A+ content and dial in your brand story so every panel works hard for both mobile and desktop shoppers."
