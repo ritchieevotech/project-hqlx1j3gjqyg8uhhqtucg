@@ -2,9 +2,11 @@ import * as React from "react";
 import { motion } from "framer-motion";
 
 const aplusImages = [
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/c78b3b42-58f8-415c-afc1-1c84b1c0f033.png",
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6bfb001c-8707-4748-abd2-30dc8eeaa9c4.png",
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/6ce65393-b8e6-49dc-b770-8e185898535f.png",
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771429350368-Untitled-design-4.png", // Popfully A+ panel
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771429350369-Untitled-design-5.png", // Joejis A+ panel
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771429350369-Untitled-design-6.png", // Owl & Ox A+ panel
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771429350369-Untitled-design-7.png", // DIA A+ visual
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771429350369-Untitled-design-8.png", // Vega packaging visual
 ];
 
 // Combine images multiple times for a seamless loop
