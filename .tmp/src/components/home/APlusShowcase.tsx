@@ -43,12 +43,12 @@ export const APlusShowcase = () => {
               {marqueeImages.map((image, index) => (
                 <div 
                   key={index} 
-                  className="w-[220px] md:w-[260px] lg:w-[300px] h-[420px] md:h-[480px] lg:h-[520px] flex-shrink-0 rounded-3xl overflow-hidden shadow-2xl border border-border bg-slate-100"
+                  className="w-[240px] md:w-[280px] lg:w-[320px] flex-shrink-0 rounded-2xl md:rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-border bg-slate-100 h-fit"
                 >
                   <img
                     src={image}
                     alt={`Amazon A+ creative panel ${index + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    className="w-full h-auto block transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               ))}
