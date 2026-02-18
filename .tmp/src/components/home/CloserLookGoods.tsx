@@ -23,8 +23,8 @@ export const CloserLookGoods = () => {
           isFirst
           isReversed
           title="Product Images"
-          imageSrc="https://images.pexels.com/photos/4109990/pexels-photo-4109990.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          imageAlt="Colorful packaged snacks arranged in a bold product image layout"
+          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771441817248-Untitled-design-9.png"
+          imageAlt="Vega protein powder tub with chocolate splash and glass"
           theWhat={<>Amazon product images are the first thing shoppers see when they enter your product page. <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">Each & every image should be serving a function</span> towards improving conversion.</>}
           theHow={<>Share your product photography with us and <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">watch us take your product images from zero to hero</span> with show & tell images that use a mix of product-in-use and lifestyle infographics.</>}
           bonus="High quality stock photography is included in all packages."
