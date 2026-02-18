@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Infinity, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -32,11 +32,12 @@ export function Header() {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center gap-2 group cursor-pointer">
-          <Infinity className="w-8 h-8 text-primary transition-transform group-hover:rotate-180 duration-500" />
-          <span className="font-heading text-2xl font-bold tracking-tight text-primary">
-            Engin8
-          </span>
+        <div className="flex items-center group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <img
+            src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407866640-Screenshot-2026-02-18-at-5.43.32-PM.png"
+            alt="Engin8 logo"
+            className="h-10 md:h-12 w-auto transition-transform duration-500 group-hover:scale-105"
+          />
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
