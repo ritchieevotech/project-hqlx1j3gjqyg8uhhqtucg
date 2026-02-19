@@ -37,7 +37,7 @@ export const CloserLookGoods = () => {
           imageAlt="Notebook with search engine results concepts"
           theWhat={<>Amazon is both a search engine and an AI-driven shopping platform. Your listing must rank, resonate, and be interpreted correctly by Rufus.</>}
           theHow={<>We develop persuasive messaging aligned with buyer psychology, then layer in structured keyword and intent mapping to improve discoverability and AI surfacing.</>}
-          bonus={<>Included: Two optimized title variations structured for immediate split testing inside Amazon Experiments.</>}
+          bonus={<>Two optimized title variations structured for immediate split testing inside Amazon Experiments.</>}
         />
 
         <DetailRow
