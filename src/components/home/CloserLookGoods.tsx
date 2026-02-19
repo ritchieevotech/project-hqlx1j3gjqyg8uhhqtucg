@@ -82,7 +82,7 @@ export const CloserLookGoods = () => {
           isReversed
           delay={0.25}
           title="Storefront Homepage"
-          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771542578168-Screenshot-2026-02-20-at-7.09.08-AM.png"
+          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771542743651-Untitled-design-15.png"
           imageAlt="Colorful food brand storefront-style layout"
           theWhat={<>Your storefront is the <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">only space to fully share your brand story</span> without competing ads. It’s where Google and Amazon shoppers land before diving into your product pages.</>}
           theHow={<>From layout strategy to module selection, we obsess over every detail so your storefront feels like a custom, editorial experience that moves shoppers from browsing to buying.</>}
