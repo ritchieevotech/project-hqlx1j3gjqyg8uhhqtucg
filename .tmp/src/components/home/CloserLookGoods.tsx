@@ -32,12 +32,12 @@ export const CloserLookGoods = () => {
 
         <DetailRow
           delay={0.1}
-          title="SEO Listing Copy"
+          title="SEO + AI-Ready Listing Copy"
           imageSrc="https://images.pexels.com/photos/2740954/pexels-photo-2740954.jpeg?auto=compress&cs=tinysrgb&w=1200"
           imageAlt="Notebook with search engine results concepts"
-          theWhat={<>Amazon is a search engine, which means it relies on keywords within your listing to help you <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">get found in the search results page</span>.</>}
-          theHow={<>We always start with <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">compelling copy that converts</span> and then infuse keywords from our extensive research. Our SEO research blends internal and external Amazon data to understand how shoppers search, find and buy.</>}
-          bonus={<>Using our title calculator we build you two titles so you can immediately run a split test with Amazon Experiments and learn <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">which title will earn you the most revenue</span>.</>}
+          theWhat={<>Amazon is both a search engine and an AI-driven shopping platform. Your listing must rank, resonate, and be interpreted correctly by Rufus.</>}
+          theHow={<>We develop persuasive messaging aligned with buyer psychology, then layer in structured keyword and intent mapping to improve discoverability and AI surfacing.</>}
+          bonus={<>Included: Two optimized title variations structured for immediate split testing inside Amazon Experiments.</>}
         />
 
         <DetailRow
