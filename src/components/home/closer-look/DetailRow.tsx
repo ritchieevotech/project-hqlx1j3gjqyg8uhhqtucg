@@ -70,7 +70,11 @@ export const DetailRow = ({
           
           <div className="p-4 bg-muted/30 rounded-2xl border-l-4 border-secondary">
             <p className="font-sans text-sm md:text-base text-foreground/80 italic">
-              <span className="font-bold text-primary not-italic uppercase tracking-wider text-xs mr-2">{bonusLabel}</span>
+              {bonusLabel && (
+                <span className="font-bold text-primary not-italic uppercase tracking-wider text-xs mr-2">
+                  {bonusLabel}
+                </span>
+              )}
               {bonus}
             </p>
           </div>

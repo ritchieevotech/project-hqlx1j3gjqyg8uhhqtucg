@@ -45,6 +45,7 @@ export const CloserLookGoods = () => {
         <DetailRow
           isReversed
           delay={0.15}
+          bonusLabel=""
           title="Main Image Performance Optimization"
           imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771442386194-Untitled-design-10.png"
           imageAlt="Pink DIA hydration supplement jar with strawberries and vitamin callouts"
