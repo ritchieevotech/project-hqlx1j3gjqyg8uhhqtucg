@@ -22,16 +22,18 @@ export const CloserLookGoods = () => {
         <DetailRow
           isFirst
           isReversed
+          bonusLabel="Bonus"
           title="Product Images That Convert"
           imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771441817248-Untitled-design-9.png"
           imageAlt="Vega protein powder tub with chocolate splash and glass"
           theWhat={<>Your image stack is your first conversion lever. It controls the click, sets expectations, and shapes perceived value before a single word is read.</>}
           theHow={<>We build structured visual sequences that guide attention, highlight benefits, and visually handle objections — all engineered to improve CTR and on-page conversion.</>}
-          bonus={<>Included: Access to curated lifestyle and supporting visual assets when strategically needed, ensuring your image stack feels elevated and complete.</>}
+          bonus={<>Access to curated lifestyle and supporting visual assets when strategically needed, ensuring your image stack feels elevated and complete.</>}
         />
 
         <DetailRow
           delay={0.1}
+          bonusLabel="Included"
           title="SEO + AI-Ready Listing Copy"
           imageSrc="https://images.pexels.com/photos/2740954/pexels-photo-2740954.jpeg?auto=compress&cs=tinysrgb&w=1200"
           imageAlt="Notebook with search engine results concepts"

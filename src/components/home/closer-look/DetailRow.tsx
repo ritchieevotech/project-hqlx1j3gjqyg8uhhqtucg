@@ -8,6 +8,7 @@ interface DetailRowProps {
   theWhat: React.ReactNode;
   theHow: React.ReactNode;
   bonus: React.ReactNode;
+  bonusLabel?: string;
   isReversed?: boolean;
   delay?: number;
   isFirst?: boolean;
@@ -20,6 +21,7 @@ export const DetailRow = ({
   theWhat,
   theHow,
   bonus,
+  bonusLabel = "Bonus",
   isReversed = false,
   delay = 0.1,
   isFirst = false,
@@ -68,7 +70,7 @@ export const DetailRow = ({
           
           <div className="p-4 bg-muted/30 rounded-2xl border-l-4 border-secondary">
             <p className="font-sans text-sm md:text-base text-foreground/80 italic">
-              <span className="font-bold text-primary not-italic uppercase tracking-wider text-xs mr-2">Included</span>
+              <span className="font-bold text-primary not-italic uppercase tracking-wider text-xs mr-2">{bonusLabel}</span>
               {bonus}
             </p>
           </div>
