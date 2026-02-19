@@ -14,6 +14,18 @@ const galleryItems = [
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771543017967-Untitled-design-15.png",
     alt: "Nature's Wonder vitamins and supplements Amazon Storefront with wellness-focused visuals",
   },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771543017965-Screenshot-2026-02-20-at-7.15.23-AM.png",
+    alt: "Full-page Amazon storefront view showing hero, product rows, and brand story modules",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771441817248-Untitled-design-9.png",
+    alt: "Vega protein powder product image stack with lifestyle and benefit callouts",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771442829083-Screenshot-2026-02-19-at-3.26.14-AM.png",
+    alt: "Premium A+ content layout for ceramic bakeware with family dinner hero and feature blocks",
+  },
 ];
 
 export const MoreCreativeWorks = () => {
