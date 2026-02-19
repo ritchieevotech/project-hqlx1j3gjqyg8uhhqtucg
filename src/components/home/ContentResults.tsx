@@ -41,10 +41,10 @@ export const ContentResults = () => {
           </h2>
           <div className="space-y-1">
             <p className="font-sans text-base md:text-lg text-foreground/80">
-              On average, <span className="font-semibold text-primary">80%</span> of clients see a lift in sales
+              On average, <span className="font-semibold text-primary">80%</span> of clients experience measurable sales lift after implementation.
             </p>
             <p className="font-sans text-base md:text-lg text-foreground/80">
-              <span className="font-semibold text-primary">60%</span> see a sales increase of <span className="font-semibold text-primary">20–1000%</span> within 30 days of uploading
+              Within the first 30 days, a majority see meaningful performance gains following optimized creative deployment and structured testing.
             </p>
           </div>
         </motion.div>
