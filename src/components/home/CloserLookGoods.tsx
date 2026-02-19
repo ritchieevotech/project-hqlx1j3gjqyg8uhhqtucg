@@ -53,7 +53,7 @@ export const CloserLookGoods = () => {
           theHow={<>We develop differentiated main image concepts built to increase CTR while maintaining compliance and clarity.</>}
           bonus={
             <>
-              <span className="font-semibold">Included:</span>{" "}
+              <span className="font-semibold not-italic text-primary">Included:</span>{" "}
               Pre-validation testing with targeted shopper panels to gather qualitative and quantitative feedback before launch.
             </>
           }
