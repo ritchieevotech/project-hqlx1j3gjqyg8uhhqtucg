@@ -51,7 +51,12 @@ export const CloserLookGoods = () => {
           imageAlt="Pink DIA hydration supplement jar with strawberries and vitamin callouts"
           theWhat={<>Your hero image determines whether you earn the click or lose it to a competitor.</>}
           theHow={<>We develop differentiated main image concepts built to increase CTR while maintaining compliance and clarity.</>}
-          bonus={<>Included: Pre-validation testing with targeted shopper panels to gather qualitative and quantitative feedback before launch.</>}
+          bonus={
+            <>
+              <span className="font-semibold text-foreground">Included:</span>{" "}
+              Pre-validation testing with targeted shopper panels to gather qualitative and quantitative feedback before launch.
+            </>
+          }
         />
 
         <DetailRow
