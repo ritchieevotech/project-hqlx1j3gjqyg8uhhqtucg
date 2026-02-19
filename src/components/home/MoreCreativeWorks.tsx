@@ -3,40 +3,16 @@ import { motion } from "framer-motion";
 
 const galleryItems = [
   {
-    src: "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=800&auto=format&fit=crop",
-    alt: "Premium skincare bottle with elegant packaging design",
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771543017967-Untitled-design-13.png",
+    alt: "Rick Young Outdoors Amazon Storefront design with hero, product, and story sections",
   },
   {
-    src: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop",
-    alt: "Minimalist modern watch product photography",
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771543017967-Untitled-design-14.png",
+    alt: "MSRF gourmet gifts Amazon Storefront layout featuring spices, hot sauces, and cocktail mixers",
   },
   {
-    src: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop",
-    alt: "High-end headphones lifestyle showcase",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800&auto=format&fit=crop",
-    alt: "Vibrant yellow sneakers studio shot",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1526170315836-3f8a40dd1e9a?q=80&w=800&auto=format&fit=crop",
-    alt: "Retro camera with detailed texture focus",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
-    alt: "Red athletic shoe dynamic angle",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=800&auto=format&fit=crop",
-    alt: "Product packaging display for beauty brand",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=800&auto=format&fit=crop",
-    alt: "Gaming controller with professional lighting",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=800&auto=format&fit=crop",
-    alt: "Nike running shoe hero image layout",
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771543017967-Untitled-design-15.png",
+    alt: "Nature's Wonder vitamins and supplements Amazon Storefront with wellness-focused visuals",
   },
 ];
 
