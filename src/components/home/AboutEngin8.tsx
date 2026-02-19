@@ -21,7 +21,7 @@ export const AboutEngin8 = () => {
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/40 bg-white">
               <img
                 src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/cd2231f0-d0cf-456c-b2f2-6dbd71dd3db6.png"
-                alt="Engin8.ai team profile"
+                alt="Engin8.io team profile"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
               />
@@ -38,7 +38,7 @@ export const AboutEngin8 = () => {
           >
             <div className="space-y-6">
               <h2 className="font-heading text-3xl md:text-4xl text-primary tracking-tight flex items-center gap-3">
-                <span className="text-4xl md:text-5xl">👋</span> Hi, we’re Engin8.ai
+                <span className="text-4xl md:text-5xl">👋</span> Hi, we’re Engin8.io
               </h2>
               
               <div className="space-y-4">
@@ -46,7 +46,7 @@ export const AboutEngin8 = () => {
                   We saw a consistent problem: agencies charging premium retainers, brands investing heavily in ads — yet listings still underperforming. Not because the product lacked potential, but because the page wasn’t engineered to convert.
                 </p>
                 <p className="font-sans text-base md:text-lg text-foreground/80 leading-relaxed font-medium">
-                  Engin8.ai was built to close that gap.
+                  Engin8.io was built to close that gap.
                 </p>
                 <p className="font-sans text-sm md:text-base text-foreground/70 leading-relaxed">
                   We operate as a white-label Amazon optimization and creative infrastructure partner — supporting agencies that need scalable back-office execution, and brands that want performance without internal expansion.
@@ -101,7 +101,7 @@ export const AboutEngin8 = () => {
               </div>
 
               <p className="mt-10 font-sans text-sm md:text-base text-foreground/90 leading-relaxed bg-primary/5 p-4 rounded-xl border border-primary/10">
-                If you’re an agency looking for a true white-label execution partner — or a brand ready to turn traffic into revenue — Engin8.ai becomes your Amazon performance engine.
+                If you’re an agency looking for a true white-label execution partner — or a brand ready to turn traffic into revenue — Engin8.io becomes your Amazon performance engine.
               </p>
             </div>
           </motion.div>
