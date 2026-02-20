@@ -20,7 +20,7 @@ export const AboutEngin8 = () => {
             />
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/40 bg-white">
               <img
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771579059290-Screenshot-2026-02-20-at-5.16.05-PM.png"
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771579203641-Screenshot-2026-02-20-at-5.19.21-PM.png"
                 alt="Smiling woman with glasses wearing a denim jacket on a clean white background"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
