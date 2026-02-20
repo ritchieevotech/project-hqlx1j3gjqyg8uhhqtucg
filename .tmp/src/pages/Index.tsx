@@ -82,16 +82,18 @@ const Index = () => {
 
             {/* Right: Resources and Contact Us */}
             <div className="flex flex-col gap-6 md:items-start">
-              {/*
+              
               <div>
                 <h3 className="font-heading text-base md:text-lg font-semibold mb-3">Resources</h3>
-                <ul className="space-y-1.5 font-sans text-sm md:text-base text-primary/90">
+              {/*  
+              <ul className="space-y-1.5 font-sans text-sm md:text-base text-primary/90">
                   <li>About Us</li>
                   <li>Contact</li>
                   <li>Legal</li>
                 </ul>
+                */}
               </div>
-              */}
+              
               <div>
                 <h3 className="font-heading text-base md:text-lg font-semibold mb-3">Contact Us</h3>
                 <div className="space-y-2 font-sans text-sm md:text-base text-primary/90">
