@@ -13,23 +13,20 @@ export const GetItDoneRight = () => {
           className="flex flex-col items-center"
         >
           <h2 className="font-heading text-3xl md:text-4xl text-primary mb-8 tracking-tight">
-            Get It Done Right.
+            Built to Stand Out. Built to Scale.
           </h2>
           
-          <div className="space-y-2 font-sans text-base md:text-lg text-foreground/90 max-w-2xl mx-auto">
-            <p>👯‍♀️ Too many Amazon products look exactly the same!</p>
-            <p>🔍 Customers will never find you in the millions of products on Amazon.</p>
-            <p>🧩 It’s vital that your product stands out and attracts customers.</p>
-            <p>👋 Fortunately, we can help!</p>
+          <div className="space-y-3 font-sans text-base md:text-lg text-foreground/90 max-w-2xl mx-auto">
+            <p>Most Amazon listings blend into the noise.</p>
+            <p>If your product looks like everyone else’s, it gets treated like everyone else’s.</p>
+            <p>Visibility isn’t automatic.</p>
+            <p>Differentiation isn’t accidental.</p>
+            <p>It takes strategy, structure, and testing to win.</p>
           </div>
 
-          <p className="mt-8 font-heading text-sm md:text-base text-primary font-semibold tracking-tight">
-            Get in touch today, it’s never too early or late to optimize!
+          <p className="mt-10 font-heading text-xl md:text-2xl text-primary font-semibold tracking-tight">
+            Let’s build it right.
           </p>
-          
-          <div className="mt-4 text-2xl md:text-3xl tracking-tight">
-            <span>👇🏽👇🏾👇🏼👇🏿👇🏻</span>
-          </div>
         </motion.div>
 
         <motion.div 
