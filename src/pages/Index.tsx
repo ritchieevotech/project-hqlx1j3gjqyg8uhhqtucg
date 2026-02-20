@@ -56,7 +56,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-16 items-start">
             {/* Left: logo / brand */}
             <div className="md:col-span-2 flex items-center">
-              <div className="flex flex-col gap-3" style="margin-top:-40px">
+              <div className="flex flex-col gap-3" style={{ marginTop: "-40px" }}>
                 <img
                   src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407501460-2.png"
                   alt="Engin8 logo"
