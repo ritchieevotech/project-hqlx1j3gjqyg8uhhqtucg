@@ -34,7 +34,7 @@ export function Header() {
           <img
             src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407866640-Screenshot-2026-02-18-at-5.43.32-PM.png"
             alt="Engin8 logo"
-            className="h-10 md:h-12 w-auto transition-transform duration-500 group-hover:scale-105"
+            className="h-20 md:h-12 w-auto transition-transform duration-500 group-hover:scale-105"
           />
         </div>
 
