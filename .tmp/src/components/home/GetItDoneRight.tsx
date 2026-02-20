@@ -40,15 +40,15 @@ export const GetItDoneRight = () => {
             <p className="font-heading text-2xl md:text-3xl text-primary font-semibold leading-tight">
               <span className="block">Join</span>
               <span className="block">
-                <span className="relative inline-block border-b-4 border-[#26D376] pb-1">500+</span> eCommerce brands optimizing for performance.
+                <span className="playful-underline">500+</span> eCommerce brands optimizing for performance.
               </span>
             </p>
             
             <button
               type="button"
-              className="mt-10 inline-flex items-center justify-center rounded-full bg-brand-blue px-8 md:px-10 py-3 text-sm md:text-base font-semibold text-white shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 group"
+              className="mt-10 inline-flex items-center justify-center rounded-full bg-brand-blue px-10 md:px-16 py-3.5 md:py-4 text-sm md:text-base font-bold uppercase tracking-wider text-white shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 group"
             >
-              LET'S TALK <span className="ml-2 group-hover:rotate-12 transition-transform duration-300">👋</span>
+              LET'S TALK <span className="ml-3 group-hover:rotate-12 transition-transform duration-300">👋</span>
             </button>
           </div>
         </motion.div>
