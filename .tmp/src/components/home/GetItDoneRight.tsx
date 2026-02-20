@@ -38,7 +38,7 @@ export const GetItDoneRight = () => {
         >
           <div className="relative max-w-3xl mx-auto rounded-[2.5rem] bg-[#FFF89A] shadow-xl px-8 py-10 md:px-12 md:py-12 flex flex-col items-center gap-6">
             <p className="font-heading text-2xl md:text-3xl text-primary font-semibold">
-              Join <span className="relative inline-block border-b-4 border-green-400">500+ eCommerce Brands</span>
+              Join <span className="relative inline-block border-b-4 border-green-400">500+ eCommerce brands optimizing for performance.</span>
             </p>
             
             <button
