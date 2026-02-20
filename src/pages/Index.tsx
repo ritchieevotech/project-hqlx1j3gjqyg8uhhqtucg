@@ -62,10 +62,11 @@ const Index = () => {
                   alt="Engin8 logo"
                   className="w-40 md:w-52 h-auto"
                 />
-                <p className="font-sans text-sm md:text-base text-primary/80 max-w-sm">
+                
+              </div>
+              <p className="font-sans text-sm md:text-base text-primary/80 max-w-sm">
                   The engine quietly powering your Amazon and marketplace wins behind the scenes.
                 </p>
-              </div>
             </div>
 
             {/* Middle: Services */}
