@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Showcase", href: "#" },
   { name: "Case Studies", href: "#" },
   { name: "Services", href: "#" },
-  { name: "Results", href: "#" },
+  { name: "Results", href: "#results" },
 ];
 
 export function Header() {
