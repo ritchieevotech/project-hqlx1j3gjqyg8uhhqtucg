@@ -10,24 +10,16 @@ import {
 
 const storefronts = [
   {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547976813-Untitled-design-13.png",
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547977211-Untitled-design-13.png",
     brand: "Rick Young Outdoors",
   },
   {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547976813-Untitled-design-14.png",
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547977211-Untitled-design-14.png",
     brand: "MSRF",
   },
   {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547976813-Untitled-design-15.png",
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547977211-Untitled-design-15.png",
     brand: "Nature's Wonder",
-  },
-  {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547976813-Untitled-design-13.png",
-    brand: "Rick Young Outdoors",
-  },
-  {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771547976813-Untitled-design-14.png",
-    brand: "MSRF",
   },
 ];
 
@@ -77,7 +69,7 @@ export const StorefrontGallery = () => {
                   viewport={{ once: true }}
                   className="flex flex-col h-full"
                 >
-                  <div className="relative w-full aspect-[4/5] md:aspect-[5/6] rounded-[2rem] overflow-hidden shadow-2xl border border-border bg-white group">
+                  <div className="relative w-full aspect-[2/3] md:aspect-[9/16] rounded-[2rem] overflow-hidden shadow-2xl border border-border bg-white group">
                     <img
                       src={item.image}
                       alt={`${item.brand} Storefront`}
