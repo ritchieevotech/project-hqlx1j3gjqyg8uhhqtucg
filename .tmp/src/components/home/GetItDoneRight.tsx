@@ -30,15 +30,15 @@ export const GetItDoneRight = () => {
         </motion.div>
 
         <motion.div 
-          className="mt-12"
+          className="mt-12 mb-12"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <div className="relative max-w-3xl mx-auto rounded-[2.5rem] bg-[#FFF89A] shadow-xl px-8 py-10 md:px-12 md:py-12 flex flex-col items-center text-center">
-            <p className="font-heading text-2xl md:text-3xl text-primary font-semibold leading-tight">
-              <span className="block">Join</span>
+          <div className="relative max-w-4xl mx-auto rounded-[2.5rem] bg-[#FFF89A] shadow-xl px-8 py-12 md:px-16 md:py-16 flex flex-col items-center text-center pb-20 md:pb-24">
+            <p className="font-heading text-2xl md:text-4xl text-primary font-semibold leading-tight max-w-2xl">
+              <span className="block mb-2">Join</span>
               <span className="block">
                 <span className="playful-underline">500+</span> eCommerce brands optimizing for performance.
               </span>
@@ -46,7 +46,7 @@ export const GetItDoneRight = () => {
             
             <button
               type="button"
-              className="mt-10 inline-flex items-center justify-center rounded-full bg-brand-blue px-10 md:px-16 py-3.5 md:py-4 text-sm md:text-base font-bold uppercase tracking-wider text-white shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 group"
+              className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 inline-flex items-center justify-center rounded-full bg-brand-blue px-10 md:px-16 py-4 md:py-5 text-sm md:text-base font-bold uppercase tracking-wider text-white shadow-xl hover:shadow-2xl hover:translate-y-[45%] transition-all duration-200 group whitespace-nowrap"
             >
               LET'S TALK <span className="ml-3 group-hover:rotate-12 transition-transform duration-300">👋</span>
             </button>
