@@ -47,7 +47,7 @@ export function Hero() {
               <img 
                 src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771566076660-Untitled-design-16.png" 
                 alt="Professional marketing consultant in a grey suit holding a tablet"
-                className="w-full h-auto object-contain max-h-[320px] md:max-h-[380px] lg:max-h-[420px] mx-auto"
+                className="w-full h-auto object-cover"
               />
             </motion.div>
           </div>
