@@ -36,14 +36,17 @@ export const GetItDoneRight = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <div className="relative max-w-3xl mx-auto rounded-[2.5rem] bg-[#FFF89A] shadow-xl px-8 py-10 md:px-12 md:py-12 flex flex-col items-center gap-6">
-            <p className="font-heading text-2xl md:text-3xl text-primary font-semibold">
-              Join <span className="relative inline-block border-b-4 border-green-400">500+ eCommerce brands optimizing for performance.</span>
+          <div className="relative max-w-3xl mx-auto rounded-[2.5rem] bg-[#FFF89A] shadow-xl px-8 py-10 md:px-12 md:py-12 flex flex-col items-center text-center">
+            <p className="font-heading text-2xl md:text-3xl text-primary font-semibold leading-tight">
+              <span className="block">Join</span>
+              <span className="block">500+ eCommerce brands optimizing for performance.</span>
             </p>
+            
+            <div className="mt-6 h-1.5 w-full max-w-md bg-[#26D376] rounded-full" />
             
             <button
               type="button"
-              className="mt-2 inline-flex items-center justify-center rounded-full bg-brand-blue px-8 md:px-10 py-3 text-sm md:text-base font-semibold text-white shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 group"
+              className="mt-10 inline-flex items-center justify-center rounded-full bg-brand-blue px-8 md:px-10 py-3 text-sm md:text-base font-semibold text-white shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 group"
             >
               LET'S TALK <span className="ml-2 group-hover:rotate-12 transition-transform duration-300">👋</span>
             </button>
