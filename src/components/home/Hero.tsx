@@ -45,8 +45,8 @@ export function Hero() {
               className="relative rounded-3xl overflow-hidden"
             >
               <img 
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771566076660-Untitled-design-16.png" 
-                alt="Professional marketing consultant in a grey suit holding a tablet"
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771575169039-Gemini-Generated-Image-ymh3z8ymh3z8ymh3.png" 
+                alt="Smiling woman in a white shirt pointing to the side on a clean white background"
                 className="w-full h-auto object-cover"
               />
             </motion.div>
