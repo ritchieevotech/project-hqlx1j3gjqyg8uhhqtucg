@@ -8,7 +8,7 @@ const caseStudies = [
     title: "How Nordic Lifting revived Amazon ad performance through AI",
     image:
       "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771850935157-Screenshot-2026-02-23-at-8.47.39-PM.png",
-    link: "https://docs.google.com/presentation/d/1SKLsYSi1PjSvOs4agiuc1Rj0U578LEBNwlICdBK0lLI/edit?slide=id.gc6f9e470d_0_0#slide=id.gc6f9e470d_0_0",
+    link: "/case-studies/nordic-lifting",
   },
   {
     id: 2,
@@ -59,39 +59,37 @@ export const ContentCaseStudies = () => {
           viewport={{ once: true }}
           className="grid gap-x-12 gap-y-16 md:grid-cols-2"
         >
-          {caseStudies.map((study) => (
-            <div key={study.id} className="flex flex-col items-start group">
-              <div className="w-full rounded-[1.75rem] overflow-hidden bg-black shadow-xl border border-border/70 aspect-[16/9] relative mb-6">
-                <img
-                  src={study.image}
-                  alt={`Video thumbnail for ${study.brand} case study`}
-                  className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors duration-300" />
-              </div>
-              
-              <p className="font-sans text-xs md:text-sm font-semibold uppercase tracking-widest text-muted-foreground/80 mb-2">
-                Case Study: {study.brand}
-              </p>
-              
-              {study.link ? (
-                <a 
-                  href={study.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="hover:text-secondary transition-colors duration-300"
-                >
-                  <h3 className="font-heading text-xl md:text-3xl leading-tight tracking-tight">
-                    {study.title}
-                  </h3>
-                </a>
-              ) : (
-                <h3 className="font-heading text-xl md:text-3xl text-primary leading-tight tracking-tight">
+          {caseStudies.map((study) => {
+            const isInternal = study.link?.startsWith("/");
+            const CardWrapper = study.link ? "a" : "div";
+            
+            return (
+              <CardWrapper
+                key={study.id}
+                href={study.link}
+                target={study.link && !isInternal ? "_blank" : undefined}
+                rel={study.link && !isInternal ? "noopener noreferrer" : undefined}
+                className="flex flex-col items-start group cursor-pointer"
+              >
+                <div className="w-full rounded-[1.75rem] overflow-hidden bg-black shadow-xl border border-border/70 aspect-[16/9] relative mb-6">
+                  <img
+                    src={study.image}
+                    alt={`Video thumbnail for ${study.brand} case study`}
+                    className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors duration-300" />
+                </div>
+                
+                <p className="font-sans text-xs md:text-sm font-semibold uppercase tracking-widest text-muted-foreground/80 mb-2">
+                  Case Study: {study.brand}
+                </p>
+                
+                <h3 className="font-heading text-xl md:text-3xl text-primary leading-tight tracking-tight group-hover:text-secondary transition-colors duration-300">
                   {study.title}
                 </h3>
-              )}
-            </div>
-          ))}
+              </CardWrapper>
+            );
+          })}
         </motion.div>
       </div>
     </section>
