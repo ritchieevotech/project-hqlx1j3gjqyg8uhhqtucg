@@ -54,6 +54,35 @@ const CaseStudyNordicLifting = () => {
                 />
               </div>
 
+              {/* Video Walkthrough */}
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+                className="rounded-[2rem] border border-border/60 bg-card shadow-lg overflow-hidden mb-12"
+              >
+                <div className="px-5 pt-5 md:px-6 md:pt-6 mb-4">
+                  <p className="font-sans text-[11px] md:text-xs uppercase tracking-[0.18em] text-muted-foreground font-semibold">
+                    Video Walkthrough
+                  </p>
+                </div>
+                <div className="relative w-full pt-[56.25%] bg-black">
+                  <iframe
+                    src="https://drive.google.com/file/d/1nF-1SX4dISavTYtQd92oh9E0YAjwKWRI/preview"
+                    className="absolute inset-0 w-full h-full"
+                    allow="autoplay"
+                    allowFullScreen
+                    title="Nordic Lifting case study video"
+                  />
+                </div>
+                <div className="px-5 py-5 md:px-6 md:py-6">
+                  <p className="text-sm md:text-base text-foreground/80">
+                    A quick look at how refreshed creative and video ads helped Nordic Lifting turn attention into measurable marketplace gains.
+                  </p>
+                </div>
+              </motion.div>
+
               {/* Content Sections */}
               <div className="space-y-12 font-sans text-base md:text-lg text-foreground/80 leading-relaxed">
                 <section>
