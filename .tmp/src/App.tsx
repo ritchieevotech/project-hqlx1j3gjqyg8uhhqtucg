@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CaseStudyNordicLifting from "./pages/CaseStudyNordicLifting";
 import CaseStudyCollagen from "./pages/CaseStudyCollagen";
+import CaseStudySkincareSerum from "./pages/CaseStudySkincareSerum";
 import NotFound from "./pages/NotFound";
 import { BrandingBadge } from "./components/BrandingBadge";
 
@@ -23,6 +24,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/case-studies/nordic-lifting" element={<CaseStudyNordicLifting />} />
             <Route path="/case-studies/collagen-brand" element={<CaseStudyCollagen />} />
+            <Route path="/case-studies/skincare-serum" element={<CaseStudySkincareSerum />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

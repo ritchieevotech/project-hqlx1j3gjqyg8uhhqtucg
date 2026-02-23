@@ -26,6 +26,7 @@ const caseStudies = [
     title: "Skincare Brand Drops CPC 34% With a 3-Second Video Hook Overhaul",
     image:
       "https://images.pexels.com/photos/1181714/pexels-photo-1181714.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "/case-studies/skincare-serum",
   },
   {
     id: 4,
