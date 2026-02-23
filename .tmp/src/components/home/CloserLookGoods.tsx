@@ -35,8 +35,8 @@ export const CloserLookGoods = () => {
           delay={0.1}
           bonusLabel="Included"
           title="SEO + AI-Ready Listing Copy"
-          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771858292991-Screenshot-2026-02-23-at-10.47.01-PM.png"
-          imageAlt="Split screen SEO and AI graphic with 'SEO + AI-READY' headline"
+          imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771862323641-Gemini-Generated-Image-j9jfmdj9jfmdj9jf.png"
+          imageAlt="SEO and AI-ready listing concept art with growth chart and AI brain"
           theWhat={<>Amazon is both a search engine and an AI-driven shopping platform. Your listing must rank, resonate, and be interpreted correctly by Rufus.</>}
           theHow={<>We develop persuasive messaging aligned with buyer psychology, then layer in structured keyword and intent mapping to improve discoverability and AI surfacing.</>}
           bonus={<>Two optimized title variations structured for immediate split testing inside Amazon Experiments.</>}
