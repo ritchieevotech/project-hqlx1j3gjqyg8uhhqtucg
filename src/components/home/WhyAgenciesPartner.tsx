@@ -86,7 +86,7 @@ export const WhyAgenciesPartner = () => {
             <motion.div 
               key={index} 
               variants={itemVariants} 
-              className="group rounded-[2rem] bg-white/80 border border-border p-8 flex flex-col justify-between gap-6 h-full text-left"
+              className="group rounded-[2rem] bg-white/80 border border-border p-8 flex flex-col gap-6 h-full text-left"
             >
               <div className="flex flex-col items-start gap-4">
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-brand-blue/10 text-brand-blue transition-transform duration-300 group-hover:scale-110">
