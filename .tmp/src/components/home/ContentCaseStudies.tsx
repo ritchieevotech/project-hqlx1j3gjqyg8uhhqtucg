@@ -17,6 +17,7 @@ const caseStudies = [
     title: "Collagen Brand Lifts CVR 38% and Adds $42K/Month — Without Touching Ad Spend",
     image:
       "https://images.pexels.com/photos/1181713/pexels-photo-1181713.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "/case-studies/collagen-brand",
   },
   {
     id: 3,
