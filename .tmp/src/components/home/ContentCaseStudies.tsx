@@ -7,7 +7,7 @@ const caseStudies = [
     brand: "Nordic Lifting",
     title: "How Nordic Lifting revived Amazon ad performance through AI",
     image:
-      "https://images.pexels.com/photos/1181588/pexels-photo-1181588.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771850935157-Screenshot-2026-02-23-at-8.47.39-PM.png",
     link: "https://docs.google.com/presentation/d/1SKLsYSi1PjSvOs4agiuc1Rj0U578LEBNwlICdBK0lLI/edit?slide=id.gc6f9e470d_0_0#slide=id.gc6f9e470d_0_0",
   },
   {
