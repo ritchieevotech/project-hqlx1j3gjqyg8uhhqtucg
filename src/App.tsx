@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import CaseStudyNordicLifting from "./pages/CaseStudyNordicLifting";
 import CaseStudyCollagen from "./pages/CaseStudyCollagen";
 import CaseStudySkincareSerum from "./pages/CaseStudySkincareSerum";
+import CaseStudyFunctionalSnack from "./pages/CaseStudyFunctionalSnack";
 import NotFound from "./pages/NotFound";
 import { BrandingBadge } from "./components/BrandingBadge";
 
@@ -25,6 +26,7 @@ const App = () => (
             <Route path="/case-studies/nordic-lifting" element={<CaseStudyNordicLifting />} />
             <Route path="/case-studies/collagen-brand" element={<CaseStudyCollagen />} />
             <Route path="/case-studies/skincare-serum" element={<CaseStudySkincareSerum />} />
+            <Route path="/case-studies/functional-snack" element={<CaseStudyFunctionalSnack />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

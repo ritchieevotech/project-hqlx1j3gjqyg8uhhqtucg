@@ -35,6 +35,7 @@ const caseStudies = [
     title: "Functional Snack Brand Converts 44% More Shoppers With Objection-Focused A+ Rebuild",
     image:
       "https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "/case-studies/functional-snack",
   },
 ];
 
