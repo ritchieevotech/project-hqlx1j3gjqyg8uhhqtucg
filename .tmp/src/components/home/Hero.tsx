@@ -15,7 +15,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="font-display text-7xl md:text-9xl text-primary leading-[0.85] tracking-tight uppercase"
           >
-            STOP SETTING FOR AVERAGE <br />
+            STOP SETTLING FOR AVERAGE <br />
             <span className="squiggly-underline">AMAZON CREATIVE</span>
           </motion.h1>
           
