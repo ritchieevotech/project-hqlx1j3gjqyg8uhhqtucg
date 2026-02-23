@@ -80,20 +80,22 @@ export const WhyAgenciesPartner = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid gap-10 md:gap-12 md:grid-cols-2 xl:grid-cols-3 items-start"
+          className="grid gap-10 md:gap-12 md:grid-cols-2 xl:grid-cols-3 items-stretch"
         >
           {benefits.map((benefit, index) => (
             <motion.div 
               key={index} 
               variants={itemVariants} 
-              className="flex flex-col items-start text-left group"
+              className="group rounded-[2rem] bg-white/80 border border-border p-8 flex flex-col justify-between gap-6 h-full text-left"
             >
-              <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-brand-blue/10 text-brand-blue transition-transform duration-300 group-hover:scale-110">
-                <benefit.icon className="h-7 w-7" />
+              <div className="flex flex-col items-start gap-4">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-brand-blue/10 text-brand-blue transition-transform duration-300 group-hover:scale-110">
+                  <benefit.icon className="h-7 w-7" />
+                </div>
+                <h3 className="font-heading text-lg md:text-xl text-primary uppercase tracking-[0.12em] leading-tight">
+                  {benefit.title}
+                </h3>
               </div>
-              <h3 className="font-heading text-lg md:text-xl text-primary mb-3 uppercase tracking-[0.12em] leading-tight">
-                {benefit.title}
-              </h3>
               <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed whitespace-pre-line text-justify">
                 {benefit.description}
               </p>
