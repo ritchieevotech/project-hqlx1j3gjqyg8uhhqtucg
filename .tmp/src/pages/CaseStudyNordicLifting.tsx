@@ -172,6 +172,16 @@ const CaseStudyNordicLifting = () => {
 
                       {/* Right Column */}
                       <div className="space-y-4 md:space-y-5">
+                        {/* Featured Implementation Visual */}
+                        <div className="rounded-[1.75rem] overflow-hidden border border-border/50 bg-black/80 mb-4 md:mb-5 aspect-[16/9] w-full">
+                          <img
+                            src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771855325859-Gemini-Generated-Image-aon1qgaon1qgaon1.png"
+                            alt="Athlete performing a barbell squat wearing Nordic Lifting gear with neon gym backdrop"
+                            className="w-full h-full object-cover"
+                            loading="lazy"
+                          />
+                        </div>
+
                         {[
                           {
                             icon: Lightbulb,
