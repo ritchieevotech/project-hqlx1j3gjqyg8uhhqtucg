@@ -81,6 +81,7 @@ export const CloserLookGoods = () => {
         <DetailRow
           isReversed
           delay={0.25}
+          bonusLabel="Included"
           title="Custom Storefront Infrastructure"
           imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771542743651-Untitled-design-15.png"
           imageAlt="Colorful food brand storefront-style layout"
