@@ -1,6 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, ArrowLeft, CheckCircle2 } from "lucide-react";
+import { Mail, Linkedin, ArrowLeft, CheckCircle2, Sparkles, Lightbulb, MousePointerClick } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CaseStudyNordicLifting = () => {
@@ -133,6 +133,76 @@ const CaseStudyNordicLifting = () => {
                     Every new asset was subjected to rapid creative testing, allowing us to lock in winners and discard underperformers within days rather than months.
                   </p>
                 </section>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                >
+                  <section className="bg-muted/20 rounded-[2rem] p-6 md:p-8 border border-border/40">
+                    <h2 className="font-heading text-2xl md:text-3xl text-primary mb-4 tracking-tight">
+                      Implementation: Turning AI Strategy into Scroll-Stopping Video
+                    </h2>
+                    <p className="font-sans text-sm md:text-base text-foreground/80 mb-6">
+                      We leveraged AI-powered creative tools to transform the Nordic Lifting brand story into high-impact video assets specifically engineered for Amazon's competitive, scroll-heavy environment.
+                    </p>
+
+                    <div className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,1.5fr)] items-start">
+                      {/* Left Column */}
+                      <div>
+                        <span className="text-[11px] md:text-xs uppercase tracking-[0.18em] text-muted-foreground font-semibold mb-2 block font-sans">
+                          Implementation Strategy
+                        </span>
+                        <div className="space-y-3">
+                          {[
+                            "Create attention-grabbing video ads tailored to Amazon’s scroll-heavy feed.",
+                            "Use AI tools to rapidly script, generate, and iterate.",
+                            "Test multiple hooks, angles, and layouts."
+                          ].map((text, i) => (
+                            <div key={i} className="flex gap-3 items-start">
+                              <div className="mt-2 w-1.5 h-1.5 rounded-full bg-secondary shrink-0" />
+                              <p className="text-sm md:text-base text-foreground/80 leading-relaxed font-sans">
+                                {text}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Right Column */}
+                      <div className="space-y-4 md:space-y-5">
+                        {[
+                          {
+                            icon: Lightbulb,
+                            title: "Ideate with AI tools",
+                            desc: "We used AI to analyze competitor patterns and script unique video concepts that break the category mold."
+                          },
+                          {
+                            icon: Sparkles,
+                            title: "Show unconventional hooks",
+                            desc: "Capturing attention in the first 3 seconds with unexpected visuals and problem-first storytelling."
+                          },
+                          {
+                            icon: MousePointerClick,
+                            title: "Use clickbaity thumbnails",
+                            desc: "Designing curiosity-driven frames with bold text overlays to maximize click-through rates."
+                          }
+                        ].map((step, i) => (
+                          <div key={i} className="flex gap-4 items-start rounded-2xl bg-card border border-border/70 p-4 md:p-5 shadow-sm hover:shadow-md hover:border-secondary/50 transition-all duration-300">
+                            <div className="w-9 h-9 rounded-full bg-secondary/15 text-secondary flex items-center justify-center shrink-0">
+                              <step.icon className="w-4 h-4" />
+                            </div>
+                            <div>
+                              <h4 className="font-heading text-sm md:text-base text-primary mb-1">{step.title}</h4>
+                              <p className="text-xs md:text-sm text-foreground/70 leading-relaxed font-sans">{step.desc}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </section>
+                </motion.div>
 
                 <section>
                   <h2 className="font-heading text-2xl md:text-3xl text-primary mb-4 tracking-tight">
