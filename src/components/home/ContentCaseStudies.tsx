@@ -29,7 +29,8 @@ const caseStudies = [
   {
     id: 4,
     brand: "Feel Good Foods",
-    title: "Dumplings to Dollars: 2484% Growth in CPG",
+    label: "CASE STUDY  · FOOD & BEVERAGE · Functional Snack",
+    title: "Functional Snack Brand Converts 44% More Shoppers With Objection-Focused A+ Rebuild",
     image:
       "https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
