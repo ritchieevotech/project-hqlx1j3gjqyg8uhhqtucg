@@ -35,7 +35,7 @@ const caseStudies = [
 
 export const ContentCaseStudies = () => {
   return (
-    <section id="case-studies" className="py-24 bg-background overflow-hidden scroll-mt-28">
+    <section id="case-studies" className="py-24 bg-background overflow-hidden scroll-mt-28 outline-none focus:outline-none focus-visible:outline-none">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
