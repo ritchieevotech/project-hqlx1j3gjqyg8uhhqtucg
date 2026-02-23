@@ -117,6 +117,17 @@ const CaseStudyNordicLifting = () => {
                       <span><strong>Inefficient Testing:</strong> Creative updates were slow and based on intuition rather than data-driven iteration.</span>
                     </li>
                   </ul>
+
+                  <div className="mt-8 rounded-[1.75rem] bg-white border border-border/60 shadow-sm overflow-hidden">
+                    <div className="bg-slate-50">
+                      <img
+                        src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771854064069-Screenshot-2026-02-23-at-9.40.38-PM.png"
+                        alt="Challenges deep-dive showing three main challenges: stagnant CTRs, flat detail page traffic, and creative fatigue"
+                        className="w-full h-auto object-contain"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
                 </section>
 
                 <section>
