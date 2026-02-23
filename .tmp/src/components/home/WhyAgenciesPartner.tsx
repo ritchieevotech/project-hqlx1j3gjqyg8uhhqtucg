@@ -80,7 +80,7 @@ export const WhyAgenciesPartner = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid gap-10 md:gap-12 md:grid-cols-2 xl:grid-cols-3"
+          className="grid gap-10 md:gap-12 md:grid-cols-2 xl:grid-cols-3 items-start"
         >
           {benefits.map((benefit, index) => (
             <motion.div 
@@ -94,7 +94,7 @@ export const WhyAgenciesPartner = () => {
               <h3 className="font-heading text-lg md:text-xl text-primary mb-3 uppercase tracking-[0.12em] leading-tight">
                 {benefit.title}
               </h3>
-              <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed whitespace-pre-line">
+              <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed whitespace-pre-line text-justify">
                 {benefit.description}
               </p>
             </motion.div>
