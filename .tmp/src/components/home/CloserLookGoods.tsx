@@ -72,10 +72,7 @@ export const CloserLookGoods = () => {
             <>We design modular, mobile-first layouts that improve engagement, clarity, and buyer confidence.</>
           }
           bonus={
-            <>
-              <span className="font-semibold not-italic text-primary">Included:</span>{" "}
-              Brand Story refinement and backend keyword alignment for stronger organic visibility.
-            </>
+            <>Brand Story refinement and backend keyword alignment for stronger organic visibility.</>
           }
         />
 
