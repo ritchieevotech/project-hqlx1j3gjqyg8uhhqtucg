@@ -81,22 +81,22 @@ export const DailyOptimizations = () => {
             <div className="grid grid-cols-2 gap-4 mb-2">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-white shadow-sm border border-border/40">
                 <img 
-                  src="https://images.pexels.com/photos/4113891/pexels-photo-4113891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Colorful packaged snacks" 
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771857712896-Untitled-design-8.png" 
+                  alt="Old and new Vega protein tubs with 'New Look! Great Taste!' headline" 
                   className="h-full w-full object-cover"
                 />
               </div>
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-white shadow-sm border border-border/40">
                 <img 
-                  src="https://images.pexels.com/photos/3731474/pexels-photo-3731474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Health product packaging" 
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771857712896-Untitled-design.png" 
+                  alt="Popfully Cinnamon Toast microwave popcorn hero graphic with packaging and benefits" 
                   className="h-full w-full object-cover"
                 />
               </div>
               <div className="col-span-2 aspect-[16/9] rounded-2xl overflow-hidden bg-white shadow-sm border border-border/40">
                 <img 
-                  src="https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Modern consumer goods" 
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771857712896-Untitled-design-11.png" 
+                  alt="Woman drinking pink hydration drink with 'Fast, Effective Hydration' callout" 
                   className="h-full w-full object-cover"
                 />
               </div>
