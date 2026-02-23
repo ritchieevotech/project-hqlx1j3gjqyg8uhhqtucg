@@ -50,7 +50,7 @@ const slides = [
     ],
     quote: "Professionalism at its peak. The team understood our brand voice and translated it perfectly into visuals.",
     author: "E. R.",
-    role: "Brand Director, Bloom & Wild",
+    role: "Brand Director, Bangalicious",
     statLabel: "4.9/5",
     statTagline: "Average customer rating",
     avatarColor: "bg-emerald-500"
