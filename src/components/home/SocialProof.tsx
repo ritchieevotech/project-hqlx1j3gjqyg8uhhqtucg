@@ -4,8 +4,8 @@ import { MessageCircle, ThumbsUp, Share2, Send } from "lucide-react";
 
 const linkedinTestimonials = [
   {
-    name: "Sarah Jenkins",
-    role: "CEO at GrowthFlow",
+    name: "S. J.",
+    role: "Founder at DIA",
     avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/9cd917c9-d4cc-499d-a0de-72f147eaa629.png",
     text: "Their team are among the most gifted... true experts in their field. Engin8 didn't just build a tool; they built a revenue engine.",
     timestamp: "2d",
