@@ -81,12 +81,16 @@ export const CloserLookGoods = () => {
         <DetailRow
           isReversed
           delay={0.25}
-          title="Storefront Homepage"
+          title="Custom Storefront Infrastructure"
           imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771542743651-Untitled-design-15.png"
           imageAlt="Colorful food brand storefront-style layout"
-          theWhat={<>Your storefront is the <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">only space to fully share your brand story</span> without competing ads. It’s where Google and Amazon shoppers land before diving into your product pages.</>}
-          theHow={<>From layout strategy to module selection, we obsess over every detail so your storefront feels like a custom, editorial experience that moves shoppers from browsing to buying.</>}
-          bonus={<>Every storefront homepage we design includes <span className="underline decoration-secondary decoration-2 underline-offset-4 font-medium">attention-grabbing motion elements</span> like subtle gifs or loops for a more engaging experience.</>}
+          theWhat={<>Your Storefront is your brand’s controlled ecosystem inside Amazon. It should nurture, educate, and convert — not simply display products.</>}
+          theHow={<>We architect guided, mobile-first Storefront experiences using the ENGIN8 framework to improve trust, engagement, and revenue per visitor.</>}
+          bonus={
+            <>
+              <span className="font-semibold not-italic text-primary">Included:</span> Strategic motion elements (where appropriate) to increase engagement and visual differentiation.
+            </>
+          }
         />
       </div>
     </section>
