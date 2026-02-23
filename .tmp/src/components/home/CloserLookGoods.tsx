@@ -88,9 +88,7 @@ export const CloserLookGoods = () => {
           theWhat={<>Your Storefront is your brand’s controlled ecosystem inside Amazon. It should nurture, educate, and convert — not simply display products.</>}
           theHow={<>We architect guided, mobile-first Storefront experiences using the ENGIN8 framework to improve trust, engagement, and revenue per visitor.</>}
           bonus={
-            <>
-              <span className="font-semibold not-italic text-primary">Included:</span> Strategic motion elements (where appropriate) to increase engagement and visual differentiation.
-            </>
+            <>Strategic motion elements (where appropriate) to increase engagement and visual differentiation.</>
           }
         />
       </div>
