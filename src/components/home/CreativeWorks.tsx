@@ -54,20 +54,6 @@ const slides = [
     statLabel: "4.9/5",
     statTagline: "Average customer rating",
     avatarColor: "bg-emerald-500"
-  },
-  {
-    image: "https://images.pexels.com/photos/2261485/pexels-photo-2261485.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    thumbs: [
-      "https://images.pexels.com/photos/6456005/pexels-photo-6456005.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      "https://images.pexels.com/photos/3823063/pexels-photo-3823063.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    ],
-    quote: "AI-powered video ads were the game-changer for Nordic Lifting. We went from stagnant traffic to a 10x sales explosion for our compression sleeves and secured the #1 organic ranking for our weightlifting shoes. By using AI to rapidly test 'scroll-stopper' hooks, we didn't just fix our ROAS—we dominated the category.",
-    author: "Nordic Lifting Team",
-    role: "Brand & Performance Marketing",
-    statLabel: "10x",
-    statTagline: "Sales growth across key SKUs",
-    avatarColor: "bg-indigo-500"
   }
 ];
 
