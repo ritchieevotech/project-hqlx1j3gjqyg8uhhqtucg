@@ -21,7 +21,8 @@ const caseStudies = [
   {
     id: 3,
     brand: "JIYU",
-    title: "Clicks to Conversions: JIYU's 656% Surge in Orders",
+    label: "CASE STUDY · BEAUTY · Skincare Serum",
+    title: "Skincare Brand Drops CPC 34% With a 3-Second Video Hook Overhaul",
     image:
       "https://images.pexels.com/photos/1181714/pexels-photo-1181714.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
