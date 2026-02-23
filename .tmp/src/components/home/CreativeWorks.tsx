@@ -49,7 +49,7 @@ const slides = [
       "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02D.png",
     ],
     quote: "Professionalism at its peak. The team understood our brand voice and translated it perfectly into visuals.",
-    author: "Elena Rodriguez",
+    author: "E. R.",
     role: "Brand Director, Bloom & Wild",
     statLabel: "4.9/5",
     statTagline: "Average customer rating",
