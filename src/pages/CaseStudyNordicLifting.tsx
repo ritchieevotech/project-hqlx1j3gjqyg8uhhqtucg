@@ -128,6 +128,76 @@ const CaseStudyNordicLifting = () => {
                   </div>
                 </section>
 
+                <motion.div
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                >
+                  <section className="bg-muted/20 rounded-[2rem] p-6 md:p-8 border border-border/40">
+                    <h2 className="font-heading text-2xl md:text-3xl text-primary mb-4 tracking-tight">
+                      Impact on Rankings & Revenue
+                    </h2>
+                    <p className="mb-8 text-foreground/70">
+                      These are real ranking and performance trends from Nordic Lifting’s category after rolling out new creative and video ads. The key story: rankings climbed, volatility smoothed out, and ad dollars worked harder.
+                    </p>
+
+                    <div className="grid gap-6 lg:grid-cols-2">
+                      {[
+                        {
+                          url: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771853681260-Screenshot-2026-02-23-at-9.32.34-PM.png",
+                          label: "Organic Rank – Lifting Shoes",
+                          desc: "After the video ad launch, rankings for 'lifting shoes' climbed consistently into the top spots and held steady near #1, outperforming competitors who previously dominated.",
+                          alt: "Line chart of organic rank over 90 days for lifting shoes"
+                        },
+                        {
+                          url: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771853681260-Screenshot-2026-02-23-at-9.32.27-PM.png",
+                          label: "Organic Rank – Weightlifting Shoes",
+                          desc: "Strategic creative changes led to improved stability and a sustained top-10 presence for 'weightlifting shoes,' ensuring long-term visibility and sales.",
+                          alt: "Performance graph showing improved rank stability for weightlifting shoes"
+                        },
+                        {
+                          url: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771853681260-Screenshot-2026-02-23-at-9.32.20-PM.png",
+                          label: "Ad Spend vs Sales",
+                          desc: "New video creatives drove stronger revenue and improved efficiency. As sales increased, the cost per acquisition remained stable, maximizing overall ROI.",
+                          alt: "Chart comparing advertising spend against generated revenue"
+                        },
+                        {
+                          url: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771853681260-Screenshot-2026-02-23-at-9.32.13-PM.png",
+                          label: "Organic Rank – Elbow Compression Sleeves",
+                          desc: "Organic rank for elbow compression sleeves moved into more reliable first-page positions, significantly reducing the reliance on paid placements.",
+                          alt: "Ranking chart for elbow compression sleeves showing first-page dominance"
+                        },
+                        {
+                          url: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771853681260-Screenshot-2026-02-23-at-9.32.05-PM.png",
+                          label: "Three-Month Performance Trend",
+                          desc: "This 90-day snapshot shows sustained improvement and fewer deep drops in performance, reinforcing that the Engin8 strategy delivers lasting results.",
+                          alt: "Overall performance trend chart showing three months of growth"
+                        }
+                      ].map((card, i) => (
+                        <div key={i} className="rounded-[1.75rem] bg-white border border-border/60 shadow-sm overflow-hidden flex flex-col h-full hover:border-secondary/40 transition-colors duration-300">
+                          <div className="w-full bg-slate-50 border-b border-border/40">
+                            <img
+                              src={card.url}
+                              alt={card.alt}
+                              loading="lazy"
+                              className="w-full h-auto object-contain"
+                            />
+                          </div>
+                          <div className="p-5 md:p-6 space-y-2 flex-grow">
+                            <span className="font-sans text-[11px] md:text-xs uppercase tracking-[0.18em] text-muted-foreground font-semibold block">
+                              {card.label}
+                            </span>
+                            <p className="text-sm md:text-base text-foreground/80 leading-relaxed">
+                              {card.desc}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                </motion.div>
+
                 <section>
                   <h2 className="font-heading text-2xl md:text-3xl text-primary mb-6 tracking-tight">
                     Our Proven Creative Optimization Process
