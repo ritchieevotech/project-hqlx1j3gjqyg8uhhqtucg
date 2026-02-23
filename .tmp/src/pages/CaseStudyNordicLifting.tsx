@@ -48,8 +48,8 @@ const CaseStudyNordicLifting = () => {
               {/* Hero Image */}
               <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[16/9] mb-12">
                 <img
-                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771850935157-Screenshot-2026-02-23-at-8.47.39-PM.png"
-                  alt="Nordic Lifting Amazon Performance Case Study"
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771857156541-Gemini-Generated-Image-fhdl04fhdl04fhdl.png"
+                  alt="Athlete performing a front squat with barbell in a gym, representing Nordic Lifting strength"
                   className="w-full h-full object-cover"
                 />
               </div>
