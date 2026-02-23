@@ -28,11 +28,11 @@ const slides = [
     avatarColor: "bg-blue-500"
   },
   {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02B.png",
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771863819749-Untitled-design-20.png",
     thumbs: [
-      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338640-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02A.png",
-      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02C.png",
-      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02D.png",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771863819749-Untitled-design-17.png",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771863819749-Untitled-design-18.png",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771863819749-Untitled-design-19.png",
     ],
     quote: "We saw an immediate jump in CTR. Customers finally 'get' the value of our premium product through these images.",
     author: "Marcus Thorne",
