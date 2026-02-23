@@ -8,6 +8,7 @@ const caseStudies = [
     title: "How Nordic Lifting revived Amazon ad performance through AI",
     image:
       "https://images.pexels.com/photos/1181588/pexels-photo-1181588.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "https://docs.google.com/presentation/d/1SKLsYSi1PjSvOs4agiuc1Rj0U578LEBNwlICdBK0lLI/edit?slide=id.gc6f9e470d_0_0#slide=id.gc6f9e470d_0_0",
   },
   {
     id: 2,
@@ -73,9 +74,22 @@ export const ContentCaseStudies = () => {
                 Case Study: {study.brand}
               </p>
               
-              <h3 className="font-heading text-xl md:text-3xl text-primary leading-tight tracking-tight">
-                {study.title}
-              </h3>
+              {study.link ? (
+                <a 
+                  href={study.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-secondary transition-colors duration-300"
+                >
+                  <h3 className="font-heading text-xl md:text-3xl leading-tight tracking-tight">
+                    {study.title}
+                  </h3>
+                </a>
+              ) : (
+                <h3 className="font-heading text-xl md:text-3xl text-primary leading-tight tracking-tight">
+                  {study.title}
+                </h3>
+              )}
             </div>
           ))}
         </motion.div>
