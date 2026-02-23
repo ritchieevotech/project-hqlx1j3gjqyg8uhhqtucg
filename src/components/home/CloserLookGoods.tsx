@@ -61,6 +61,7 @@ export const CloserLookGoods = () => {
 
         <DetailRow
           delay={0.2}
+          bonusLabel="Included"
           title="Premium A+ Content Architecture"
           imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771442829083-Screenshot-2026-02-19-at-3.26.14-AM.png"
           imageAlt="Joejis ceramic bakeware Premium A+ content graphic with family dinner scene and colorful dishes"
