@@ -56,11 +56,11 @@ const slides = [
     avatarColor: "bg-emerald-500"
   },
   {
-    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02B.png",
+    image: "https://images.pexels.com/photos/2261485/pexels-photo-2261485.jpeg?auto=compress&cs=tinysrgb&w=1600",
     thumbs: [
-      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338640-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02A.png",
-      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02C.png",
-      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771541338642-Bangalicious-Scarlet-Kiss-Premium-A-Content-Module-02D.png",
+      "https://images.pexels.com/photos/6456005/pexels-photo-6456005.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/3823063/pexels-photo-3823063.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=1600",
     ],
     quote: "AI-powered video ads were the game-changer for Nordic Lifting. We went from stagnant traffic to a 10x sales explosion for our compression sleeves and secured the #1 organic ranking for our weightlifting shoes. By using AI to rapidly test 'scroll-stopper' hooks, we didn't just fix our ROAS—we dominated the category.",
     author: "Nordic Lifting Team",
