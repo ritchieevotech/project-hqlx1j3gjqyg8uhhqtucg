@@ -20,7 +20,7 @@ const benefits = [
   },
   {
     title: "Operational integration",
-    description: "We integrate into your existing workflows, from project management systems to SOP alignment. Expect minimal friction, predictable delivery timelines, and full version control compliance.",
+    description: "We integrate directly into your existing workflows:\n• Project management systems\n• SOP alignment\n• Structured delivery timelines\n• Version control and compliance review\nMinimal friction. Predictable output.",
     icon: Workflow,
   },
   {
@@ -94,7 +94,7 @@ export const WhyAgenciesPartner = () => {
               <h3 className="font-heading text-lg md:text-xl text-primary mb-3 uppercase tracking-[0.12em] leading-tight">
                 {benefit.title}
               </h3>
-              <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed">
+              <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed whitespace-pre-line">
                 {benefit.description}
               </p>
             </motion.div>
