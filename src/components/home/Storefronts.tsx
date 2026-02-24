@@ -68,9 +68,9 @@ export const Storefronts = () => {
           className="relative"
         >
           <img
-            src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771970755643-Screenshot-2026-02-25-at-6.05.16-AM.png"
-            alt="Rick Young Outdoors Amazon storefront shown inside a phone mockup"
-            className="mx-auto w-[260px] sm:w-[300px] md:w-[320px] h-auto drop-shadow-2xl"
+            src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771971776934-Orange-Black-White-Creative-Corporate-Business-Flyer-Template-1080-x-2675-px-2.png"
+            alt="Rick Young Outdoors Amazon storefront displayed inside a mobile phone mockup"
+            className="mx-auto w-[240px] sm:w-[280px] md:w-[300px] h-auto drop-shadow-2xl"
           />
           
           {/* Decorative elements */}
