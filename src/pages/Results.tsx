@@ -3,6 +3,8 @@ import { ResultsHero } from "@/components/results/ResultsHero";
 import { ResultsSuccessRates } from "@/components/results/ResultsSuccessRates";
 import { ResultsDistributionSection } from "@/components/results/ResultsDistributionSection";
 import { ResultsCategoriesTable } from "@/components/results/ResultsCategoriesTable";
+import { ResultsFaqSection } from "@/components/results/ResultsFaqSection";
+import { ResultsTestimonialsWall } from "@/components/results/ResultsTestimonialsWall";
 import { Mail, Linkedin } from "lucide-react";
 
 const Results = () => {
@@ -15,6 +17,8 @@ const Results = () => {
           <ResultsSuccessRates />
           <ResultsDistributionSection />
           <ResultsCategoriesTable />
+          <ResultsFaqSection />
+          <ResultsTestimonialsWall />
         </div>
       </main>
 
