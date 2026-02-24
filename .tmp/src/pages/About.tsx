@@ -30,7 +30,7 @@ const About = () => {
       name: "Blake Gale",
       role: "Chief Relationship Officer",
       specialty: "Strategic Partnerships & Growth",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708508-Screenshot-2026-02-25-at-2.42.34-AM.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771962948656-Gemini-Generated-Image-c0r71cc0r71cc0r7.png",
       position: "object-left"
     },
     {
