@@ -65,7 +65,7 @@ export const MiniAuditCta = () => {
               className="px-12 py-8 rounded-xl font-heading text-sm md:text-base tracking-widest uppercase bg-white text-brand-blue hover:bg-white/90 hover:scale-105 transition-all duration-300 shadow-xl h-auto whitespace-normal text-center"
             >
               <a 
-                href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
+                href="https://calendar.app.google/iqBESxmECENgqPon9" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

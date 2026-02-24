@@ -268,7 +268,7 @@ const About = () => {
               </p>
               <Button asChild size="lg" className="bg-white hover:bg-white/90 text-primary font-bold rounded-full px-12 py-7 text-xl shadow-lg shadow-black/10">
                 <a 
-                  href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en"
+                  href="https://calendar.app.google/iqBESxmECENgqPon9"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

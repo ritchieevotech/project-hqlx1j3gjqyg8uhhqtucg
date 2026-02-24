@@ -62,7 +62,7 @@ export function Header() {
         <div className="hidden md:block">
           <Button asChild className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold rounded-full px-6">
             <a 
-              href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
+              href="https://calendar.app.google/iqBESxmECENgqPon9" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -99,7 +99,7 @@ export function Header() {
           ))}
           <Button asChild className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold rounded-full w-full py-6 text-xl mt-4 h-auto">
             <a 
-              href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
+              href="https://calendar.app.google/iqBESxmECENgqPon9" 
               target="_blank" 
               rel="noopener noreferrer"
             >

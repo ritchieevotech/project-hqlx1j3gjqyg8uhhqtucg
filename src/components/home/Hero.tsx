@@ -65,7 +65,7 @@ export function Hero() {
               
               <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <Button asChild size="lg" className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold text-xl rounded-full px-10 py-8 shadow-lg shadow-brand-blue/20">
-                  <a href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" target="_blank" rel="noopener noreferrer">
+                  <a href="https://calendar.app.google/iqBESxmECENgqPon9" target="_blank" rel="noopener noreferrer">
                     Book Your Custom Quote
                   </a>
                 </Button>
