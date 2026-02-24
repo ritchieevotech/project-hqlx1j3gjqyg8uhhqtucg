@@ -23,7 +23,7 @@ const About = () => {
       name: "Henrik Anderson",
       role: "Director of Product",
       specialty: "Product Innovation & Architecture",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708509-Screenshot-2026-02-25-at-2.42.27-AM.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771963711801-Gemini-Generated-Image-utg57hutg57hutg5.png",
       position: "object-right"
     },
     {
