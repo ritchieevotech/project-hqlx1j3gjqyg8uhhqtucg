@@ -1,21 +1,23 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { name: "Showcase", href: "#showcase" },
-  { name: "Case Studies", href: "#case-studies" },
-  { name: "Services", href: "#services" },
-  { name: "Results", href: "#results" },
-  { name: "Method", href: "#services" },
-  { name: "Blog", href: "#results" },
+  { name: "Showcase", href: "/#showcase" },
+  { name: "Case Studies", href: "/#case-studies" },
+  { name: "Services", href: "/#services" },
+  { name: "Results", href: "/results" },
+  { name: "Method", href: "/#services" },
+  { name: "Blog", href: "/#results" },
   { name: "About Us", href: "/about" },
 ];
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,30 +35,48 @@ export function Header() {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center group cursor-pointer" onClick={() => {
-          if (window.location.pathname === '/') {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          } else {
-            window.location.href = '/';
-          }
-        }}>
+        <Link to="/" className="flex items-center group cursor-pointer">
           <img
             src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407866640-Screenshot-2026-02-18-at-5.43.32-PM.png"
             alt="Engin8 logo"
             className="h-20 md:h-22 w-auto transition-transform duration-500 group-hover:scale-105"
           />
-        </div>
+        </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="font-sans text-sm font-semibold md:text-xl text-foreground/80 hover:text-primary transition-colors"
-            >
-              {link.name}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = location.pathname === link.href;
+            const isExternal = link.href.startsWith("http");
+            const isAnchor = link.href.includes("#");
+
+            if (isAnchor && !isExternal) {
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className={cn(
+                    "font-sans text-sm font-semibold md:text-xl transition-colors",
+                    isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
+                  )}
+                >
+                  {link.name}
+                </a>
+              );
+            }
+
+            return (
+              <Link
+                key={link.name}
+                to={link.href}
+                className={cn(
+                  "font-sans text-sm font-semibold md:text-xl transition-colors",
+                  isActive ? "text-primary underline decoration-2 underline-offset-8" : "text-foreground/80 hover:text-primary"
+                )}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden md:block">
@@ -87,16 +107,33 @@ export function Header() {
         )}
       >
         <div className="flex flex-col p-8 gap-6">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="font-heading text-2xl font-bold text-primary border-b border-border pb-2"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              {link.name}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isAnchor = link.href.includes("#");
+            
+            if (isAnchor) {
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="font-heading text-2xl font-bold text-primary border-b border-border pb-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.name}
+                </a>
+              );
+            }
+
+            return (
+              <Link
+                key={link.name}
+                to={link.href}
+                className="font-heading text-2xl font-bold text-primary border-b border-border pb-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
           <Button asChild className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold rounded-full w-full py-6 text-xl mt-4 h-auto">
             <a 
               href="https://calendar.app.google/iqBESxmECENgqPon9" 

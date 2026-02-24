@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import Results from "./pages/Results";
 import CaseStudyNordicLifting from "./pages/CaseStudyNordicLifting";
 import CaseStudyCollagen from "./pages/CaseStudyCollagen";
 import CaseStudySkincareSerum from "./pages/CaseStudySkincareSerum";
@@ -24,6 +25,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/results" element={<Results />} />
             <Route path="/case-studies/nordic-lifting" element={<CaseStudyNordicLifting />} />
             <Route path="/case-studies/collagen-brand" element={<CaseStudyCollagen />} />
             <Route path="/case-studies/skincare-serum" element={<CaseStudySkincareSerum />} />
