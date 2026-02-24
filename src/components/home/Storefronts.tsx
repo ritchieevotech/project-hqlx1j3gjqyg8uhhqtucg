@@ -1,21 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import { Play } from "lucide-react";
 
 export const Storefronts = () => {
-  const [isPlaying, setIsPlaying] = React.useState(false);
-  const videoRef = React.useRef<HTMLVideoElement | null>(null);
-
-  const handlePlay = () => {
-    setIsPlaying(true);
-    // Use requestAnimationFrame to ensure the video element is rendered and ready
-    requestAnimationFrame(() => {
-      videoRef.current?.play().catch((error) => {
-        console.error("Video playback failed:", error);
-      });
-    });
-  };
-
   return (
     <section className="py-24 bg-background overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 mb-16 text-center">
@@ -84,58 +70,13 @@ export const Storefronts = () => {
           {/* Outer Phone Frame */}
           <div className="relative mx-auto w-[280px] sm:w-[320px] aspect-[9/19] rounded-[3rem] bg-slate-900 shadow-2xl p-3 border-[8px] border-slate-800">
             {/* Inner Phone Screen */}
-            <div className="relative h-full w-full rounded-[2.2rem] overflow-hidden bg-slate-100 shadow-inner">
-              {!isPlaying ? (
-                <div className="relative h-full w-full cursor-pointer group" onClick={handlePlay}>
-                  {/* Poster Image */}
-                  <img
-                    src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771969895762-Orange-Black-White-Creative-Corporate-Business-Flyer-Template-1080-x-2675-px-1.png"
-                    alt="Amazon storefront shown on mobile for Rick Young Outdoors"
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  
-                  {/* Storefront UI Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
-                  
-                  <div className="absolute top-8 left-6 right-6 flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
-                        <span className="text-[10px] text-white font-bold">E8</span>
-                      </div>
-                      <span className="text-xs font-heading font-bold text-white uppercase tracking-wider">Rick Young Outdoors</span>
-                    </div>
-                    <div className="text-white/80">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-                    </div>
-                  </div>
-
-                  {/* Play Button */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <button 
-                      className="h-16 w-16 rounded-full bg-secondary text-white shadow-xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110"
-                      aria-label="Play storefront video"
-                    >
-                      <Play fill="currentColor" size={28} className="ml-1" />
-                    </button>
-                  </div>
-
-                  <div className="absolute bottom-8 left-6 right-6 text-white">
-                    <p className="font-heading text-lg font-bold leading-tight uppercase">Discover the Collection</p>
-                    <p className="text-[10px] opacity-80 mt-1 uppercase tracking-widest font-sans">Shop All Products</p>
-                  </div>
-                </div>
-              ) : (
-                <video
-                  ref={videoRef}
-                  src="https://www.w3schools.com/html/mov_bbb.mp4"
-                  className="h-full w-full object-cover"
-                  playsInline
-                  muted
-                  autoPlay
-                  controls
-                  onEnded={() => setIsPlaying(false)}
-                />
-              )}
+            <div className="relative h-full w-full rounded-[2.2rem] overflow-hidden bg-slate-100 shadow-inner group">
+              {/* Mockup Image */}
+              <img
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771969895762-Orange-Black-White-Creative-Corporate-Business-Flyer-Template-1080-x-2675-px-1.png"
+                alt="Amazon storefront shown on mobile for Rick Young Outdoors"
+                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
             </div>
 
             {/* Hardware details */}
