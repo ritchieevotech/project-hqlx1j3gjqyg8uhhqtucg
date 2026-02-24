@@ -47,7 +47,7 @@ export const GetItDoneRight = () => {
               className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 inline-flex items-center justify-center rounded-full bg-brand-blue px-10 md:px-16 py-4 md:py-5 text-sm md:text-base font-bold uppercase tracking-wider text-white shadow-xl hover:shadow-2xl hover:translate-y-[45%] transition-all duration-200 group whitespace-nowrap h-auto"
             >
               <a 
-                href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
+                href="https://calendar.app.google/iqBESxmECENgqPon9" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
