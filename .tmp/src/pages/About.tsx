@@ -208,6 +208,79 @@ const About = () => {
           </div>
         </section>
 
+        {/* Operations Floor Section */}
+        <section className="py-20 px-6 bg-slate-50/60 overflow-hidden">
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-16 text-center md:text-left"
+            >
+              <h2 className="font-heading text-3xl md:text-5xl text-primary font-bold mb-6 tracking-tight">
+                Inside the Engin8 Operations Floor
+              </h2>
+              <div className="max-w-3xl font-sans text-base md:text-lg text-foreground/80 leading-relaxed space-y-4">
+                <p>
+                  Our performance isn't magic—it's engineering. We operate with a dedicated analyst floor where every brand is managed by specialized pods focused on rigorous split testing and daily optimizations.
+                </p>
+                <p>
+                  From high-intensity strategy huddles to deep-dive data architecture, our operations are built to maintain the continuous motion that the "8" in our name represents.
+                </p>
+              </div>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-[minmax(0,2fr)_minmax(0,1.4fr)] gap-6 md:gap-8 items-stretch">
+              {/* Left Column: Large Hero Photo */}
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                className="group relative rounded-[2.5rem] overflow-hidden shadow-2xl transition-transform duration-300 hover:scale-[1.01]"
+              >
+                <img
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771971600637-Screenshot-2026-02-25-at-5.56.48-AM.png"
+                  alt="Engin8 operations floor with analysts working across pods"
+                  className="w-full h-full object-cover aspect-[4/3] md:aspect-auto"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </motion.div>
+
+              {/* Right Column: Staggered Stack */}
+              <div className="flex flex-col gap-6 md:gap-0 justify-center">
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7, delay: 0.2 }}
+                  className="relative z-10 md:translate-x-3 rounded-3xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.02]"
+                >
+                  <img
+                    src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771971600637-Screenshot-2026-02-25-at-5.56.32-AM.png"
+                    alt="Engin8 analyst focused on marketplace data at their station"
+                    className="w-full h-auto object-cover"
+                  />
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7, delay: 0.4 }}
+                  className="relative z-20 md:-mt-10 md:-translate-x-4 rounded-3xl overflow-hidden shadow-2xl border-4 border-white transition-transform duration-300 hover:scale-[1.02]"
+                >
+                  <img
+                    src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771971600637-Screenshot-2026-02-25-at-5.32.12-AM.png"
+                    alt="Engin8 strategy team reviewing test results together"
+                    className="w-full h-auto object-cover"
+                  />
+                </motion.div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Team Section */}
         <section id="team" className="py-24 bg-primary text-white">
           <div className="max-w-6xl mx-auto px-6">
