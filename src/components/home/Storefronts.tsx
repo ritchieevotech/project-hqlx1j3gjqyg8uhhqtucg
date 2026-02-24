@@ -59,7 +59,7 @@ export const Storefronts = () => {
           </p>
         </motion.div>
 
-        {/* Right Column: Phone Frame */}
+        {/* Right Column: Phone Mockup */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,26 +67,13 @@ export const Storefronts = () => {
           viewport={{ once: true }}
           className="relative"
         >
-          {/* Outer Phone Frame */}
-          <div className="relative mx-auto w-[280px] sm:w-[320px] aspect-[9/19] rounded-[3rem] bg-slate-900 shadow-2xl p-3 border-[8px] border-slate-800">
-            {/* Inner Phone Screen */}
-            <div className="relative h-full w-full rounded-[2.2rem] overflow-hidden bg-slate-100 shadow-inner group">
-              {/* Mockup Image */}
-              <img
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771970639751-Screenshot-2026-02-25-at-6.03.18-AM.png"
-                alt="Amazon storefront shown on mobile for Rick Young Outdoors"
-                className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
-              />
-            </div>
-
-            {/* Hardware details */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-slate-800 rounded-b-2xl flex items-center justify-center gap-2">
-              <div className="w-8 h-1 bg-slate-700 rounded-full" />
-              <div className="w-1.5 h-1.5 bg-slate-700 rounded-full" />
-            </div>
-          </div>
+          <img
+            src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771970608233-Screenshot-2026-02-25-at-6.02.20-AM.png"
+            alt="Rick Young Outdoors Amazon storefront shown inside a phone mockup"
+            className="mx-auto w-[260px] sm:w-[300px] md:w-[320px] h-auto drop-shadow-2xl"
+          />
           
-          {/* Decorative element */}
+          {/* Decorative elements */}
           <div className="absolute -z-10 -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-3xl" />
           <div className="absolute -z-10 -top-6 -left-6 w-32 h-32 bg-brand-blue/10 rounded-full blur-3xl" />
         </motion.div>
