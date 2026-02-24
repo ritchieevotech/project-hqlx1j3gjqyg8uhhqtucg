@@ -45,8 +45,8 @@ export function Hero() {
               className="relative rounded-3xl overflow-hidden"
             >
               <img 
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771973182149-images.png" 
-                alt="Smiling professional woman in a blue shirt pointing to the side on a clean white background"
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/a2648a03-718f-49ca-b21b-0c04d2439496.png" 
+                alt="Portrait of Kristy, smiling in a blue shirt and pointing to the side on a clean white background"
                 className="w-full h-auto object-cover"
               />
             </motion.div>
