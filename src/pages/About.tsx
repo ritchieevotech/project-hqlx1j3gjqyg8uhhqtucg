@@ -37,7 +37,7 @@ const About = () => {
       name: "Lauren Gentile",
       role: "Chief Operations Officer",
       specialty: "Workflow Optimization Specialist",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708508-Screenshot-2026-02-25-at-2.42.34-AM.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771962723162-Gemini-Generated-Image-49hwek49hwek49hw.png",
       position: "object-center"
     },
     {
