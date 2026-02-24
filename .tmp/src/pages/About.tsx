@@ -1,6 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Users, Target, Rocket, CheckCircle2 } from "lucide-react";
+import { Mail, Linkedin, Compass, Target, TrendingUp, Cog, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const About = () => {
@@ -58,19 +58,20 @@ const About = () => {
 
   const values = [
     {
-      title: "Obsession With The Click",
-      description: "We don't just make things look good. We design for the CTR, ensuring your product stands out in a crowded search result.",
-      icon: <Target className="w-6 h-6 text-secondary" />
+      title: "Make decisions with clarity.",
+      icon: <Compass className="w-6 h-6 text-secondary" />
     },
     {
-      title: "Creative That Earns Its Keep",
-      description: "Every pixel must serve a purpose. Our conversion-focused layouts are engineered to strengthen differentiation and drive revenue.",
-      icon: <Rocket className="w-6 h-6 text-accent" />
+      title: "Execute with precision.",
+      icon: <Target className="w-6 h-6 text-accent" />
     },
     {
-      title: "Partners, Not Vendors",
-      description: "We operate as a white-label extension of your team, providing the scalable infrastructure needed to execute at a high level.",
-      icon: <Users className="w-6 h-6 text-primary" />
+      title: "Move with intention.",
+      icon: <TrendingUp className="w-6 h-6 text-primary" />
+    },
+    {
+      title: "Build systems that scale.",
+      icon: <Cog className="w-6 h-6 text-secondary" />
     }
   ];
 
@@ -177,7 +178,7 @@ const About = () => {
         </section>
 
         {/* Values Section */}
-        <section className="py-24">
+        <section className="py-24 bg-gradient-to-b from-slate-50/70 to-background">
           <div className="max-w-6xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -185,13 +186,13 @@ const About = () => {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="font-heading text-3xl md:text-5xl text-primary mb-4 tracking-tight">How We Think About Performance</h2>
+              <h2 className="font-heading text-3xl md:text-5xl text-primary mb-4 tracking-tight">What We Believe</h2>
               <p className="font-sans text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-                Our approach is rooted in data and psychology, ensuring every creative asset earns its keep.
+                Four principles that guide how we think, build, and operate for our partners.
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {values.map((value, idx) => (
                 <motion.div
                   key={value.title}
@@ -199,15 +200,12 @@ const About = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="group bg-white p-8 rounded-[1.75rem] border border-border hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
+                  className="group bg-white p-8 rounded-[1.75rem] border border-border hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 flex flex-col items-center text-center"
                 >
                   <div className="mb-6 p-4 bg-slate-50 rounded-2xl w-fit group-hover:scale-110 transition-transform">
                     {value.icon}
                   </div>
-                  <h3 className="font-heading text-xl md:text-2xl text-primary mb-4 font-bold">{value.title}</h3>
-                  <p className="font-sans text-base text-foreground/70 leading-relaxed">
-                    {value.description}
-                  </p>
+                  <h3 className="font-heading text-xl md:text-2xl text-primary font-bold leading-tight">{value.title}</h3>
                 </motion.div>
               ))}
             </div>
