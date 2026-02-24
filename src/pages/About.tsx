@@ -223,7 +223,7 @@ const About = () => {
               </p>
             </motion.div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {team.map((member, idx) => (
                 <motion.div
                   key={member.name}
