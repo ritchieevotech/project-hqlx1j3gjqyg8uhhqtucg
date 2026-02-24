@@ -10,7 +10,7 @@ const navLinks = [
   { name: "Results", href: "#results" },
   { name: "Method", href: "#services" },
   { name: "Blog", href: "#results" },
-  { name: "About Us", href: "#about-us" },
+  { name: "About Us", href: "/about" },
 ];
 
 export function Header() {
@@ -33,7 +33,13 @@ export function Header() {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <div className="flex items-center group cursor-pointer" onClick={() => {
+          if (window.location.pathname === '/') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          } else {
+            window.location.href = '/';
+          }
+        }}>
           <img
             src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771407866640-Screenshot-2026-02-18-at-5.43.32-PM.png"
             alt="Engin8 logo"
