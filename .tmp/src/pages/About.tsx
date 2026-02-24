@@ -6,28 +6,53 @@ import { Button } from "@/components/ui/button";
 const About = () => {
   const team = [
     {
-      name: "Jeff C.",
-      role: "Founder & Strategy",
-      specialty: "Marketplace Growth Architecture",
-      image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=800"
+      name: "Robert Ferreira",
+      role: "Founder",
+      specialty: "Strategic Marketplace Visionary",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708509-Screenshot-2026-02-25-at-2.42.27-AM.png",
+      position: "object-left"
     },
     {
-      name: "Ari",
+      name: "Lee Loree",
+      role: "Founder",
+      specialty: "E-commerce Operations Expert",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708509-Screenshot-2026-02-25-at-2.42.27-AM.png",
+      position: "object-center"
+    },
+    {
+      name: "Henrik Anderson",
+      role: "Director of Product",
+      specialty: "Product Innovation & Architecture",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708509-Screenshot-2026-02-25-at-2.42.27-AM.png",
+      position: "object-right"
+    },
+    {
+      name: "Blake Gale",
+      role: "Chief Relationship Officer",
+      specialty: "Strategic Partnerships & Growth",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708508-Screenshot-2026-02-25-at-2.42.34-AM.png",
+      position: "object-left"
+    },
+    {
+      name: "Lauren Gentile",
+      role: "Chief Operations Officer",
+      specialty: "Workflow Optimization Specialist",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708508-Screenshot-2026-02-25-at-2.42.34-AM.png",
+      position: "object-center"
+    },
+    {
+      name: "Kristy Pinand",
       role: "Creative Director",
-      specialty: "Visual Conversion Engineering",
-      image: "https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg?auto=compress&cs=tinysrgb&w=800"
+      specialty: "Visual Narrative Design",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708508-Screenshot-2026-02-25-at-2.42.34-AM.png",
+      position: "object-right"
     },
     {
-      name: "Nisha",
-      role: "Marketplace Data Lead",
-      specialty: "SEO & Intent Mapping",
-      image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
-    {
-      name: "Marco",
-      role: "Client Success",
-      specialty: "Agency Operations & Support",
-      image: "https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg?auto=compress&cs=tinysrgb&w=800"
+      name: "Jeff Scolnick",
+      role: "Chief Go-To-Market Officer",
+      specialty: "Market Entry & Scaling Strategy",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771958708509-Screenshot-2026-02-25-at-2.42.44-AM.png",
+      position: "object-center"
     }
   ];
 
@@ -204,7 +229,7 @@ const About = () => {
               </p>
             </motion.div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {team.map((member, idx) => (
                 <motion.div
                   key={member.name}
@@ -212,18 +237,18 @@ const About = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="group bg-white/5 rounded-[1.75rem] border border-white/10 overflow-hidden hover:bg-white/10 transition-all duration-300"
+                  className="group bg-white/5 rounded-[1.75rem] border border-white/10 overflow-hidden hover:bg-white/10 hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
                 >
                   <div className="aspect-[4/5] overflow-hidden">
                     <img
                       src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover group-hover:scale-[1.03] transition-all duration-500"
+                      alt={`Portrait of ${member.name}, ${member.role}`}
+                      className={`w-full h-full object-cover ${member.position} group-hover:scale-[1.03] transition-all duration-500`}
                     />
                   </div>
                   <div className="p-6">
                     <h3 className="font-heading text-xl font-bold mb-1">{member.name}</h3>
-                    <p className="font-sans text-sm text-secondary font-bold mb-3">{member.role}</p>
+                    <p className="font-sans text-sm text-secondary font-semibold mb-3">{member.role}</p>
                     <p className="font-sans text-xs text-white/60 leading-relaxed italic border-t border-white/10 pt-3">
                       {member.specialty}
                     </p>
