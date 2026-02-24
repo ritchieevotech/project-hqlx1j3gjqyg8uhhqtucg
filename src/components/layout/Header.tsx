@@ -8,6 +8,9 @@ const navLinks = [
   { name: "Case Studies", href: "#case-studies" },
   { name: "Services", href: "#services" },
   { name: "Results", href: "#results" },
+  { name: "Method", href: "#services" },
+  { name: "Blog", href: "#results" },
+  { name: "About Us", href: "#about-us" },
 ];
 
 export function Header() {
