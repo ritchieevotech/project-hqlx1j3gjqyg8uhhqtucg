@@ -94,7 +94,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <p className="font-heading text-xs md:text-sm font-bold uppercase tracking-[0.25em] text-white/70 mb-6">
+              <p className="font-heading text-sm md:text-base font-bold uppercase tracking-[0.25em] text-white/70 mb-6">
                 ABOUT ENGIN8.IO
               </p>
               
@@ -102,11 +102,11 @@ const About = () => {
                 <Infinity className="h-8 w-8 text-white" />
               </div>
 
-              <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl leading-[1.0] tracking-tight mb-6">
+              <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl leading-[1.0] tracking-tight mb-6">
                 The Engine Behind Ecommerce Growth
               </h1>
 
-              <div className="font-sans text-base md:text-lg text-white/85 leading-relaxed max-w-2xl mx-auto space-y-4">
+              <div className="font-sans text-lg md:text-xl text-white/85 leading-relaxed max-w-2xl mx-auto space-y-4">
                 <p>
                   Engin8 supports brands and agencies across Amazon, Walmart, TikTok, and beyond with a model built for real marketplace performance.
                 </p>
