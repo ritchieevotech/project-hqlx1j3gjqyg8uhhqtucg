@@ -73,9 +73,9 @@ export const Storefronts = () => {
             <div className="relative h-full w-full rounded-[2.2rem] overflow-hidden bg-slate-100 shadow-inner group">
               {/* Mockup Image */}
               <img
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771969895762-Orange-Black-White-Creative-Corporate-Business-Flyer-Template-1080-x-2675-px-1.png"
+                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771970639751-Screenshot-2026-02-25-at-6.03.18-AM.png"
                 alt="Amazon storefront shown on mobile for Rick Young Outdoors"
-                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
             </div>
 
