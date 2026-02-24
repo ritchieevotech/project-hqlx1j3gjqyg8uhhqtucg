@@ -87,7 +87,7 @@ const About = () => {
       
       <main className="pt-28 md:pt-40 pb-16">
         {/* Hero Section */}
-        <section className="relative mb-24 overflow-hidden bg-gradient-to-b from-secondary via-accent to-primary text-white">
+        <section className="relative mb-24 overflow-hidden bg-primary text-white">
           <div className="max-w-4xl mx-auto px-6 py-24 md:py-32 text-center relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -115,12 +115,6 @@ const About = () => {
                 </p>
               </div>
             </motion.div>
-          </div>
-          
-          {/* Subtle decorative background glow */}
-          <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-            <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-white/10 rounded-full blur-[100px]" />
-            <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[100px]" />
           </div>
         </section>
 
