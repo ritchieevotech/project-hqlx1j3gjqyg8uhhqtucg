@@ -1,6 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Compass, Target, TrendingUp, Cog, CheckCircle2 } from "lucide-react";
+import { Mail, Linkedin, Compass, Target, TrendingUp, Cog, CheckCircle2, Infinity } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const About = () => {
@@ -87,40 +87,42 @@ const About = () => {
       
       <main className="pt-28 md:pt-40 pb-16">
         {/* Hero Section */}
-        <div className="max-w-6xl mx-auto px-6 mb-24">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center md:text-left max-w-4xl"
-          >
-            <p className="font-heading text-xs md:text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground/80 mb-4">
-              ABOUT ENGIN8.IO
-            </p>
-            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-primary leading-[0.9] tracking-tighter mb-8">
-              The Engine Behind High-Converting Amazon Experiences
-            </h1>
-            <p className="font-sans text-lg md:text-xl text-foreground/80 leading-relaxed max-w-2xl mb-12">
-              Engin8.io was built to close the gap between traffic and conversion. We operate as a white-label Amazon optimization partner, supporting agencies and brands with performance-first creative execution.
-            </p>
+        <section className="relative mb-24 overflow-hidden bg-gradient-to-b from-secondary via-accent to-primary text-white">
+          <div className="max-w-4xl mx-auto px-6 py-24 md:py-32 text-center relative z-10">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              <p className="font-heading text-xs md:text-sm font-bold uppercase tracking-[0.25em] text-white/70 mb-6">
+                ABOUT ENGIN8.IO
+              </p>
+              
+              <div className="mx-auto mb-8 flex h-16 w-16 items-center justify-center rounded-full bg-white/10 backdrop-blur-sm">
+                <Infinity className="h-8 w-8 text-white" />
+              </div>
 
-            {/* Stat Strip */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
-              {stats.map((stat, idx) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 0.2 + idx * 0.1 }}
-                  className="bg-primary/5 border border-primary/10 rounded-2xl p-6 text-center md:text-left"
-                >
-                  <div className="font-heading text-3xl md:text-4xl text-primary font-bold mb-1">{stat.value}</div>
-                  <div className="font-sans text-xs md:text-sm text-muted-foreground uppercase tracking-wider font-semibold">{stat.label}</div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
+              <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl leading-[1.0] tracking-tight mb-6">
+                The Engine Behind Ecommerce Growth
+              </h1>
+
+              <div className="font-sans text-base md:text-lg text-white/85 leading-relaxed max-w-2xl mx-auto space-y-4">
+                <p>
+                  Engin8 supports brands and agencies across Amazon, Walmart, TikTok, and beyond with a model built for real marketplace performance.
+                </p>
+                <p className="italic opacity-90">
+                  The eight represents continuous motion: capabilities reinforcing each other over time.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+          
+          {/* Subtle decorative background glow */}
+          <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+            <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-white/10 rounded-full blur-[100px]" />
+            <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[100px]" />
+          </div>
+        </section>
 
         {/* Company Story Section */}
         <section className="py-24 bg-slate-50/50">
