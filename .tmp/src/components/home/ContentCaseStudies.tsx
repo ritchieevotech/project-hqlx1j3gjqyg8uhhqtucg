@@ -25,7 +25,7 @@ const caseStudies = [
     label: "CASE STUDY · BEAUTY · Skincare Serum",
     title: "Skincare Brand Drops CPC 34% With a 3-Second Video Hook Overhaul",
     image:
-      "https://images.pexels.com/photos/1181714/pexels-photo-1181714.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772052928800-images-8.png",
     link: "/case-studies/skincare-serum",
   },
   {
