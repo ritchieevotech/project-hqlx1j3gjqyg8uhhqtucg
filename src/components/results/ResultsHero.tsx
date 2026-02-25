@@ -14,16 +14,15 @@ export function ResultsHero() {
           <div className="flex flex-wrap gap-4 mb-6">
             <div className="flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-full">
               <div className="w-2 h-2 rounded-full bg-accent" />
-              <span className="font-sans text-xs font-bold text-muted-foreground uppercase tracking-wider">150+ Brands per year</span>
+              <span className="font-sans text-xs font-bold text-muted-foreground uppercase tracking-wider">100+ Brands per year</span>
             </div>
             <div className="flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-full">
               <div className="w-2 h-2 rounded-full bg-secondary" />
-              <span className="font-sans text-xs font-bold text-muted-foreground uppercase tracking-wider">300+ Split tests per year</span>
+              <span className="font-sans text-xs font-bold text-muted-foreground uppercase tracking-wider">200+ Split tests per year</span>
             </div>
           </div>
 
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-[0.95] mb-6 text-primary">
-            Updated <span className="text-accent italic">2026</span> <br /> 
             Amazon Experiments Data
           </h1>
 
@@ -37,10 +36,6 @@ export function ResultsHero() {
                 BOOK A CALL
               </a>
             </Button>
-            <div className="flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-2xl border border-emerald-100">
-              <CheckCircle2 size={20} />
-              <span className="font-sans font-semibold">Verified 2023-2026 Data</span>
-            </div>
           </div>
         </motion.div>
 
