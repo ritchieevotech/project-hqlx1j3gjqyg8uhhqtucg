@@ -48,8 +48,8 @@ export const APlusShowcase = () => {
                     key={index} 
                     className={`${
                       isTall 
-                        ? "w-[230px] md:w-[260px] lg:w-[280px]" 
-                        : "w-[200px] md:w-[220px] lg:w-[240px]"
+                        ? "w-[210px] md:w-[230px] lg:w-[250px]" 
+                        : "w-[190px] md:w-[205px] lg:w-[220px]"
                     } flex-shrink-0 rounded-2xl md:rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-border bg-slate-100 h-fit`}
                   >
                     <img
