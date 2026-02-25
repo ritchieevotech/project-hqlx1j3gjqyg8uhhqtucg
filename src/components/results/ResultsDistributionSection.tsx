@@ -31,8 +31,8 @@ export function ResultsDistributionSection() {
           className="bg-white p-8 md:p-12 rounded-[3rem] shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden"
         >
           <div className="mb-8">
-            <h3 className="font-heading text-3xl font-bold text-primary mb-2">Orders Increase Distribution</h3>
-            <p className="font-sans text-muted-foreground">Percentage of clients by order increase ranges</p>
+            <h3 className="font-heading text-3xl font-bold text-primary mb-2">Sales Increase Distribution</h3>
+            <p className="font-sans text-muted-foreground">Percentage of clients by sale increase ranges</p>
           </div>
 
           <div className="h-[350px] w-full">
