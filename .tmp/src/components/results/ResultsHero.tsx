@@ -50,17 +50,14 @@ export function ResultsHero() {
             <div className="absolute -right-4 -top-4 w-24 h-24 bg-white/10 rounded-full blur-2xl transition-transform group-hover:scale-150" />
             <div className="relative z-10">
               <div className="flex items-center gap-2 text-white/70 mb-4 font-heading font-bold uppercase tracking-widest text-sm">
-                <Trophy size={16} />
-                A+ Content Refresh
-              </div>
-              <div className="font-display text-7xl md:text-8xl leading-none mb-2">1,320%</div>
-              <p className="font-sans text-sm text-white/80 leading-snug">
-                Max order increase from a top-performing 2026 test
-              </p>
-              <div className="mt-6 flex items-center gap-1 text-secondary font-bold">
                 <ArrowUpRight size={20} />
                 <span>TOP TIER PERFORMANCE</span>
               </div>
+              <div className="font-display text-7xl md:text-8xl leading-none mb-2">1,320%</div>
+              <p className="font-sans text-sm text-white/80 leading-snug">
+                Highest order lift achieved from a top-performing 2026 experiment
+              </p>
+              
             </div>
           </div>
 
@@ -69,17 +66,14 @@ export function ResultsHero() {
             <div className="absolute -right-4 -top-4 w-24 h-24 bg-white/10 rounded-full blur-2xl transition-transform group-hover:scale-150" />
             <div className="relative z-10">
               <div className="flex items-center gap-2 text-white/70 mb-4 font-heading font-bold uppercase tracking-widest text-sm">
-                <Trophy size={16} />
-                Complete Brand Refresh
-              </div>
-              <div className="font-display text-7xl md:text-8xl leading-none mb-2">2,980%</div>
-              <p className="font-sans text-sm text-white/80 leading-snug">
-                Max sales increase achieved by a 2026 full-funnel brand refresh
-              </p>
-              <div className="mt-6 flex items-center gap-1 text-white font-bold">
                 <ArrowUpRight size={20} />
                 <span>RECORD GROWTH</span>
               </div>
+              <div className="font-display text-7xl md:text-8xl leading-none mb-2">2,980%</div>
+              <p className="font-sans text-sm text-white/80 leading-snug">
+                Largest sales lift generated from a full-funnel brand refresh executed in 2026
+              </p>
+              
             </div>
           </div>
         </motion.div>
