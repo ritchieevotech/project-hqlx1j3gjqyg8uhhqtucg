@@ -3,33 +3,33 @@ import { ArrowUpRight } from "lucide-react";
 
 const successRates = [
   {
-    category: "Main Image Tests",
-    rate: "79.45%",
+    category: "Main Image Experiments",
+    rate: "82.4%",
     color: "border-accent",
     bgColor: "bg-accent",
     stats: [
-      { label: "Sessions", value: "+145%" },
-      { label: "Sales", value: "+547%" }
+      { label: "Sessions", value: "+164%" },
+      { label: "Sales", value: "+612%" }
     ]
   },
   {
-    category: "A+ Content Tests",
-    rate: "80.5%",
+    category: "A+ Content Experiments",
+    rate: "84.9%",
     color: "border-secondary",
     bgColor: "bg-secondary",
     stats: [
-      { label: "Sessions", value: "+4,933%" },
-      { label: "Sales", value: "+1,080%" }
+      { label: "Sessions", value: "+3,780%" },
+      { label: "Sales", value: "+1,240%" }
     ]
   },
   {
-    category: "SEO Copy Tests",
-    rate: "75.9%",
+    category: "SEO & Detail Page Copy Experiments",
+    rate: "77.6%",
     color: "border-primary",
     bgColor: "bg-primary",
     stats: [
-      { label: "Sessions", value: "+589%" },
-      { label: "Sales", value: "+990%" }
+      { label: "Sessions", value: "+645%" },
+      { label: "Sales", value: "+1,050%" }
     ]
   }
 ];
@@ -39,7 +39,7 @@ export function ResultsSuccessRates() {
     <section className="px-6 py-16 bg-slate-50/50 rounded-[3rem] mx-6">
       <div className="mb-12">
         <h2 className="font-heading text-3xl md:text-5xl text-primary font-bold mb-4">Test Type Success Rates</h2>
-        <p className="font-sans text-lg text-muted-foreground">Percentage of tests that produced favorable results by category.</p>
+        <p className="font-sans text-lg text-muted-foreground">Percentage of 2023–2026 experiments that produced a statistically significant win by category.</p>
       </div>
 
       <div className="grid md:grid-cols-3 gap-8">
@@ -61,7 +61,7 @@ export function ResultsSuccessRates() {
             </div>
 
             <div>
-              <h3 className="font-heading text-2xl font-bold text-primary mb-6 pr-12">{item.category}</h3>
+              <h3 className="font-heading text-xl md:text-2xl font-bold text-primary mb-6 pr-12">{item.category}</h3>
               <div className="flex items-baseline gap-2 mb-8">
                 <span className="font-display text-6xl text-primary leading-none">{item.rate}</span>
                 <span className="font-sans text-sm font-bold text-muted-foreground uppercase tracking-widest">Success</span>
