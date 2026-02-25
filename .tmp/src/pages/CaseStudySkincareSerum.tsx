@@ -40,8 +40,8 @@ const CaseStudySkincareSerum = () => {
               {/* Hero Image */}
               <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[16/9] mb-12">
                 <img
-                  src="https://images.pexels.com/photos/1181714/pexels-photo-1181714.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                  alt="Professional woman reviewing skincare ad performance on a laptop"
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772053199083-images-9.png"
+                  alt="FRÉ vitamin C serum bottle on blue background with serum textures and lemon slices"
                   className="w-full h-full object-cover"
                 />
               </div>
