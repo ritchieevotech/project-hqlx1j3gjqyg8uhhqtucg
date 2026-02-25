@@ -112,7 +112,7 @@ export const SocialProof = () => {
               <div className="flex items-center gap-3 mb-4 border-b pb-2">
                 <div className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold text-xs">J</div>
                 <div className="flex-1">
-                  <p className="text-[10px] text-gray-400">From: JM</p>
+                  <p className="text-[10px] text-gray-400">From: Jessica M.</p>
                   <p className="text-xs font-bold text-gray-700">Subject: Re: Next Steps</p>
                 </div>
               </div>
