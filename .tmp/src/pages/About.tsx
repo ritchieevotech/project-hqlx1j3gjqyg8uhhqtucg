@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/Header";
 import { motion } from "framer-motion";
 import { Mail, Linkedin, Compass, Target, TrendingUp, Cog, CheckCircle2, Infinity } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const About = () => {
   const team = [
@@ -311,6 +312,43 @@ const About = () => {
                 </motion.div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Video Overview Section */}
+        <section className="py-20 px-6 bg-background">
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-10"
+            >
+              <h2 className="font-heading text-3xl md:text-4xl text-primary mb-4 tracking-tight">
+                Inside Engin8 in 3 Minutes
+              </h2>
+              <p className="font-sans text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+                A quick walkthrough of how our team, testing infrastructure, and creative process work together to drive marketplace performance.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="relative"
+            >
+              <AspectRatio ratio={16 / 9} className="rounded-[2rem] overflow-hidden shadow-2xl border border-border/60 bg-black">
+                <iframe
+                  src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview"
+                  title="Engin8 overview video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="w-full h-full border-0"
+                />
+              </AspectRatio>
+            </motion.div>
           </div>
         </section>
 
