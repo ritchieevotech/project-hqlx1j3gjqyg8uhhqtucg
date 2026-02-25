@@ -54,24 +54,6 @@ export const WorkShowcase = () => {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 pb-12 mt-12 relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="rounded-[2rem] overflow-hidden border border-border bg-slate-50 shadow-xl shadow-slate-200/80 p-4 md:p-6"
-        >
-          <div className="bg-white rounded-[1.5rem] overflow-hidden">
-            <img
-              src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772045010659-Screenshot-2026-02-26-at-2.43.08-AM.png"
-              alt="Sour Power brand A+ story, benefits, and flavor comparison graphic showing the original since 1985"
-              className="w-full h-full object-contain"
-            />
-          </div>
-        </motion.div>
-      </div>
-      
     </section>
   );
 };
