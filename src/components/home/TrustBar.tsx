@@ -102,7 +102,7 @@ export const TrustBar = () => {
             className="flex justify-center items-center mt-12"
           >
             <div className="w-full max-w-xl md:max-w-2xl px-4">
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 md:gap-8 items-center justify-items-center">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 md:gap-8 items-center justify-items-center">
                 {certificationLogos.map((logo) => (
                   <img
                     key={logo.alt}
