@@ -316,46 +316,38 @@ const About = () => {
         </section>
 
         {/* Video Overview Section */}
-        <section className="py-20 px-6 bg-background">
+        <section className="py-24 px-6 bg-background">
           <div className="max-w-6xl mx-auto">
-            <div className="grid gap-10 md:gap-16 md:grid-cols-2 items-center">
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-                className="text-left"
-              >
-                <h2 className="font-heading text-3xl md:text-5xl text-primary mb-6 tracking-tight">
-                  Inside Engin8 in 3 Minutes
-                </h2>
-                <div className="space-y-4 font-sans text-base md:text-lg text-foreground/80 leading-relaxed">
-                  <p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <div className="grid gap-10 md:gap-12 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-center">
+                <div className="flex flex-col">
+                  <h2 className="font-heading text-3xl md:text-4xl text-primary mb-4 tracking-tight text-center md:text-left">
+                    Inside Engin8 in 3 Minutes
+                  </h2>
+                  <p className="font-sans text-base md:text-lg text-muted-foreground max-w-xl mx-auto text-center md:text-left md:max-w-none">
                     A quick walkthrough of how our team, testing infrastructure, and creative process work together to drive marketplace performance.
                   </p>
                 </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-                className="flex justify-center md:justify-end"
-              >
-                <div className="w-full max-w-xs md:max-w-sm">
-                  <AspectRatio ratio={9 / 16} className="rounded-[2rem] overflow-hidden shadow-2xl border border-border/60 bg-black">
-                    <iframe
-                      src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview"
-                      title="Engin8 overview video"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                      className="w-full h-full border-0"
-                    />
-                  </AspectRatio>
+                <div className="w-full">
+                  <div className="md:ml-auto max-w-xs sm:max-w-sm w-full mx-auto md:mr-0 rounded-[2rem] overflow-hidden shadow-2xl border border-border/60 bg-black">
+                    <AspectRatio ratio={9 / 16}>
+                      <iframe
+                        src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview"
+                        title="Engin8 overview video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        className="w-full h-full border-0"
+                      />
+                    </AspectRatio>
+                  </div>
                 </div>
-              </motion.div>
-            </div>
+              </div>
+            </motion.div>
           </div>
         </section>
 
