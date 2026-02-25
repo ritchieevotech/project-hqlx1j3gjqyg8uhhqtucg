@@ -30,7 +30,7 @@ const CaseStudyFunctionalSnack = () => {
               className="flex flex-col"
             >
               <p className="font-sans text-xs md:text-sm font-semibold uppercase tracking-widest text-muted-foreground/80 mb-4">
-                CASE STUDY 03 · FOOD & BEVERAGE · Functional Snack Category
+                CASE STUDY 03 · SOUR POWER · Functional Snack Category
               </p>
               
               <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary leading-tight tracking-tight mb-6 max-w-4xl">
@@ -40,7 +40,7 @@ const CaseStudyFunctionalSnack = () => {
               {/* Hero Image */}
               <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[16/9] mb-12">
                 <img
-                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772035298007-Screenshot-2026-02-26-at-12.01.04-AM.png"
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772035636619-Screenshot-2026-02-26-at-12.07.05-AM.png"
                   alt="Colorful Sour Power candy product display with festive character made from candy strips"
                   className="w-full h-full object-cover"
                 />
@@ -71,7 +71,7 @@ const CaseStudyFunctionalSnack = () => {
               {/* The Situation */}
               <section className="mb-16">
                 <p className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
-                  CASE STUDY 03 · FOOD & BEVERAGE · Functional Snack Category
+                  CASE STUDY 03 · SOUR POWER · Functional Snack Category
                 </p>
                 <h2 className="font-heading text-2xl md:text-4xl text-primary mb-6">THE SITUATION</h2>
                 <div className="font-sans text-base md:text-lg text-foreground/80 leading-relaxed max-w-3xl">
