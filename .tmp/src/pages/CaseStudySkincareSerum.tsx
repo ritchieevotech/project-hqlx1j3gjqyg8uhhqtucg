@@ -86,8 +86,8 @@ const CaseStudySkincareSerum = () => {
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-100 aspect-[4/3] mb-4 flex items-center justify-center">
                     <img
-                      src="https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=800"
-                      alt="Before: White background hero image"
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772053654037-images-10.png"
+                      alt="FRÉ vitamin C serum bottle with full ingredient list on blue background"
                       className="w-full h-full object-cover grayscale opacity-60"
                     />
                   </div>
@@ -97,8 +97,8 @@ const CaseStudySkincareSerum = () => {
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-secondary/30 bg-slate-50 aspect-[4/3] mb-4 shadow-lg shadow-secondary/10 flex items-center justify-center">
                     <img
-                      src="https://images.pexels.com/photos/3762466/pexels-photo-3762466.jpeg?auto=compress&cs=tinysrgb&w=800"
-                      alt="After: Lifestyle hero image"
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772053654038-images-11.png"
+                      alt="FRÉ vitamin C serum packaging with clean and vegan claim icons"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -114,7 +114,11 @@ const CaseStudySkincareSerum = () => {
               <div className="grid md:grid-cols-2 gap-8 mb-4">
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-100 aspect-[4/3] mb-4 flex items-center justify-center bg-gray-200">
-                    <div className="text-muted-foreground/40 font-heading text-2xl">LOGO ANIMATION</div>
+                    <img
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772053654038-images-12.png"
+                      alt="FRÉ vitamin C serum bottle pouring product on bright yellow background"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="font-heading text-lg text-primary mb-1">[ IMAGE ] BEFORE: Video Frame 1 (4 sec delay)</h4>
                   <p className="text-sm text-muted-foreground">Screenshot of old video opening — logo animation, no product visible</p>
@@ -122,8 +126,8 @@ const CaseStudySkincareSerum = () => {
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-secondary/30 bg-slate-50 aspect-[4/3] mb-4 shadow-lg shadow-secondary/10 flex items-center justify-center">
                     <img
-                      src="https://images.pexels.com/photos/3762465/pexels-photo-3762465.jpeg?auto=compress&cs=tinysrgb&w=800"
-                      alt="Instant hook video frame"
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772053654038-images-13.png"
+                      alt="FRÉ 10% vitamin C brightening serum bottle with lemons and headline text"
                       className="w-full h-full object-cover"
                     />
                   </div>
