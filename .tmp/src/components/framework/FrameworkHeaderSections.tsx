@@ -17,7 +17,7 @@ export const FrameworkHero = () => {
               Creative Strategy
             </Badge>
             <h1 className="font-display text-6xl md:text-8xl lg:text-9xl text-primary leading-none tracking-tight uppercase mb-8">
-              The Engin8.ai <br />
+              The Engin8 <br />
               <span className="squiggly-underline text-secondary">Framework</span>
             </h1>
             <p className="font-sans text-xl md:text-2xl text-foreground/70 max-w-2xl mx-auto mb-10">
