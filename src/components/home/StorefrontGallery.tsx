@@ -25,6 +25,10 @@ const storefronts = [
     image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771973182149-images.png",
     brand: "Popfully",
   },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772049254566-images-6.png",
+    brand: "Top Pops",
+  },
 ];
 
 export const StorefrontGallery = () => {
