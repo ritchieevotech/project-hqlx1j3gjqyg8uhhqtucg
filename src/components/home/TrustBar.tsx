@@ -103,12 +103,14 @@ export const TrustBar = () => {
           >
             <div className="w-full max-w-xl md:max-w-2xl px-4">
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 md:gap-8 items-center justify-items-center">
-                {certificationLogos.map((logo) => (
+                {certificationLogos.map((logo, index) => (
                   <img
                     key={logo.alt}
                     src={logo.src}
                     alt={logo.alt}
-                    className="h-26 md:h-30 w-auto object-contain hover:scale-105 transition-transform duration-300"
+                    className={`${
+                      index === 2 ? "h-32 md:h-40" : "h-26 md:h-30"
+                    } w-auto object-contain hover:scale-105 transition-transform duration-300`}
                   />
                 ))}
               </div>
