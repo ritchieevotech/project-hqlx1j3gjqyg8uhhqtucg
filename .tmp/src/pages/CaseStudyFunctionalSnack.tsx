@@ -85,18 +85,22 @@ const CaseStudyFunctionalSnack = () => {
               <div className="grid md:grid-cols-2 gap-8 mb-4">
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-50 aspect-[4/3] mb-4">
-                    <div className="w-full h-full bg-muted flex items-center justify-center">
-                       <span className="text-muted-foreground/40 font-heading text-xl">[ PRODUCT PHOTO ]</span>
-                    </div>
+                    <img
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772044675544-Screenshot-2026-02-26-at-2.33.04-AM.png"
+                      alt="Sour Power Straws original strawberry candy box with American flag and heritage badge"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="font-heading text-lg text-primary mb-1">[ IMAGE ] BEFORE: Product-Only Hero</h4>
                   <p className="text-sm text-muted-foreground">Screenshot of old hero — macro product shot, no human or context</p>
                 </div>
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-secondary/30 bg-slate-50 aspect-[4/3] mb-4 shadow-lg shadow-secondary/10">
-                    <div className="w-full h-full bg-slate-100 flex items-center justify-center">
-                       <span className="text-primary/40 font-heading text-xl">[ ATHLETE LIFESTYLE ]</span>
-                    </div>
+                    <img
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772044675542-Screenshot-2026-02-26-at-2.33.45-AM.png"
+                      alt="Sour Power Straws candy box on birthday party table with balloons and cake"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="font-heading text-lg text-primary mb-1">[ IMAGE ] AFTER: Athlete Lifestyle Hero</h4>
                   <p className="text-sm text-muted-foreground">Screenshot of new hero — athlete in context, identity-matched to ICP</p>
@@ -171,14 +175,22 @@ const CaseStudyFunctionalSnack = () => {
               <div className="grid md:grid-cols-2 gap-8 mb-4">
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-50 aspect-[4/3] mb-4 flex items-center justify-center">
-                    <span className="text-muted-foreground/40 font-heading text-xl">BRAND STORY FOCUS</span>
+                    <img
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772044675544-Screenshot-2026-02-26-at-2.33.21-AM.png"
+                      alt="Pile of Sour Power candy straws with icons highlighting original, chewy fun, sour and sweet, and vegan"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="font-heading text-lg text-primary mb-1">[ IMAGE ] BEFORE: A+ Led with Brand Story</h4>
                   <p className="text-sm text-muted-foreground">Screenshot of old A+ opening module — brand-first, not shopper-first</p>
                 </div>
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-secondary/30 bg-slate-50 aspect-[4/3] mb-4 shadow-lg shadow-secondary/10 flex items-center justify-center">
-                    <span className="text-primary/40 font-heading text-xl">TASTE PROOF FOCUS</span>
+                    <img
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772044675544-Screenshot-2026-02-26-at-2.33.33-AM.png"
+                      alt="Mother and daughter decorating colorful Sour Power candy creations at a kitchen table"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="font-heading text-lg text-primary mb-1">[ IMAGE ] AFTER: A+ Led with Taste Proof</h4>
                   <p className="text-sm text-muted-foreground">Screenshot of new A+ — social proof, flavor imagery, real reviews up front</p>
