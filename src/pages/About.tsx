@@ -316,25 +316,44 @@ const About = () => {
         </section>
 
         {/* Video Overview Section */}
-        <section className="py-24 px-6 bg-background">
+        <section className="py-24 px-6 bg-background overflow-hidden">
           <div className="max-w-6xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
-            >
-              <div className="grid gap-10 md:gap-12 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-center">
-                <div className="flex flex-col">
-                  <h2 className="font-heading text-3xl md:text-4xl text-primary mb-4 tracking-tight text-center md:text-left">
-                    Inside Engin8 in 3 Minutes
-                  </h2>
-                  <p className="font-sans text-base md:text-lg text-muted-foreground max-w-xl mx-auto text-center md:text-left md:max-w-none">
-                    A quick walkthrough of how our team, testing infrastructure, and creative process work together to drive marketplace performance.
-                  </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                className="text-center md:text-left"
+              >
+                <p className="font-heading text-sm md:text-base font-bold uppercase tracking-[0.25em] text-secondary mb-4">
+                  VIDEO OVERVIEW
+                </p>
+                <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary mb-8 tracking-tight leading-[1.1]">
+                  Inside Engin8 in <span className="text-secondary">3 Minutes</span>
+                </h2>
+                <p className="font-sans text-lg md:text-xl text-foreground/80 leading-relaxed max-w-2xl mx-auto md:mx-0">
+                  A quick walkthrough of how our team, testing infrastructure, and creative process work together to drive marketplace performance.
+                </p>
+                
+                {/* Decorative element */}
+                <div className="mt-10 flex justify-center md:justify-start">
+                  <div className="h-1.5 w-24 bg-secondary/30 rounded-full" />
                 </div>
-                <div className="w-full">
-                  <div className="md:ml-auto max-w-xs sm:max-w-sm w-full mx-auto md:mr-0 rounded-[2rem] overflow-hidden shadow-2xl border border-border/60 bg-black">
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7, delay: 0.2 }}
+                className="flex justify-center md:justify-end"
+              >
+                <div className="relative w-full max-w-[320px] group">
+                  {/* Decorative background blob */}
+                  <div className="absolute -inset-4 bg-gradient-to-tr from-secondary/20 to-accent/10 rounded-[3rem] blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500" />
+                  
+                  <div className="relative rounded-[3rem] overflow-hidden shadow-2xl border-[8px] border-white bg-black ring-1 ring-border/50">
                     <AspectRatio ratio={9 / 16}>
                       <iframe
                         src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview"
@@ -345,9 +364,14 @@ const About = () => {
                       />
                     </AspectRatio>
                   </div>
+
+                  {/* Floating badge decoration */}
+                  <div className="absolute -bottom-6 -right-6 h-20 w-20 bg-secondary rounded-full flex items-center justify-center shadow-lg border-4 border-white rotate-12 hidden md:flex">
+                    <span className="font-heading text-primary font-bold text-[10px] tracking-widest text-center leading-tight uppercase">WATCH<br/>NOW</span>
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         </section>
 
