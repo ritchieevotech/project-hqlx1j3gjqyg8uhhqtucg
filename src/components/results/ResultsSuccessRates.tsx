@@ -9,7 +9,7 @@ const successRates = [
     bgColor: "bg-accent",
     stats: [
       { label: "Sessions", value: "+145%" },
-      { label: "Orders", value: "+547%" }
+      { label: "Sales", value: "+547%" }
     ]
   },
   {
@@ -19,7 +19,7 @@ const successRates = [
     bgColor: "bg-secondary",
     stats: [
       { label: "Sessions", value: "+4,933%" },
-      { label: "Orders", value: "+1,080%" }
+      { label: "Sales", value: "+1,080%" }
     ]
   },
   {
@@ -29,7 +29,7 @@ const successRates = [
     bgColor: "bg-primary",
     stats: [
       { label: "Sessions", value: "+589%" },
-      { label: "Orders", value: "+990%" }
+      { label: "Sales", value: "+990%" }
     ]
   }
 ];
