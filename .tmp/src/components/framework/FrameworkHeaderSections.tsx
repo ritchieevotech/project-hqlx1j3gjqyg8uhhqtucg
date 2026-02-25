@@ -31,45 +31,32 @@ export const FrameworkHero = () => {
           </motion.div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto">
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-center"
           >
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary leading-tight mb-6">
+            <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight mb-8 uppercase">
               How Brands Increase Amazon Sales & E‑Commerce Revenue
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-12 max-w-3xl mx-auto">
               In the hyper-competitive Amazon marketplace, average creative is no longer enough. To win, you need a framework that combines data-driven marketing with world-class design.
             </p>
-            <div className="space-y-4">
+            <div className="grid sm:grid-cols-2 gap-4 md:gap-6 text-left">
               {[
                 "Strategic conversion-first design",
                 "Psychology-based buyer journeys",
                 "AI-ready visual architecture",
                 "Continuous performance optimization"
               ].map((item, i) => (
-                <div key={i} className="flex items-center gap-3 text-primary font-semibold">
-                  <CheckCircle2 className="w-6 h-6 text-secondary" />
+                <div key={i} className="flex items-center gap-4 text-primary font-bold text-lg p-6 rounded-3xl bg-slate-50 border border-border shadow-sm hover:shadow-md transition-shadow">
+                  <CheckCircle2 className="w-8 h-8 text-secondary shrink-0" />
                   <span>{item}</span>
                 </div>
               ))}
             </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="relative"
-          >
-            <div className="absolute inset-0 bg-secondary/10 rounded-3xl -rotate-3 scale-105 -z-10" />
-            <img
-              src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771973984577-kristy.png"
-              alt="Kristy, founder of Engin8, smiling and pointing toward the framework details"
-              className="w-full h-auto rounded-3xl object-contain shadow-2xl"
-            />
           </motion.div>
         </div>
       </div>
