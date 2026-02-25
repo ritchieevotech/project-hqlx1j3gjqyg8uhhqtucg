@@ -5,18 +5,18 @@ import {
 } from "recharts";
 
 const pieData = [
-  { name: "10–20%", value: 45.5, color: "#1F2F5B" },
-  { name: "20–80%", value: 33.3, color: "#FBA834" },
-  { name: "80–200%", value: 13.2, color: "#60C6F0" },
-  { name: "200–600%", value: 5.8, color: "#E1E1E1" },
-  { name: "600–2000%", value: 2.1, color: "#10b981" }
+  { name: "10–20%", value: 41, color: "#1F2F5B" },
+  { name: "20–80%", value: 31, color: "#FBA834" },
+  { name: "80–200%", value: 20, color: "#60C6F0" },
+  { name: "200–600%", value: 4, color: "#E1E1E1" },
+  { name: "600–2000%", value: 3, color: "#10b981" }
 ];
 
 const barData = [
-  { name: "Total", count: 238, fill: "#1F2F5B" },
-  { name: "Favorable", count: 189, fill: "#10b981" },
-  { name: "In Progress", count: 29, fill: "#FBA834" },
-  { name: "Inconclusive", count: 20, fill: "#60C6F0" }
+  { name: "Total", count: 120, fill: "#1F2F5B" },
+  { name: "Favorable", count: 102, fill: "#10b981" },
+  { name: "In Progress", count: 10, fill: "#FBA834" },
+  { name: "Inconclusive", count: 8, fill: "#60C6F0" }
 ];
 
 export function ResultsDistributionSection() {
