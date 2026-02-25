@@ -16,7 +16,6 @@ const Results = () => {
           <ResultsHero />
           <ResultsSuccessRates />
           <ResultsDistributionSection />
-          <ResultsCategoriesTable />
           <ResultsFaqSection />
           <ResultsTestimonialsWall />
         </div>
