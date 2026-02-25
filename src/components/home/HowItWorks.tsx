@@ -52,9 +52,9 @@ const steps = [
 
 export const HowItWorks = () => {
   return (
-    <section id="services" className="py-24 bg-slate-50 overflow-hidden scroll-mt-28">
+    <section id="services" className="py-16 bg-slate-50 overflow-hidden scroll-mt-28">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -75,7 +75,7 @@ export const HowItWorks = () => {
           </motion.p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 mb-24">
+        <div className="grid gap-8 md:grid-cols-2 mb-16">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (

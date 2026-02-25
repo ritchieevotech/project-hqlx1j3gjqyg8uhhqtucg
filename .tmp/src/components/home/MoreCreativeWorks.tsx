@@ -50,9 +50,9 @@ const galleryItems = [
 
 export const MoreCreativeWorks = () => {
   return (
-    <section id="showcase" className="py-24 bg-background scroll-mt-28">
+    <section id="showcase" className="py-16 bg-background scroll-mt-28">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-10 md:mb-14">
+        <div className="text-center mb-8 md:mb-10">
           <p className="font-heading text-xs md:text-sm tracking-[0.24em] text-primary/60 uppercase mb-3">
             More Creative Work
           </p>

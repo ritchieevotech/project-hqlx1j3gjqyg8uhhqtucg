@@ -15,8 +15,8 @@ const marqueeImages = [...aplusImages, ...aplusImages, ...aplusImages, ...aplusI
 
 export const APlusShowcase = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden">
-      <div className="max-w-5xl mx-auto px-6 mb-12 text-center">
+    <section className="py-16 bg-white overflow-hidden">
+      <div className="max-w-5xl mx-auto px-6 mb-8 text-center">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -69,7 +69,7 @@ export const APlusShowcase = () => {
         </div>
       </div>
       
-      <div className="mt-10 text-center px-6">
+      <div className="mt-6 text-center px-6">
         <p className="text-muted-foreground text-xs md:text-sm font-sans uppercase tracking-[0.2em] opacity-60">
           Always-on A+ visuals that educate and convert browsers into buyers
         </p>

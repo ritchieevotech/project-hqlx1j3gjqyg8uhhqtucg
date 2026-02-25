@@ -41,14 +41,14 @@ const caseStudies = [
 
 export const ContentCaseStudies = () => {
   return (
-    <section id="case-studies" className="py-24 bg-background overflow-hidden scroll-mt-28 outline-none focus:outline-none focus-visible:outline-none">
+    <section id="case-studies" className="py-16 bg-background overflow-hidden scroll-mt-28 outline-none focus:outline-none focus-visible:outline-none">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary mb-6 tracking-tight">
             Content That Creates <span className="squiggly-underline">Results</span>

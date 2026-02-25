@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export const GetItDoneRight = () => {
   return (
-    <section className="py-24 bg-muted/30 overflow-hidden">
+    <section className="py-16 bg-muted/30 overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -13,7 +13,7 @@ export const GetItDoneRight = () => {
           viewport={{ once: true }}
           className="flex flex-col items-center"
         >
-          <h2 className="font-heading text-3xl md:text-4xl text-primary mb-8 tracking-tight">
+          <h2 className="font-heading text-3xl md:text-4xl text-primary mb-6 tracking-tight">
             Built to Stand Out. Built to Scale.
           </h2>
           
@@ -25,13 +25,13 @@ export const GetItDoneRight = () => {
             <p>It takes strategy, structure, and testing to win.</p>
           </div>
 
-          <p className="mt-10 font-heading text-xl md:text-2xl text-primary font-semibold tracking-tight">
+          <p className="mt-8 font-heading text-xl md:text-2xl text-primary font-semibold tracking-tight">
             Let’s build it right.
           </p>
         </motion.div>
 
         <motion.div 
-          className="mt-12 mb-12"
+          className="mt-10 mb-10"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}

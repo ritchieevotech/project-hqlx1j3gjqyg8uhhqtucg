@@ -40,9 +40,9 @@ const certificationLogos = [
 
 export const TrustBar = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden border-t border-gray-50">
+    <section className="py-16 bg-white overflow-hidden border-t border-gray-50">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export const TrustBar = () => {
         </div>
 
         {/* Brand Logos Marquee */}
-        <div className="mb-24 py-12 border-y border-gray-50 overflow-hidden relative">
+        <div className="mb-16 py-12 border-y border-gray-50 overflow-hidden relative">
           <motion.div 
             animate={{ x: ["0%", "-50%"] }}
             transition={{

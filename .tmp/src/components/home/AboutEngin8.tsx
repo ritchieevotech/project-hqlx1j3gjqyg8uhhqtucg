@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const AboutEngin8 = () => {
   return (
-    <section id="about-us" className="py-24 bg-background overflow-hidden scroll-mt-28">
+    <section id="about-us" className="py-16 bg-background overflow-hidden scroll-mt-28">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Main content */}
@@ -31,7 +31,7 @@ export const AboutEngin8 = () => {
                 </p>
               </div>
 
-              <div className="mt-8 space-y-6">
+              <div className="mt-6 space-y-6">
                 <div>
                   <h3 className="font-heading text-xs md:text-sm tracking-[0.2em] text-primary uppercase mb-2 font-bold">
                     Main Image & Image Stack Optimization
@@ -78,7 +78,7 @@ export const AboutEngin8 = () => {
                 </div>
               </div>
 
-              <p className="mt-10 font-sans text-sm md:text-base text-foreground/90 leading-relaxed bg-primary/5 p-4 rounded-xl border border-primary/10">
+              <p className="mt-8 font-sans text-sm md:text-base text-foreground/90 leading-relaxed bg-primary/5 p-4 rounded-xl border border-primary/10">
                 If you’re an agency looking for a true white-label execution partner — or a brand ready to turn traffic into revenue — Engin8.io becomes your Amazon performance engine.
               </p>
             </div>

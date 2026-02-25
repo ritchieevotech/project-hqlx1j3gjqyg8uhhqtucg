@@ -33,8 +33,8 @@ const storefronts = [
 
 export const StorefrontGallery = () => {
   return (
-    <section className="py-20 bg-background border-t border-border/50">
-      <div className="max-w-6xl mx-auto px-6 mb-10 flex items-baseline justify-between">
+    <section className="py-12 bg-background border-t border-border/50">
+      <div className="max-w-6xl mx-auto px-6 mb-6 flex items-baseline justify-between">
         <motion.p
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}

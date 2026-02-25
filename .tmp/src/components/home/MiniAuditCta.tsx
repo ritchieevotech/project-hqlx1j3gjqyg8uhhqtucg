@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export const MiniAuditCta = () => {
   return (
-    <section className="py-24 bg-brand-blue text-white relative overflow-hidden">
+    <section className="py-16 bg-brand-blue text-white relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-10">
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl" />
@@ -33,7 +33,7 @@ export const MiniAuditCta = () => {
             </span>
           </h2>
 
-          <div className="space-y-6 mb-10">
+          <div className="space-y-6 mb-8">
             <p className="font-heading text-xl md:text-2xl text-white/95 font-medium tracking-wide">
               Free Mini Amazon Conversion Gap Analysis
             </p>

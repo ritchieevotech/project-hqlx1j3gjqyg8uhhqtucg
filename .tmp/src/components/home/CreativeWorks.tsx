@@ -76,8 +76,8 @@ export const CreativeWorks = () => {
   };
 
   return (
-    <section className="py-24 bg-background overflow-hidden scroll-mt-28">
-      <div className="max-w-5xl mx-auto px-6 mb-12 text-center">
+    <section className="py-16 bg-background overflow-hidden scroll-mt-28">
+      <div className="max-w-5xl mx-auto px-6 mb-8 text-center">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -168,7 +168,7 @@ export const CreativeWorks = () => {
         </Carousel>
 
         {/* Thumbnail Navigation */}
-        <div className="mt-12 flex flex-col items-center gap-4">
+        <div className="mt-8 flex flex-col items-center gap-4">
           <div className="flex justify-center gap-4 overflow-x-auto py-4 px-4 no-scrollbar max-w-full">
             {slides.map((slide, index) => (
               <button
