@@ -16,7 +16,7 @@ const caseStudies = [
     label: "CASE STUDY : SUPPLEMENTS · Collagen Category",
     title: "Collagen Brand Lifts CVR 38% and Adds $42K/Month — Without Touching Ad Spend",
     image:
-      "https://images.pexels.com/photos/1181713/pexels-photo-1181713.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772054850928-Gemini-Generated-Image-pwyncjpwyncjpwyn.png",
     link: "/case-studies/collagen-brand",
   },
   {
