@@ -8,49 +8,49 @@ const About = () => {
     {
       name: "Robert Ferreira",
       role: "Founder",
-      specialty: "Strategic Marketplace Visionary",
+      specialty: "Growth-focused founder building scalable eCommerce systems that drive measurable marketplace performance.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771966126993-1766640578560-pasted-image-1766640468322-1.png",
       position: "object-left"
     },
     {
       name: "Lee Loree",
       role: "Founder",
-      specialty: "E-commerce Operations Expert",
+      specialty: "Operator-minded founder turning strategy into clean, repeatable execution for brands and agencies.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771965555709-Gemini-Generated-Image-1vm75r1vm75r1vm7.png",
       position: "object-center"
     },
     {
       name: "Henrik Anderson",
       role: "Director of Product",
-      specialty: "Product Innovation & Architecture",
+      specialty: "Amazon operator focused on ranking, conversion, and compliance through disciplined catalog execution.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771963711801-Gemini-Generated-Image-utg57hutg57hutg5.png",
       position: "object-right"
     },
     {
       name: "Blake Gale",
       role: "Chief Relationship Officer",
-      specialty: "Strategic Partnerships & Growth",
+      specialty: "Performance marketing operator aligning creative, messaging, and acquisition to improve CAC, CVR, and LTV.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771962948656-Gemini-Generated-Image-c0r71cc0r71cc0r7.png",
       position: "object-left"
     },
     {
       name: "Lauren Gentile",
       role: "Chief Operations Officer",
-      specialty: "Workflow Optimization Specialist",
+      specialty: "Operations operator ensuring fast, organized delivery with rigorous QA and on-time handoff.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771962723162-Gemini-Generated-Image-49hwek49hwek49hw.png",
       position: "object-center"
     },
     {
       name: "Kristy Pinand",
       role: "Creative Director",
-      specialty: "Visual Narrative Design",
+      specialty: "Creative operator building conversion-first Amazon visuals that look premium and sell with clarity.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771966305333-Gemini-Generated-Image-d0k97bd0k97bd0k9.png",
       position: "object-right"
     },
     {
       name: "Jeff Scolnick",
       role: "Chief Go-To-Market Officer",
-      specialty: "Market Entry & Scaling Strategy",
+      specialty: "Go-to-market operator refining positioning, packaging, and sales systems that convert interest into revenue.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771963230591-Gemini-Generated-Image-v5r2a4v5r2a4v5r2.png",
       position: "object-center"
     }
