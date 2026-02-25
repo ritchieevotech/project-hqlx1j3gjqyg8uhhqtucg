@@ -17,7 +17,7 @@ const Framework = () => {
         <FrameworkSixComponents />
         <FrameworkAiEra />
         <FrameworkProblems />
-        <FrameworkPrinciples />
+        
         
         {/* Framework Pillars */}
         <FrameworkPillarE />
