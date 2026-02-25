@@ -5,7 +5,7 @@ import { MessageCircle, ThumbsUp, Share2, Send } from "lucide-react";
 const linkedinTestimonials = [
   {
     name: "S. J.",
-    role: "Founder at DIA",
+    role: "Beauty & Personal Care Brand",
     avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/9cd917c9-d4cc-499d-a0de-72f147eaa629.png",
     text: "Their team are among the most gifted... true experts in their field. Engin8 didn't just build a tool; they built a revenue engine.",
     timestamp: "2d",
@@ -13,7 +13,7 @@ const linkedinTestimonials = [
   },
   {
     name: "M. T.",
-    role: "CEO, Loma Linda",
+    role: "Skincare & Cosmetics Brand",
     avatar: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/8fc11f93-cfd9-40d1-9ce3-e559946e3c9f.png",
     text: "Working with Engin8 was a masterclass in efficiency. They transformed our messy workflow into a streamlined machine in record time.",
     timestamp: "1w",
@@ -112,7 +112,7 @@ export const SocialProof = () => {
               <div className="flex items-center gap-3 mb-4 border-b pb-2">
                 <div className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold text-xs">J</div>
                 <div className="flex-1">
-                  <p className="text-[10px] text-gray-400">From: Jessica Miller</p>
+                  <p className="text-[10px] text-gray-400">From: JM</p>
                   <p className="text-xs font-bold text-gray-700">Subject: Re: Next Steps</p>
                 </div>
               </div>
