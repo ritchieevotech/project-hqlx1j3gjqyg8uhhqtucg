@@ -6,11 +6,11 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { name: "Showcase", href: "/#showcase" },
-  { name: "Framework", href: "/framework" },
   { name: "Case Studies", href: "/#case-studies" },
   { name: "Services", href: "/#services" },
-  { name: "Results", href: "/results" },
   { name: "Method", href: "/#services" },
+  { name: "Results", href: "/results" },
+  { name: "Framework", href: "/framework" },
   { name: "About Us", href: "/about" },
 ];
 
