@@ -31,10 +31,10 @@ const caseStudies = [
   {
     id: 4,
     brand: "Feel Good Foods",
-    label: "CASE STUDY  · FOOD & BEVERAGE · Functional Snack",
+    label: "CASE STUDY  · SOUR POWER · Functional Snack",
     title: "Functional Snack Brand Converts 44% More Shoppers With Objection-Focused A+ Rebuild",
     image:
-      "https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772036900641-Screenshot-2026-02-26-at-12.01.04-AM.png",
     link: "/case-studies/functional-snack",
   },
 ];
