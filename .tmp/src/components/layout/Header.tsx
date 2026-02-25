@@ -8,7 +8,6 @@ const navLinks = [
   { name: "Showcase", href: "/#showcase" },
   { name: "Case Studies", href: "/#case-studies" },
   { name: "Services", href: "/#services" },
-  { name: "Method", href: "/#services" },
   { name: "Results", href: "/results" },
   { name: "Framework", href: "/framework" },
   { name: "About Us", href: "/about" },
