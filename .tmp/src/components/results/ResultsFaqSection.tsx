@@ -8,20 +8,28 @@ import {
 
 const faqs = [
   {
-    question: "How do we get data when brands can't use Amazon's testing tool?",
-    answer: "When Amazon's Manage Your Experiments (MYE) isn't available, we use a rigorous manual pre/post-launch analysis. We track session-to-order ratios over 4-6 week windows, adjusting for seasonal trends and traffic shifts to ensure our data accurately reflects the impact of the content changes."
+    question: "How do you measure whether a creative test actually worked?",
+    answer: "We track session-to-order rate, CTR, and revenue per session over a defined pre/post window. We normalize for traffic swings and only declare a winner when the lift is significant enough to impact your bottom line."
   },
   {
-    question: "What else should you know about the split testing results?",
-    answer: "Every category behaves differently. While our overall success rate is high, we focus on statistical significance. We don't just look for a 'winner'; we look for 'why' a specific creative resonated better with your audience to inform the next iteration of your brand's visual strategy."
+    question: "What kind of lift do brands typically see from a winning test?",
+    answer: "While every brand is unique, winning tests often see a 10–30% conversion rate lift. Not every test is a home run, but the cumulative impact of multiple optimizations compounds into massive growth."
   },
   {
-    question: "Which split test should I focus on first?",
-    answer: "We always recommend starting with your Main Image. It's the highest leverage point because it dictates your Click-Through Rate (CTR). Once we've maximized the traffic coming to your page, we shift focus to A+ Content and SEO to improve Conversion Rate (CVR)."
+    question: "How long does it take to gather reliable data?",
+    answer: "Most tests run for 3–6 weeks depending on your listing's traffic. We ensure we gather enough sessions and orders per variant to eliminate noise and provide data you can trust."
   },
   {
-    question: "How often should I refresh my content?",
-    answer: "Amazon is a dynamic marketplace. We typically suggest a creative audit every 3–6 months. If competitors launch new designs or Amazon updates their display algorithms, a refresh helps maintain your ranking and prevents your listing from looking dated compared to newer brands."
+    question: "What happens if a test underperforms or there is no clear winner?",
+    answer: "If there's no clear winner, we revert to the strongest performing variant. We document the learnings from the 'failure' and use those insights to sharpen our next creative hypothesis."
+  },
+  {
+    question: "Can you show impact if Amazon's built-in experiment tool isn't available?",
+    answer: "Absolutely. We use robust manual pre/post analysis, controlling for seasonality and traffic shifts. We provide clear before-and-after snapshots so you can see exactly how the changes shifted your performance."
+  },
+  {
+    question: "Where do these results show up in my business?",
+    answer: "Improvements manifest as higher organic rankings, stronger hero ASIN performance, and more efficient ad spend. When your listing converts better, every dollar spent on traffic works much harder for you."
   }
 ];
 
