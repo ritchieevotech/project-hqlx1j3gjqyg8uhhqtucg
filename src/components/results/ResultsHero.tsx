@@ -27,7 +27,7 @@ export function ResultsHero() {
           </h1>
 
           <p className="font-sans text-lg md:text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">
-            Data from our internal MYE testing program through early 2026. We focus on compounding CTR and CVR through structured creative and content experiments. Our current success rate is <span className="font-bold text-primary">81.3%</span> across all experiment categories.
+            Insights are drawn from our proprietary testing initiatives conducted through early 2026. By systematically iterating on creative assets and content frameworks, we continuously build incremental gains in both CTR and CVR.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
