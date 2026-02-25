@@ -47,7 +47,7 @@ export function Hero() {
               <img 
                 src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771973984577-kristy.png" 
                 alt="Portrait of Kristy in a blue shirt, smiling and pointing to the right on a clean white background"
-                className="w-full h-auto object-contain object-left"
+                className="w-full h-auto object-contain object-left md:scale-75 origin-left"
               />
             </motion.div>
           </div>
