@@ -5,6 +5,7 @@ const testimonials = [
   {
     name: "Sarah Jenkins",
     role: "Founder, Bloom Naturals",
+    industry: "Beauty & Personal Care Brand",
     initials: "SJ",
     content: "The clarity Engin8 brings to testing is unparalleled. We saw a 45% jump in CTR within weeks of implementing their main image recommendations.",
     date: "June 12, 2025"
@@ -12,6 +13,7 @@ const testimonials = [
   {
     name: "Michael Chen",
     role: "Brand Director, Zenith Labs",
+    industry: "Supplements & Wellness Brand",
     initials: "MC",
     content: "Finally, an agency that speaks data. Their A+ content refresh literally doubled our conversion rate overnight. The ROI was immediate.",
     date: "May 28, 2025"
@@ -19,6 +21,7 @@ const testimonials = [
   {
     name: "Elena Rodriguez",
     role: "E-commerce Manager",
+    industry: "Omnichannel Retailer",
     initials: "ER",
     content: "The reporting is so easy to follow. I can actually show my team the direct impact of our creative spend. No more guessing what works.",
     date: "May 15, 2025"
@@ -26,6 +29,7 @@ const testimonials = [
   {
     name: "David Ross",
     role: "CEO, Peak Performance Co.",
+    industry: "Sports Nutrition Brand",
     initials: "DR",
     content: "Engin8 took the guesswork out of our Amazon strategy. We now know exactly what visuals drive our sales and why our customers convert.",
     date: "April 22, 2025"
@@ -33,6 +37,7 @@ const testimonials = [
   {
     name: "Amanda Lee",
     role: "Founder, Glow Beauty",
+    industry: "Skincare & Cosmetics Brand",
     initials: "AL",
     content: "The emotional relief of knowing our listings are optimized by experts is huge. Our best year yet, and we owe a lot of that to this testing.",
     date: "April 05, 2025"
@@ -40,6 +45,7 @@ const testimonials = [
   {
     name: "James Wilson",
     role: "Director of Ops, NutraCore",
+    industry: "Nutraceuticals Brand",
     initials: "JW",
     content: "Stellar results and even better communication. The testing process was seamless and the findings were eye-opening for our entire product line.",
     date: "March 18, 2025"
@@ -98,8 +104,7 @@ export function ResultsTestimonialsWall() {
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <div className="font-heading font-bold text-primary leading-tight">{t.name}</div>
-                  <div className="font-sans text-xs text-muted-foreground">{t.role}</div>
+                  <div className="font-heading font-bold text-primary leading-tight">{t.industry}</div>
                 </div>
               </div>
               
