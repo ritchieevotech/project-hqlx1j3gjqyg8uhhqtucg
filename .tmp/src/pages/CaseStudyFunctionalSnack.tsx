@@ -40,8 +40,8 @@ const CaseStudyFunctionalSnack = () => {
               {/* Hero Image */}
               <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[16/9] mb-12">
                 <img
-                  src="https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                  alt="A professional woman planning on a whiteboard in a modern office"
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772035298007-Screenshot-2026-02-26-at-12.01.04-AM.png"
+                  alt="Colorful Sour Power candy product display with festive character made from candy strips"
                   className="w-full h-full object-cover"
                 />
               </div>
