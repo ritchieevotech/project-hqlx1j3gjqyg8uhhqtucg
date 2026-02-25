@@ -173,6 +173,39 @@ const About = () => {
           </div>
         </section>
 
+        {/* History Section */}
+        <section className="py-24 bg-background relative overflow-hidden">
+          <div className="max-w-4xl mx-auto px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="text-center"
+            >
+              <p className="font-heading text-sm md:text-base font-bold uppercase tracking-[0.25em] text-secondary mb-4">
+                OUR HISTORY
+              </p>
+              <h2 className="font-heading text-3xl md:text-5xl text-primary mb-8 tracking-tight">
+                Built on Proven Infrastructure
+              </h2>
+              <div className="space-y-6 font-sans text-lg md:text-xl text-foreground/80 leading-relaxed">
+                <p>
+                  Engin8 was built by founders with 15+ years operating at the highest level of ecommerce—not as consultants, but as builders. Lee Loree and Robert Ferreira co-founded Seller Investigators and grew it into a global operation with a 300+ person team abroad before the business was acquired by Carbon6.
+                </p>
+                <p>
+                  That same team, the same facility, and the same proven operating systems are the engine behind Engin8 today. When you work with us, you’re backed by infrastructure that’s already been tested, scaled, and validated at an enterprise level.
+                </p>
+              </div>
+              
+              {/* Subtle decorative element */}
+              <div className="mt-12 flex justify-center">
+                <div className="h-1.5 w-24 bg-secondary/30 rounded-full" />
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* Values Section */}
         <section className="py-24 bg-gradient-to-b from-slate-50/70 to-background">
           <div className="max-w-6xl mx-auto px-6">
