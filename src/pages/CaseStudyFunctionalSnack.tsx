@@ -190,11 +190,11 @@ const CaseStudyFunctionalSnack = () => {
 
               {/* Flavor Comparison Card */}
               <div className="w-full mb-4">
-                <div className="rounded-[1.75rem] overflow-hidden border border-secondary/20 bg-accent/5 aspect-[21/9] mb-4">
+                <div className="rounded-[1.75rem] overflow-hidden border border-secondary/20 bg-slate-50 aspect-video mb-4 shadow-sm">
                   <img
                     src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772036900643-Screenshot-2026-02-26-at-12.01.12-AM.png"
                     alt="Sour Power flavor comparison chart versus other candies"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="text-center">
