@@ -6,7 +6,7 @@ export const FrameworkPillarE = () => {
     <section id="pillar-e" className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row gap-16 items-start">
-          <div className="md:w-1/3 sticky top-32">
+          <div className="md:w-1/3 sticky top-32" style={{ backgroundColor: "#ffffff"}}>
             <div className="w-20 h-20 bg-secondary rounded-3xl flex items-center justify-center mb-8 shadow-xl shadow-secondary/20">
               <span className="font-display text-5xl text-white">E</span>
             </div>
@@ -68,7 +68,7 @@ export const FrameworkPillarN = () => {
     <section id="pillar-n" className="py-24 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row-reverse gap-16 items-start">
-          <div className="md:w-1/3 sticky top-32">
+          <div className="md:w-1/3 sticky top-32" style={{ backgroundColor: "#F8FAFC"}}>
             <div className="w-20 h-20 bg-primary rounded-3xl flex items-center justify-center mb-8 shadow-xl shadow-primary/20">
               <span className="font-display text-5xl text-white">N</span>
             </div>
@@ -132,7 +132,7 @@ export const FrameworkPillarG = () => {
     <section id="pillar-g" className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row gap-16 items-start">
-          <div className="md:w-1/3 sticky top-32">
+          <div className="md:w-1/3 sticky top-32" style={{ backgroundColor: "#ffffff"}}>
             <div className="w-20 h-20 bg-brand-blue rounded-3xl flex items-center justify-center mb-8 shadow-xl shadow-brand-blue/20">
               <span className="font-display text-5xl text-white">G</span>
             </div>
