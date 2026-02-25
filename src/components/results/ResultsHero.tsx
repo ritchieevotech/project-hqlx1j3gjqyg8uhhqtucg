@@ -18,17 +18,17 @@ export function ResultsHero() {
             </div>
             <div className="flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-full">
               <div className="w-2 h-2 rounded-full bg-secondary" />
-              <span className="font-sans text-xs font-bold text-muted-foreground uppercase tracking-wider">250+ Split tests per year</span>
+              <span className="font-sans text-xs font-bold text-muted-foreground uppercase tracking-wider">300+ Split tests per year</span>
             </div>
           </div>
 
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-[0.95] mb-6 text-primary">
-            Updated <span className="text-accent italic">2025</span> <br /> 
+            Updated <span className="text-accent italic">2026</span> <br /> 
             Amazon Experiments Data
           </h1>
 
           <p className="font-sans text-lg md:text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">
-            Data from our internal MYE testing program. We focus on improving CTR and CVR through strategic design iterations. Our current success rate is <span className="font-bold text-primary">78.8%</span> across all experiment categories.
+            Data from our internal MYE testing program through early 2026. We focus on compounding CTR and CVR through structured creative and content experiments. Our current success rate is <span className="font-bold text-primary">81.3%</span> across all experiment categories.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -39,7 +39,7 @@ export function ResultsHero() {
             </Button>
             <div className="flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-2xl border border-emerald-100">
               <CheckCircle2 size={20} />
-              <span className="font-sans font-semibold">Verified 2024-2025 Data</span>
+              <span className="font-sans font-semibold">Verified 2023-2026 Data</span>
             </div>
           </div>
         </motion.div>
@@ -58,9 +58,9 @@ export function ResultsHero() {
                 <Trophy size={16} />
                 A+ Content Refresh
               </div>
-              <div className="font-display text-7xl md:text-8xl leading-none mb-2">1,080%</div>
+              <div className="font-display text-7xl md:text-8xl leading-none mb-2">1,320%</div>
               <p className="font-sans text-sm text-white/80 leading-snug">
-                Max order increase from best-performing test
+                Max order increase from a top-performing 2026 test
               </p>
               <div className="mt-6 flex items-center gap-1 text-secondary font-bold">
                 <ArrowUpRight size={20} />
@@ -77,9 +77,9 @@ export function ResultsHero() {
                 <Trophy size={16} />
                 Complete Brand Refresh
               </div>
-              <div className="font-display text-7xl md:text-8xl leading-none mb-2">2,500%</div>
+              <div className="font-display text-7xl md:text-8xl leading-none mb-2">2,980%</div>
               <p className="font-sans text-sm text-white/80 leading-snug">
-                Max sales increase achieved by top client
+                Max sales increase achieved by a 2026 full-funnel brand refresh
               </p>
               <div className="mt-6 flex items-center gap-1 text-white font-bold">
                 <ArrowUpRight size={20} />
