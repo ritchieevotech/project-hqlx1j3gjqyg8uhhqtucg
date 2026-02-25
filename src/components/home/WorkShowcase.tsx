@@ -14,7 +14,7 @@ const marqueeImages = [...showcaseImages, ...showcaseImages, ...showcaseImages, 
 
 export const WorkShowcase = () => {
   return (
-    <section id="showcase" className="py-24 bg-white overflow-hidden scroll-mt-28">
+    <section id="showcase" className="pt-16 pb-24 bg-white overflow-hidden scroll-mt-28">
       <div className="max-w-7xl mx-auto px-6 mb-16 text-center">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
