@@ -375,6 +375,84 @@ const About = () => {
           </div>
         </section>
 
+        {/* Anniversary Video Section */}
+        <section className="py-24 px-6 bg-gradient-to-r from-secondary/15 via-accent/10 to-secondary/15 overflow-hidden">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+              >
+                <p className="font-heading text-sm md:text-base font-bold uppercase tracking-[0.25em] text-secondary mb-4">
+                  10 YEARS IN MOTION
+                </p>
+                <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary mb-6 tracking-tight leading-[1.1]">
+                  A Decade of Building <span className="text-secondary">Marketplace Wins</span>
+                </h2>
+                <div className="space-y-6 font-sans text-base md:text-lg text-foreground/80 leading-relaxed mb-8">
+                  <p>
+                    From our earliest operations to our current global infrastructure, the last 10 years have been defined by a single goal: engineering growth for brands that refuse to settle.
+                  </p>
+                  <p>
+                    This highlight reel captures a decade of team energy, operational breakthroughs, and the continuous motion that keeps our partners ahead of the curve.
+                  </p>
+                </div>
+                
+                <div className="flex flex-wrap gap-3">
+                  {[
+                    { label: "10 Years", value: "Legacy" },
+                    { label: "300+", value: "Team Members" },
+                    { label: "$500M+", value: "Impact" }
+                  ].map((stat, i) => (
+                    <div 
+                      key={i}
+                      className="inline-flex items-center gap-2 rounded-full bg-white/80 backdrop-blur-sm px-4 py-1.5 text-xs md:text-sm font-sans text-primary shadow-sm border border-secondary/10"
+                    >
+                      <span className="font-bold text-secondary">{stat.label}</span>
+                      <span className="opacity-70">{stat.value}</span>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7, delay: 0.15 }}
+                className="flex justify-center md:justify-end"
+              >
+                <div className="relative w-full max-w-[640px] group">
+                  {/* Decorative background blob */}
+                  <div className="absolute -inset-6 bg-gradient-to-tr from-secondary/25 via-accent/20 to-primary/20 rounded-[3rem] blur-3xl opacity-40 group-hover:opacity-60 transition-opacity duration-500" />
+                  
+                  <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-[6px] border-white bg-black ring-1 ring-border/40">
+                    <AspectRatio ratio={16 / 9}>
+                      <iframe
+                        src="https://drive.google.com/file/d/1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l/preview"
+                        title="Engin8 10-year anniversary team video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        className="w-full h-full border-0"
+                      />
+                    </AspectRatio>
+                  </div>
+
+                  {/* Anniversary floating badge */}
+                  <div className="absolute -top-6 -right-6 h-24 w-24 bg-secondary rounded-full flex items-center justify-center shadow-lg border-4 border-white -rotate-12 hidden md:flex">
+                    <div className="flex flex-col items-center">
+                      <span className="font-heading text-primary font-black text-xl leading-none">10</span>
+                      <span className="font-heading text-primary font-bold text-[8px] tracking-widest text-center leading-tight uppercase">YEARS<br/>TOGETHER</span>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
         {/* Team Section */}
         <section id="team" className="py-24 bg-primary text-white">
           <div className="max-w-6xl mx-auto px-6">
