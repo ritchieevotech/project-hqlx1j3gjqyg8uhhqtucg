@@ -5,30 +5,8 @@ export const AboutEngin8 = () => {
   return (
     <section id="about-us" className="py-24 bg-background overflow-hidden scroll-mt-28">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid gap-12 md:gap-20 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] items-center">
-          {/* Left image */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-            viewport={{ once: true }}
-            className="relative w-full max-w-md mx-auto"
-          >
-            <div 
-              className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-secondary/30 via-accent/20 to-primary/10 blur-2xl opacity-60" 
-              aria-hidden="true" 
-            />
-            <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden  border border-white/40 bg-white">
-              <img
-                src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771579203641-Screenshot-2026-02-20-at-5.19.21-PM.png"
-                alt="Smiling woman with glasses wearing a denim jacket on a clean white background"
-                className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
-                loading="lazy"
-              />
-            </div>
-          </motion.div>
-
-          {/* Right content */}
+        <div className="max-w-4xl mx-auto">
+          {/* Main content */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
