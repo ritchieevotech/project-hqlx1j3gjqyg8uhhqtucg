@@ -14,6 +14,7 @@ import CaseStudyFunctionalSnack from "./pages/CaseStudyFunctionalSnack";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import { BrandingBadge } from "./components/BrandingBadge";
+import { Engin8ChatWidget } from "./components/chat/Engin8ChatWidget";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+        <Engin8ChatWidget />
         <BrandingBadge />
       </TooltipProvider>
     </QueryClientProvider>
