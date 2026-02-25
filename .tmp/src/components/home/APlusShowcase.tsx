@@ -55,7 +55,7 @@ export const APlusShowcase = () => {
                     <img
                       src={image}
                       alt={`Amazon A+ creative panel ${index + 1}`}
-                      className="w-full h-auto block object-contain transition-transform duration-500 hover:scale-105"
+                      className="w-full h-auto max-h-[420px] md:max-h-[460px] block object-contain transition-transform duration-500 hover:scale-105"
                     />
                   </div>
                 );
