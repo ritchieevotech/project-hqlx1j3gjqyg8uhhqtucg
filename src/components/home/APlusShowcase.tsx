@@ -7,7 +7,7 @@ const aplusImages = [
   "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771429350369-Untitled-design-6.png", // Owl & Ox A+ panel
   "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771972234446-Bamboo-Creatives-A-Premium-Mockup-v3.jpg", // Bamboo cutting boards A+
   "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771972234446-Display2Go-B01290AIBO-A-Content-Mock-Up.png", // Office signage A+
-  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772047982262-images-3.png", // DIA hydration A+ panel
+  "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772048385977-images-5.png", // DIA hydration A+ panel (updated)
 ];
 
 // Combine images multiple times for a seamless loop
