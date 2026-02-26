@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative pt-32 pb-8 overflow-hidden bg-white">
       <div className="container mx-auto px-6">
         {/* Top Section */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
