@@ -39,11 +39,11 @@ const CaseStudyCollagen = () => {
               </h1>
 
               {/* Hero Image */}
-              <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[4/3] md:aspect-[16/9] mb-12 p-4 md:p-6 lg:p-8">
+              <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[4/3] md:aspect-[16/9] mb-12">
                 <img
                   src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/63c021d0-5ea5-4b39-a813-4d78ef6ae92d.png"
                   alt="Premium collagen supplement branding lifestyle image"
-                  className="w-full h-full object-contain mx-auto"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
 
