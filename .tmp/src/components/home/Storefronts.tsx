@@ -58,7 +58,7 @@ export const Storefronts = () => {
           </p>
         </motion.div>
 
-        {/* Right Column: Phone Mockup */}
+        {/* Right Column: Phone Mockup with Video */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -66,11 +66,17 @@ export const Storefronts = () => {
           viewport={{ once: true }}
           className="relative"
         >
-          <img
-            src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771971925921-Orange-Black-White-Creative-Corporate-Business-Flyer-Template-1080-x-2675-px-1.png"
-            alt="Rick Young Outdoors Amazon storefront shown full-height inside a phone mockup"
-            className="mx-auto w-[320px] sm:w-[380px] md:w-[440px] h-auto drop-shadow-2xl"
-          />
+          <div className="mx-auto w-[280px] sm:w-[320px] md:w-[360px] h-auto rounded-[2.5rem] overflow-hidden drop-shadow-2xl border-[8px] border-primary/10 bg-white ring-4 ring-primary/5">
+            <div className="relative pt-[215%]">
+              <iframe
+                src="https://drive.google.com/file/d/1wTDvOppFqDP7CoGMY_-XyovzTWR5rhK8/preview"
+                className="absolute inset-0 w-full h-full border-0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                title="Amazon Storefront walkthrough video"
+              />
+            </div>
+          </div>
           
           {/* Decorative elements */}
           <div className="absolute -z-10 -bottom-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-3xl" />
