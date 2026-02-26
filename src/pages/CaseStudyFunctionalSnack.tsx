@@ -31,7 +31,7 @@ const CaseStudyFunctionalSnack = () => {
               className="flex flex-col"
             >
               <p className="font-sans text-xs md:text-sm font-semibold uppercase tracking-widest text-muted-foreground/80 mb-4">
-                CASE STUDY 03 · SOUR POWER · Functional Snack Category
+                SOUR POWER · Functional Snack Category
               </p>
               
               <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary leading-tight tracking-tight mb-6 max-w-4xl">
@@ -55,7 +55,7 @@ const CaseStudyFunctionalSnack = () => {
                 viewport={{ once: true }}
                 className="bg-accent/10 rounded-[2.5rem] p-8 md:p-12 mb-16 border border-accent/20 text-center"
               >
-                <h2 className="font-heading text-2xl md:text-3xl text-primary mb-2">Results Graphic — Case Study 03</h2>
+                <h2 className="font-heading text-2xl md:text-3xl text-primary mb-2">Results Graphic</h2>
                 <p className="text-xl md:text-2xl font-sans font-bold text-accent mb-6">
                   CVR 14.8% → 21.3% | Units/Order 1.2 → 1.8 | Revenue $91K → $138K
                 </p>
@@ -72,7 +72,7 @@ const CaseStudyFunctionalSnack = () => {
               {/* The Situation */}
               <section className="mb-16">
                 <p className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
-                  CASE STUDY 03 · SOUR POWER · Functional Snack Category
+                  SOUR POWER · Functional Snack Category
                 </p>
                 <h2 className="font-heading text-2xl md:text-4xl text-primary mb-6">THE SITUATION</h2>
                 <div className="font-sans text-base md:text-lg text-foreground/80 leading-relaxed max-w-3xl">
