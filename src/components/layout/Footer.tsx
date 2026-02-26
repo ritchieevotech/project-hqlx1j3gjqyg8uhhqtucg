@@ -53,7 +53,7 @@ export function SiteFooter() {
               <h4 className="font-heading text-sm font-semibold mb-4 uppercase tracking-wider text-primary/70">Follow Us</h4>
               <div className="flex gap-4">
                 <a 
-                  href="https://engin8.io" 
+                  href="https://www.facebook.com/profile.php?id=61585258760760" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
@@ -62,7 +62,7 @@ export function SiteFooter() {
                   <Facebook className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://engin8.io" 
+                  href="https://www.instagram.com/engin8.io/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
@@ -71,7 +71,7 @@ export function SiteFooter() {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://engin8.io" 
+                  href="https://www.youtube.com/@engin8.social" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
