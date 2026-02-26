@@ -81,7 +81,7 @@ export const TrustBar = () => {
         </div>
 
         {/* Certifications Section */}
-        <div className="pt-20 border-t border-gray-100 relative">
+        <div className="border-t border-gray-100 relative">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
