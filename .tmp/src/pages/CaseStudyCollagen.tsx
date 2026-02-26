@@ -41,8 +41,8 @@ const CaseStudyCollagen = () => {
               {/* Hero Image */}
               <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[4/3] md:aspect-[16/9] mb-12">
                 <img
-                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/files/chat-generated-images/project-hqlx1j3gjqyg8uhhqtucg/63c021d0-5ea5-4b39-a813-4d78ef6ae92d.png"
-                  alt="Premium collagen supplement branding lifestyle image"
+                  src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143607079-collagen.png"
+                  alt="Premium collagen peptides jar with glass of water in a bright kitchen"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
