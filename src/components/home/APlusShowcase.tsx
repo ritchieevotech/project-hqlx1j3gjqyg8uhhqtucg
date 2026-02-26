@@ -28,7 +28,7 @@ export const APlusShowcase = () => {
         </motion.h2>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-0">
         <div className="relative py-8">
           <div className="flex overflow-hidden">
             <motion.div 
