@@ -20,7 +20,7 @@ const slides = [
       "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771443480223-Untitled-design-12.png",
       "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771443480223-Untitled-design-7.png",
     ],
-    quote: "Engin8 didn’t just give us a new visual identity — they gave us a new level of confidence. Their team understood our brand so deeply that every idea felt both unexpected and completely right. The process was fast, collaborative, and honestly a lot of fun.",
+    quote: "Engin8 didn’t just give us a new visual identity — they gave us a new level of confidence. The process was fast, collaborative, and honestly a lot of fun.",
     author: "S. J.",
     role: "Diet & Sports Nutrition",
     statLabel: "+160%",
