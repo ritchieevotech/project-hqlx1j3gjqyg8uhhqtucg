@@ -29,6 +29,14 @@ const storefronts = [
     image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772049254566-images-6.png",
     brand: "Top Pops",
   },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772142651383-images-15.png",
+    brand: "Blank Labels",
+  },
+  {
+    image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772142651384-images-16.png",
+    brand: "Creative Teaching Press",
+  },
 ];
 
 export const StorefrontGallery = () => {
