@@ -40,7 +40,7 @@ export const DetailRow = ({
         }`} 
       >
         <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-        <div className="relative w-66 h-82 md:w-64 md:h-80 rounded-[400px] overflow-hidden shadow-2xl border-4 border-white/30 transform group-hover:scale-105 transition-transform duration-500">
+        <div className="relative w-69 h-95 md:w-64 md:h-80 rounded-[400px] overflow-hidden shadow-2xl border-4 border-white/30 transform group-hover:scale-105 transition-transform duration-500">
           <img
             src={imageSrc}
             alt={imageAlt}
