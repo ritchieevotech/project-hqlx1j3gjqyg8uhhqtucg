@@ -83,7 +83,7 @@ export const AboutEngin8 = () => {
                 If you’re an agency looking for a true white-label execution partner — or a brand ready to turn traffic into revenue — Engin8.io becomes your Amazon performance engine.
               </p>
 
-              <div className="mt-8 flex justify-center md:justify-start">
+              <div className="mt-8 flex justify-center">
                 <Button
                   asChild
                   size="lg"
