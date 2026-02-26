@@ -46,6 +46,26 @@ const galleryItems = [
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772050731799-images-7.png",
     alt: "FRÉ 10% Vitamin C brightening serum Amazon A+ content showcasing clean vegan formula and visible radiance",
   },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750950-Essex-Wares-Mock-Up-Option-02.png",
+    alt: "Bible tabs A+ content showing colorful tabs, application steps, and benefits",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750952-Celsius-Mock-up.png",
+    alt: "Celsius Galaxy Vibe energy drink A+ content with cosmic background and flavor callouts",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750952-Everest-Basic-A-Content-Mockup-V2.png",
+    alt: "Everest outdoor apparel A+ content with campsite lifestyle scenes and gear benefits",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750952-BBDJ-Mock-Up.png",
+    alt: "BuddyBar door jammer A+ content showing security use cases, features, and testimonials",
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750952-Display2Go-B01290AIBO-A-Content-Mock-Up-1.png",
+    alt: "Displays2Go office directory signs A+ content with product features and use cases",
+  },
 ];
 
 export const MoreCreativeWorks = () => {
