@@ -517,7 +517,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  BOOK A STRATEGY CALL
+                  BOOK A CALL
                 </a>
               </Button>
             </motion.div>
