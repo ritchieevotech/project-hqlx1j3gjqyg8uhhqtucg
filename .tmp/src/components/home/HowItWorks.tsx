@@ -85,41 +85,47 @@ export const HowItWorks = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-2xl shadow-lg border border-border/60 p-6 md:p-8 flex flex-col gap-4 hover:shadow-xl transition-shadow duration-300 group"
+                className="relative bg-white/90 rounded-[2rem] border border-border/70 shadow-md hover:shadow-xl transition-all duration-300 group backdrop-blur-sm overflow-hidden flex flex-col h-full hover:-translate-y-1"
               >
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-full border border-primary/10 bg-secondary/5 text-primary flex items-center justify-center font-heading font-bold text-lg">
-                      {index + 1}
+                {/* Gradient accent */}
+                <div className="pointer-events-none absolute -top-10 -right-10 h-32 w-32 rounded-full bg-gradient-to-br from-secondary/30 via-accent/20 to-primary/10 opacity-50 group-hover:opacity-80 blur-2xl transition-opacity duration-300" />
+                
+                {/* Left border accent */}
+                <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-secondary group-hover:w-2 transition-all duration-300" />
+
+                <div className="p-6 md:p-8 pl-8 md:pl-10 flex flex-col h-full gap-5">
+                  <div className="flex items-center justify-between">
+                    <div className="flex flex-col">
+                      <span className="text-[10px] font-bold tracking-[0.2em] text-secondary uppercase font-heading">Step 0{index + 1}</span>
                     </div>
-                    <div className="p-2.5 rounded-xl bg-primary/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                      <Icon className="w-5 h-5" />
+                    <div className="flex items-center justify-center h-12 w-12 rounded-2xl bg-primary/5 text-primary group-hover:bg-primary group-hover:text-white group-hover:scale-110 transition-all duration-300 shadow-sm border border-primary/5">
+                      <Icon className="w-6 h-6" />
                     </div>
                   </div>
-                </div>
 
-                <div className="space-y-3">
-                  <h3 className="font-heading text-xl md:text-2xl text-primary leading-tight">
-                    {step.title}
-                  </h3>
-                  <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed">
-                    {step.subtitle}
-                  </p>
-                </div>
+                  <div className="space-y-2">
+                    <h3 className="font-heading text-xl md:text-2xl text-primary tracking-tight leading-tight">
+                      {step.title}
+                    </h3>
+                    <p className="font-sans text-sm md:text-base text-foreground/80 leading-relaxed">
+                      {step.subtitle}
+                    </p>
+                  </div>
 
-                <ul className="mt-2 space-y-2.5">
-                  {step.bullets.map((bullet, i) => (
-                    <li key={i} className="flex items-start gap-3 text-sm text-foreground/75">
-                      <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-secondary shrink-0" />
-                      <span>{bullet}</span>
-                    </li>
-                  ))}
-                </ul>
+                  <ul className="space-y-3">
+                    {step.bullets.map((bullet, i) => (
+                      <li key={i} className="flex items-start gap-3 text-sm text-foreground/85">
+                        <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-secondary shrink-0" />
+                        <span>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
 
-                <div className="mt-auto pt-4">
-                  <p className="text-xs md:text-sm text-foreground/80 italic border-l-2 border-secondary/40 pl-3">
-                    {step.footer}
-                  </p>
+                  <div className="mt-auto pt-4">
+                    <div className="rounded-2xl bg-primary/5 border border-secondary/20 px-4 py-3 text-xs md:text-sm italic text-foreground/85">
+                      {step.footer}
+                    </div>
+                  </div>
                 </div>
               </motion.div>
             );
