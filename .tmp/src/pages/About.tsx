@@ -90,7 +90,7 @@ const About = () => {
       <main className="pt-28 md:pt-40 pb-16">
         {/* Hero Section */}
         <section className="relative mb-24 overflow-hidden bg-primary text-white">
-          <div className="mx-auto px-6 py-24 md:py-32 text-center relative z-10">
+          <div className="mx-auto px-6 py-16 md:py-32 text-center relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -121,7 +121,7 @@ const About = () => {
         </section>
 
         {/* Company Story Section */}
-        <section className="py-24 bg-slate-50/50">
+        <section className="py-16 bg-slate-50/50">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
               <motion.div
@@ -176,7 +176,7 @@ const About = () => {
         </section>
 
         {/* History Section */}
-        <section className="py-24 bg-background relative overflow-hidden">
+        <section className="py-16 bg-background relative overflow-hidden">
           <div className="max-w-4xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -209,7 +209,7 @@ const About = () => {
         </section>
 
         {/* Values Section */}
-        <section className="py-24 bg-gradient-to-b from-slate-50/70 to-background">
+        <section className="py-16 bg-gradient-to-b from-slate-50/70 to-background">
           <div className="max-w-6xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -317,7 +317,7 @@ const About = () => {
         </section>
 
         {/* Video Overview Section */}
-        <section className="py-24 px-6 bg-background overflow-hidden">
+        <section className="py-16 px-6 bg-background overflow-hidden">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
               <motion.div
@@ -377,7 +377,7 @@ const About = () => {
         </section>
 
         {/* Anniversary Video Section */}
-        <section className="py-24 px-6 bg-gradient-to-r from-secondary/15 via-accent/10 to-secondary/15 overflow-hidden">
+        <section className="py-16 px-6 bg-gradient-to-r from-secondary/15 via-accent/10 to-secondary/15 overflow-hidden">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
               <motion.div
@@ -455,7 +455,7 @@ const About = () => {
         </section>
 
         {/* Team Section */}
-        <section id="team" className="py-24 bg-primary text-white">
+        <section id="team" className="py-16 bg-primary text-white">
           <div className="max-w-6xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -500,7 +500,7 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24">
+        <section className="py-16">
           <div className="max-w-4xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
