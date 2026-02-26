@@ -30,7 +30,7 @@ export const ListingOptimization = () => {
             
             <div className="relative z-10">
               {/* Lead Paragraph */}
-              <p className="font-sans text-lg md:text-xl text-foreground/90 leading-relaxed max-w-3xl mx-auto text-center mb-10 md:mb-12 font-medium">
+              <p className="font-sans text-lg md:text-xl text-foreground/90 leading-relaxed mx-auto text-center mb-10 md:mb-12 font-medium">
                 At its core, listing optimization is what determines whether your traffic converts — or disappears.
               </p>
 
