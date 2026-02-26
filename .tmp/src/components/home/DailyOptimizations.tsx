@@ -14,27 +14,27 @@ const optimizations = [
     description: "(keyword research + intent mapping so your listing can be found in search and surfaced by Amazon’s AI assistant)",
   },
   {
-    emoji: "🎯",
+    emoji: "⚡",
     title: "Review & Q&A analysis",
     description: "to extract objections, FAQs, and language customers actually use — then build it into your creative and copy",
   },
   {
-    emoji: "📈",
+    emoji: "⚡",
     title: "Persuasive, conversion-driven copy",
     description: " rooted in buyer psychology and category patterns",
   },
   {
-    emoji: "🎨",
+    emoji: "⚡",
     title: "Product image stack testing",
     description: " to improve clarity, differentiation, and conversion performance",
   },
   {
-    emoji: "🛡️",
+    emoji: "⚡",
     title: "Custom A+ Content",
     description: " designed to build trust fast and increase conversion",
   },
   {
-    emoji: "🛡️",
+    emoji: "⚡",
     title: "Custom Storefronts",
     description: " that nurture, educate, and convert (mobile-first)",
   },
