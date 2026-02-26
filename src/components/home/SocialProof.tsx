@@ -63,7 +63,7 @@ export const SocialProof = () => {
                       <p className="text-gray-400 text-[10px] mt-0.5">{t.timestamp} • 🌎</p>
                     </div>
                   </div>
-                  <p className="font-sans text-gray-800 text-sm leading-relaxed mb-6">
+                  <p className="font-sans text-gray-800 text-lg leading-relaxed mb-6">
                     {t.text}
                   </p>
                   <div className="flex items-center justify-between pt-4 border-t border-gray-100">
@@ -116,7 +116,7 @@ export const SocialProof = () => {
                   <p className="text-xs font-bold text-gray-700">Subject: Re: Next Steps</p>
                 </div>
               </div>
-              <p className="font-sans text-gray-600 text-m italic">
+              <p className="font-sans text-gray-600 text-lg italic">
                 "Honestly, the ROI was visible within the first two weeks. I've never seen a team move this fast while maintaining such high quality."
               </p>
             </motion.div>
