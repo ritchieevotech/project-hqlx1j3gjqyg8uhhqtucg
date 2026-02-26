@@ -10,7 +10,7 @@ export const FrameworkPrinciples = () => {
   ];
 
   return (
-    <section className="py-8 bg-slate-50">
+    <section className="py-16 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-secondary hover:bg-secondary text-white uppercase tracking-widest px-4 py-1">

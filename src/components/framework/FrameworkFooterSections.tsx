@@ -18,7 +18,7 @@ export const FrameworkImplementation = () => {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-6 uppercase">Implementing the Framework</h2>
@@ -120,7 +120,7 @@ export const FrameworkMistakes = () => {
 
 export const FrameworkServicesCta = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-6">
         <div className="bg-primary rounded-[3rem] p-10 md:p-20 text-white relative overflow-hidden shadow-2xl">
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-blue/20 blur-[150px] rounded-full -mr-64 -mt-64" />
