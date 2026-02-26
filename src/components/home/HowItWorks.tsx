@@ -150,7 +150,7 @@ export const HowItWorks = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  Let’s Talk
+                  Book A Call
                 </a>
               </Button>
             </div>
