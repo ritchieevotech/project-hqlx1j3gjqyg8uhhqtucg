@@ -12,8 +12,7 @@ export const Storefronts = () => {
           viewport={{ once: true }}
           className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary tracking-tight leading-tight"
         >
-          Amazon Storefronts That <br className="hidden md:block" />
-          <span className="squiggly-underline text-secondary"> Engage</span>
+          Amazon Storefronts That <span className="squiggly-underline text-secondary">Engage</span>
         </motion.h2>
       </div>
 

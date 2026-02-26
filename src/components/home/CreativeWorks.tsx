@@ -85,8 +85,7 @@ export const CreativeWorks = () => {
           viewport={{ once: true }}
           className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary tracking-tight leading-tight"
         >
-          Amazon Product Images That <br />
-          <span className="squiggly-underline text-secondary"> Sell</span>
+          Amazon Product Images That <span className="squiggly-underline text-secondary">Sell</span>
         </motion.h2>
       </div>
 
