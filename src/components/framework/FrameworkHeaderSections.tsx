@@ -123,41 +123,104 @@ export const FrameworkIntro = () => {
 
 export const FrameworkSixComponents = () => {
   const components = [
-    { title: "Title", desc: "Keyword-rich yet readable, framing the product's primary value immediately.", icon: FileText },
-    { title: "Main Image", desc: "The 'click magnet' that must stand out against 20+ competitors on a white background.", icon: ImageIcon },
-    { title: "Image Stack", desc: "A 6-7 image sequence designed to answer questions and overcome objections.", icon: ImageIcon },
-    { title: "Premium A+", desc: "Deep-dive brand storytelling that builds authority and cross-sells your catalog.", icon: Star },
-    { title: "Bullets/Description", desc: "AI-optimized copy that speaks to both humans and Amazon's indexing engine.", icon: FileText },
-    { title: "Offer & Reviews", desc: "The social proof and value proposition that seals the final decision.", icon: Star },
+    { 
+      title: "Title", 
+      desc: "Keyword-rich yet readable, framing the product's primary value immediately.", 
+      symbol: "T", 
+      label: "Core Element",
+      purpose: "SEO & Relevance"
+    },
+    { 
+      title: "Main Image", 
+      desc: "The 'click magnet' that must stand out against 20+ competitors on a white background.", 
+      symbol: "M", 
+      label: "Visual Anchor",
+      purpose: "Click-Through Rate"
+    },
+    { 
+      title: "Image Stack", 
+      desc: "A 6-7 image sequence designed to answer questions and overcome objections.", 
+      symbol: "I", 
+      label: "Storytelling",
+      purpose: "Objection Handling"
+    },
+    { 
+      title: "Premium A+", 
+      desc: "Deep-dive brand storytelling that builds authority and cross-sells your catalog.", 
+      symbol: "A+", 
+      label: "Authority",
+      purpose: "Brand Trust"
+    },
+    { 
+      title: "Bullets/Description", 
+      desc: "AI-optimized copy that speaks to both humans and Amazon's indexing engine.", 
+      symbol: "•", 
+      label: "Copywriting",
+      purpose: "Indexing Engine"
+    },
+    { 
+      title: "Offer & Reviews", 
+      desc: "The social proof and value proposition that seals the final decision.", 
+      symbol: "★", 
+      label: "Social Proof",
+      purpose: "Closing the Sale"
+    },
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-4 uppercase">
             Six Components of a Winning Listing
           </h2>
-          <p className="text-lg text-muted-foreground mx-auto italic">
+          <p className="text-lg text-muted-foreground mx-auto italic max-w-2xl">
             "Most sellers optimize 1–2 of these. The top 1% optimize all six as a unified conversion system."
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
           {components.map((item, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.1 }}
+              transition={{ duration: 0.4, delay: idx * 0.05 }}
               viewport={{ once: true }}
-              className="p-8 rounded-3xl border border-border hover:border-brand-blue/30 hover:shadow-2xl transition-all group bg-slate-50/50"
+              whileHover={{ y: -6 }}
+              className="group relative overflow-hidden rounded-3xl border border-border/60 bg-white shadow-[0_18px_40px_rgba(15,23,42,0.08)] px-6 py-7 md:px-8 md:py-9 flex flex-col gap-4 backdrop-blur-sm transition-all duration-300 hover:shadow-[0_22px_55px_rgba(15,23,42,0.15)]"
             >
-              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-md mb-6 group-hover:scale-110 transition-transform">
-                <item.icon className="w-7 h-7 text-brand-blue" />
+              {/* Gradient hover background */}
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-blue/0 via-secondary/5 to-brand-blue/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              
+              {/* Icon & Label Row */}
+              <div className="relative z-10 flex items-center gap-4">
+                <div className="relative">
+                  <div className="w-12 h-12 rounded-2xl bg-primary/5 border border-primary/10 flex items-center justify-center shadow-[0_10px_25px_rgba(15,23,42,0.08)] group-hover:bg-primary/10 transition-colors">
+                    <span className="font-heading text-primary text-xl">{item.symbol}</span>
+                  </div>
+                  <div className="absolute -right-1 -top-1 w-3.5 h-3.5 rounded-full bg-secondary border-2 border-white shadow-sm" />
+                </div>
+                <span className="inline-flex items-center rounded-full bg-primary/5 px-3 py-1 text-[10px] md:text-[11px] font-semibold tracking-[0.18em] uppercase text-primary/70">
+                  {item.label}
+                </span>
               </div>
-              <h3 className="font-heading text-2xl font-bold text-primary mb-3">{item.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+
+              {/* Content */}
+              <div className="relative z-10">
+                <h3 className="font-heading text-2xl md:text-[1.6rem] text-primary leading-tight mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm md:text-[1.05rem] leading-relaxed text-foreground/75">
+                  {item.desc}
+                </p>
+              </div>
+
+              {/* Footer micro-detail */}
+              <div className="relative z-10 mt-auto pt-4 flex items-center gap-2 text-[10px] md:text-[11px] uppercase tracking-[0.18em] text-foreground/40 font-medium">
+                <span className="w-2 h-2 rounded-full bg-secondary shrink-0" />
+                <span>Purpose: {item.purpose}</span>
+              </div>
             </motion.div>
           ))}
         </div>
