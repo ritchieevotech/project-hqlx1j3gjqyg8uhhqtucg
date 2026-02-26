@@ -25,7 +25,7 @@ export const FrameworkHero = () => {
             </p>
             <Button asChild size="lg" className="bg-brand-blue hover:bg-brand-blue/90 text-white font-heading font-bold text-xl rounded-full px-10 py-8 shadow-lg shadow-brand-blue/20">
               <a href="https://calendar.app.google/iqBESxmECENgqPon9" target="_blank" rel="noopener noreferrer">
-                Book Your Free Listing Audit
+                Book A Call
               </a>
             </Button>
           </motion.div>
