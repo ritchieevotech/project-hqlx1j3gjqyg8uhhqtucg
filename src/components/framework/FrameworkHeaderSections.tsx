@@ -66,7 +66,7 @@ export const FrameworkHero = () => {
 
 export const FrameworkIntro = () => {
   return (
-    <section className="py-24 bg-slate-50">
+    <section className="py-8 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-6 uppercase">

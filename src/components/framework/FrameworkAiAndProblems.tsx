@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 export const FrameworkAiEra = () => {
   return (
-    <section className="py-24 bg-primary text-white overflow-hidden">
+    <section className="py-8 bg-primary text-white overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <motion.div
