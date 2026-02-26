@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-8 overflow-hidden bg-white">
+    <section className="relative pt-32 overflow-hidden bg-white">
       <div className="container mx-auto px-6">
         {/* Top Section */}
         <div className="text-center">
