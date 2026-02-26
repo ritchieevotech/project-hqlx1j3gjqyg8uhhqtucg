@@ -116,7 +116,7 @@ export const SocialProof = () => {
                   <p className="text-xs font-bold text-gray-700">Subject: Re: Next Steps</p>
                 </div>
               </div>
-              <p className="font-sans text-gray-600 text-sm italic">
+              <p className="font-sans text-gray-600 text-m italic">
                 "Honestly, the ROI was visible within the first two weeks. I've never seen a team move this fast while maintaining such high quality."
               </p>
             </motion.div>
