@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle2, Image as ImageIcon, FileText, Star, MousePointer2, TrendingUp } from "lucide-react";
+import { CheckCircle2, Image as ImageIcon, FileText, Star, MousePointer2, TrendingUp, Heading, LayoutTemplate, Sparkles, ListChecks } from "lucide-react";
 
 export const FrameworkHero = () => {
   return (
@@ -126,42 +126,42 @@ export const FrameworkSixComponents = () => {
     { 
       title: "Title", 
       desc: "Keyword-rich yet readable, framing the product's primary value immediately.", 
-      symbol: "T", 
+      icon: Heading, 
       label: "Core Element",
       purpose: "SEO & Relevance"
     },
     { 
       title: "Main Image", 
       desc: "The 'click magnet' that must stand out against 20+ competitors on a white background.", 
-      symbol: "M", 
+      icon: ImageIcon, 
       label: "Visual Anchor",
       purpose: "Click-Through Rate"
     },
     { 
       title: "Image Stack", 
       desc: "A 6-7 image sequence designed to answer questions and overcome objections.", 
-      symbol: "I", 
+      icon: LayoutTemplate, 
       label: "Storytelling",
       purpose: "Objection Handling"
     },
     { 
       title: "Premium A+", 
       desc: "Deep-dive brand storytelling that builds authority and cross-sells your catalog.", 
-      symbol: "A+", 
+      icon: Sparkles, 
       label: "Authority",
       purpose: "Brand Trust"
     },
     { 
       title: "Bullets/Description", 
       desc: "AI-optimized copy that speaks to both humans and Amazon's indexing engine.", 
-      symbol: "•", 
+      icon: ListChecks, 
       label: "Copywriting",
       purpose: "Indexing Engine"
     },
     { 
       title: "Offer & Reviews", 
       desc: "The social proof and value proposition that seals the final decision.", 
-      symbol: "★", 
+      icon: Star, 
       label: "Social Proof",
       purpose: "Closing the Sale"
     },
@@ -197,7 +197,7 @@ export const FrameworkSixComponents = () => {
               <div className="relative z-10 flex items-center gap-4">
                 <div className="relative">
                   <div className="w-12 h-12 rounded-2xl bg-primary/5 border border-primary/10 flex items-center justify-center shadow-[0_10px_25px_rgba(15,23,42,0.08)] group-hover:bg-primary/10 transition-colors">
-                    <span className="font-heading text-primary text-xl">{item.symbol}</span>
+                    <item.icon className="w-6 h-6 text-brand-blue" />
                   </div>
                   <div className="absolute -right-1 -top-1 w-3.5 h-3.5 rounded-full bg-secondary border-2 border-white shadow-sm" />
                 </div>
