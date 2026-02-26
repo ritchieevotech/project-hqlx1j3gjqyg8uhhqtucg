@@ -82,8 +82,6 @@ const CaseStudySkincareSerum = () => {
                 </div>
               </section>
 
-              </div>
-
               {/* Results Table */}
               <section className="mb-16">
                 <h3 className="font-heading text-2xl md:text-3xl text-primary mb-6 flex items-center gap-3">
