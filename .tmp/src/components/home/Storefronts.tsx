@@ -2,8 +2,6 @@ import * as React from "react";
 import { motion } from "framer-motion";
 
 export const Storefronts = () => {
-  const [isVideoPlaying, setIsVideoPlaying] = React.useState(false);
-
   return (
     <section className="py-8 bg-background overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 mb-10 text-center">
@@ -70,34 +68,13 @@ export const Storefronts = () => {
         >
           <div className="mx-auto w-[280px] sm:w-[320px] md:w-[360px] h-auto rounded-[2.5rem] overflow-hidden drop-shadow-2xl border-[8px] border-primary/10 bg-white ring-4 ring-primary/5">
             <div className="relative pt-[215%]">
-              {isVideoPlaying ? (
-                <iframe
-                  src="https://drive.google.com/file/d/1wTDvOppFqDP7CoGMY_-XyovzTWR5rhK8/preview"
-                  className="absolute inset-0 w-full h-full border-0"
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  title="Amazon Storefront walkthrough video"
-                />
-              ) : (
-                <button
-                  type="button"
-                  onClick={() => setIsVideoPlaying(true)}
-                  className="absolute inset-0 w-full h-full focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-secondary group"
-                  aria-label="Play Amazon Storefront walkthrough video"
-                >
-                  <img
-                    src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772115950267-pasted-image-1772115819006.png"
-                    alt="Preview of Amazon Storefront walkthrough video"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  {/* Play button overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/10 group-hover:bg-black/20 transition-colors duration-300">
-                    <div className="w-20 h-20 rounded-full bg-white/90 shadow-xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                      <div className="ml-1.5 w-0 h-0 border-t-[12px] border-b-[12px] border-l-[20px] border-t-transparent border-b-transparent border-l-primary" />
-                    </div>
-                  </div>
-                </button>
-              )}
+              <iframe
+                src="https://drive.google.com/file/d/1wTDvOppFqDP7CoGMY_-XyovzTWR5rhK8/preview"
+                className="absolute inset-0 w-full h-full border-0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                title="Amazon Storefront walkthrough video"
+              />
             </div>
           </div>
           
