@@ -73,7 +73,7 @@ export const ContentResults = () => {
               className="group rounded-[2.5rem] bg-slate-50 border border-border/60 shadow-sm p-8 flex flex-col gap-6 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center justify-between">
-                <p className="font-sans text-sm md:text-base font-medium text-muted-foreground/80 group-hover:text-primary transition-colors">
+                <p className="font-sans text-lg text-muted-foreground/80 group-hover:text-primary transition-colors">
                   {card.label}
                 </p>
                 <div className="relative w-12 h-12">
@@ -88,7 +88,7 @@ export const ContentResults = () => {
                 <p className="font-heading text-5xl md:text-6xl text-primary mb-1">
                   {card.percent}
                 </p>
-                <p className="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-muted-foreground font-semibold">
+                <p className="font-sans text-[15px] md:text-xs uppercase tracking-[0.2em] text-muted-foreground font-semibold">
                   Success Rate
                 </p>
               </div>
