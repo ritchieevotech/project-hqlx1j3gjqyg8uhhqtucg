@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle2, Image as ImageIcon, FileText, Star, MousePointer2, TrendingUp, Heading, LayoutTemplate, Sparkles, ListChecks } from "lucide-react";
+import { CheckCircle2, Image as ImageIcon, FileText, Star, MousePointer2, TrendingUp, Heading, LayoutTemplate, Sparkles, ListChecks, FileDown } from "lucide-react";
 
 export const FrameworkHero = () => {
   return (
@@ -86,6 +86,21 @@ export const FrameworkIntro = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               When done correctly, this framework doesn't just improve aesthetics—it fundamentally shifts the economics of your brand by lowering CAC and increasing lifetime value.
             </p>
+            <Button
+              asChild
+              size="lg"
+              className="mt-6 bg-secondary hover:bg-secondary/90 text-white font-heading font-bold rounded-full px-8 py-6 shadow-lg shadow-secondary/20 inline-flex items-center gap-2"
+            >
+              <a
+                href="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772095873329-ENGIN8-CREATIVE-OPTIMIZATION-CHECKLIST-1.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FileDown className="w-5 h-5" />
+                <span>Creative Optimization Checklist</span>
+              </a>
+            </Button>
           </div>
 
           <div className="grid grid-cols-1 gap-6">
