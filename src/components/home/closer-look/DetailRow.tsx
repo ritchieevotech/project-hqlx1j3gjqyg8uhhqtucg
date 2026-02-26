@@ -21,7 +21,7 @@ export const DetailRow = ({
   theWhat,
   theHow,
   bonus,
-  bonusLabel = "Bonus",
+  bonusLabel = "Include",
   isReversed = false,
   delay = 0.1,
   isFirst = false,
