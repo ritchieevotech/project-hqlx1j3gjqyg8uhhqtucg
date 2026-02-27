@@ -23,7 +23,7 @@ const successRates = [
     ]
   },
   {
-    category: "SEO & Detail Page Copy",
+    category: "SEO & Content Copy",
     rate: "79%",
     color: "border-primary",
     bgColor: "bg-primary",
