@@ -55,7 +55,7 @@ export function ResultsSuccessRates() {
             {/* Donut visual (CSS) */}
             <div className="absolute top-6 right-6 w-16 h-16 flex items-center justify-center">
                <div className={`w-full h-full rounded-full border-[6px] ${item.color} border-t-transparent animate-spin-slow`} style={{ animationDuration: '3s' }} />
-               <div className="absolute inset-0 flex items-center justify-center font-sans font-bold text-xs text-primary">
+               <div className="absolute inset-0 flex items-center justify-center font-sans font-bold text-md text-primary">
                  {item.rate}
                </div>
             </div>
