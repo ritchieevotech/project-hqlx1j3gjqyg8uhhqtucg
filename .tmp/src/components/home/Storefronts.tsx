@@ -69,7 +69,7 @@ export const Storefronts = () => {
           <div className="mx-auto w-[280px] sm:w-[320px] md:w-[360px] h-auto rounded-[2.5rem] overflow-hidden drop-shadow-2xl border-[8px] border-primary/10 bg-white ring-4 ring-primary/5">
             <div className="relative pt-[215%]">
               <iframe
-                src="https://drive.google.com/file/d/1wTDvOppFqDP7CoGMY_-XyovzTWR5rhK8/preview"
+                src="https://drive.google.com/file/d/1MxxSnH6TT7PwRt8pY7bJmmgx3pqs5ElY/preview"
                 className="absolute inset-0 w-full h-full border-0"
                 allow="autoplay; encrypted-media"
                 allowFullScreen
