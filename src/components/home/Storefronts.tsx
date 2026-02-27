@@ -1,7 +1,11 @@
 import * as React from "react";
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Play } from "lucide-react";
 
 export const Storefronts = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
   return (
     <section className="py-8 bg-background overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 mb-10 text-center">
@@ -67,14 +71,46 @@ export const Storefronts = () => {
           className="relative"
         >
           <div className="mx-auto w-[320px] sm:w-[380px] md:w-[420px] lg:w-[460px] h-auto rounded-[3rem] overflow-hidden drop-shadow-2xl border-[12px] border-primary bg-primary/5 ring-8 ring-primary/10">
-            <div className="relative aspect-[9/16] w-full">
-              <iframe
-                src="https://drive.google.com/file/d/1MxxSnH6TT7PwRt8pY7bJmmgx3pqs5ElY/preview"
-                className="absolute inset-0 w-full h-full border-0 scale-[1.02]"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                title="Amazon Storefront walkthrough video"
-              />
+            <div className="relative aspect-[9/16] w-full bg-black">
+              <AnimatePresence mode="wait">
+                {!isPlaying ? (
+                  <motion.button
+                    key="thumbnail"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    onClick={() => setIsPlaying(true)}
+                    className="absolute inset-0 w-full h-full group focus:outline-none focus:ring-4 focus:ring-secondary/50 z-10"
+                    aria-label="Play storefront walkthrough video"
+                  >
+                    <img
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772220774268-Screenshot-2026-02-28-at-3.32.29-AM.png"
+                      alt="Engin8 spokesperson with Engin8 logo"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors duration-300">
+                      <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center text-white shadow-xl transition-transform duration-300 group-hover:scale-110 group-active:scale-95">
+                        <Play className="w-10 h-10 fill-current ml-1" />
+                      </div>
+                    </div>
+                  </motion.button>
+                ) : (
+                  <motion.div
+                    key="video"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="absolute inset-0 w-full h-full"
+                  >
+                    <iframe
+                      src="https://drive.google.com/file/d/1MxxSnH6TT7PwRt8pY7bJmmgx3pqs5ElY/preview"
+                      className="absolute inset-0 w-full h-full border-0 scale-[1.02]"
+                      allow="autoplay; encrypted-media"
+                      allowFullScreen
+                      title="Amazon Storefront walkthrough video"
+                    />
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </div>
           
