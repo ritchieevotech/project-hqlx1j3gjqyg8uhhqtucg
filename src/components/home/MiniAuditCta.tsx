@@ -81,7 +81,7 @@ export const MiniAuditCta = () => {
                 className="relative group h-auto px-10 py-6 rounded-full bg-white text-brand-blue hover:bg-secondary hover:text-white font-heading tracking-[0.2em] text-xs md:text-sm font-bold uppercase shadow-2xl transition-all duration-500 hover:scale-105 active:scale-95"
               >
                 <a 
-                  href="https://calendar.app.google/iqBESxmECENgqPon9" 
+                  href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center text-center"
