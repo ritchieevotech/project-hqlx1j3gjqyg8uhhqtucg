@@ -66,11 +66,11 @@ export const Storefronts = () => {
           viewport={{ once: true }}
           className="relative"
         >
-          <div className="mx-auto w-[280px] sm:w-[320px] md:w-[360px] h-auto rounded-[2.5rem] overflow-hidden drop-shadow-2xl border-[8px] border-primary/10 bg-white ring-4 ring-primary/5">
+          <div className="mx-auto w-[280px] sm:w-[320px] md:w-[360px] h-auto rounded-[3rem] overflow-hidden drop-shadow-2xl border-[12px] border-primary bg-primary/5 ring-8 ring-primary/10">
             <div className="relative aspect-[9/16] w-full">
               <iframe
                 src="https://drive.google.com/file/d/1MxxSnH6TT7PwRt8pY7bJmmgx3pqs5ElY/preview"
-                className="absolute inset-0 w-full h-full border-0"
+                className="absolute inset-0 w-full h-full border-0 scale-[1.02]"
                 allow="autoplay; encrypted-media"
                 allowFullScreen
                 title="Amazon Storefront walkthrough video"
