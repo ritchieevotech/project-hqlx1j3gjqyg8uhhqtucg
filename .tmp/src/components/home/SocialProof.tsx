@@ -57,10 +57,8 @@ export const SocialProof = () => {
                     <div className="flex-1">
                       <div className="flex items-center gap-2">
                         <span className="font-heading font-bold text-gray-900">{t.name}</span>
-                        <span className="text-gray-400 text-sm">• {t.connections}</span>
                       </div>
                       <p className="text-gray-500 text-xs leading-tight">{t.role}</p>
-                      <p className="text-gray-400 text-[10px] mt-0.5">{t.timestamp} • 🌎</p>
                     </div>
                   </div>
                   <p className="font-sans text-gray-800 text-lg leading-relaxed mb-6">
