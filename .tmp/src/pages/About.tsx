@@ -87,7 +87,7 @@ const About = () => {
     <div className="min-h-screen bg-background selection:bg-secondary/30">
       <Header />
       
-      <main className="pt-28 md:pt-40 pb-16">
+      <main className="pt-28 pb-16">
         {/* Hero Section */}
         <section className="relative mb-24 overflow-hidden bg-primary text-white">
           <div className="mx-auto px-6 py-16 md:py-32 text-center relative z-10">
