@@ -13,8 +13,8 @@ export const CloserLookGoods = () => {
           viewport={{ once: true }}
           className="text-center mb-10"
         >
-          <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary mb-6 tracking-tight">
-            A Closer Look <span className="text-secondary italic">at the Goods</span>
+          <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary mb-6 tracking-tight">            
+            <span className="squiggly-underline">Discover</span> the Details
           </h2>
           <div className="h-1.5 w-24 bg-secondary mx-auto rounded-full" />
         </motion.div>
