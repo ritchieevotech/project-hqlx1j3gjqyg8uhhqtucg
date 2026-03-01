@@ -109,7 +109,7 @@ export const TrustBar = () => {
                     src={logo.src}
                     alt={logo.alt}
                     className={`${
-                      index === 2 ? "h-32 md:h-40" : "h-26 md:h-30"
+                      index === 2 ? "h-32 md:h-40" : "h-20 md:h-25"
                     } w-auto object-contain hover:scale-105 transition-transform duration-300`}
                   />
                 ))}
