@@ -140,8 +140,8 @@ export const HowItWorks = () => {
           className="flex justify-center"
         >
           <div className="relative w-full max-w-3xl rounded-[2.5rem] bg-secondary/20 px-8 py-12 md:py-16 text-center shadow-sm border border-secondary/10">
-            <p className="font-heading text-2xl md:text-3xl lg:text-4xl text-primary mb-8">
-              Join <span className="squiggly-underline">500+ eCommerce Brands</span>
+            <p className="font-heading text-2xl md:text-3xl lg:text-4xl text-primary mb-8">              
+              <span className="squiggly-underline">Powering</span> 400+ Successful eCommerce Brands
             </p>
             <div className="flex justify-center">
               <Button asChild size="lg" className="px-10 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
