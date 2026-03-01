@@ -15,8 +15,8 @@ export const Storefronts = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary tracking-tight leading-tight"
-        >
-          Amazon Storefronts That <span className="squiggly-underline text-secondary">Engage</span>
+        >          
+          <span className="squiggly-underline text-secondary">Conversion-Focused</span> Amazon Brand Stores
         </motion.h2>
       </div>
 

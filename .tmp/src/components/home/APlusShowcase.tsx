@@ -23,8 +23,8 @@ export const APlusShowcase = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary tracking-tight leading-tight"
-        >
-          Amazon A+ Content That <span className="squiggly-underline text-secondary">Converts</span>
+        >          
+          A+ Content Designed for <span className="squiggly-underline text-secondary">Maximum Impact</span>
         </motion.h2>
       </div>
 
