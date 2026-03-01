@@ -50,7 +50,7 @@ export const TrustBar = () => {
             viewport={{ once: true }}
             className="font-heading text-4xl md:text-5xl font-bold text-primary tracking-tight"
           >
-            Join <span className="squiggly-underline">Hundreds</span> of Happy Brands
+            Become One of Our <span className="squiggly-underline">Successful</span> Brand Partners            
           </motion.h2>
         </div>
 
