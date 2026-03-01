@@ -111,7 +111,7 @@ export const DailyOptimizations = () => {
               className="absolute -top-4 -right-4 md:right-0 px-5 py-3 rounded-full bg-white shadow-xl border border-secondary/20 text-sm font-sans font-medium text-primary flex items-center gap-2 z-10"
             >
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-green-100 text-xs">📈</span>
-              <span>Increased click‑thru rate</span>
+              <span>Conversion-Optimized Hero Visuals</span>
             </motion.div>
 
             <motion.div 
@@ -121,7 +121,7 @@ export const DailyOptimizations = () => {
               className="absolute -bottom-6 -left-4 md:left-0 px-5 py-3 rounded-full bg-white shadow-xl border border-accent/20 text-sm font-sans font-medium text-primary flex items-center gap-2 z-10"
             >
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-100 text-xs">🧪</span>
-              <span>Split‑tested main images</span>
+              <span>Higher Engagement Rate</span>
             </motion.div>
           </div>
           
