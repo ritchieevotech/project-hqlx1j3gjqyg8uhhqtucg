@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 const successRates = [
   {
     category: "Main Image",
-    rate: "71%",
+    rate: "81%",
     color: "border-accent",
     bgColor: "bg-accent",
     stats: [
@@ -67,7 +67,7 @@ export function ResultsSuccessRates() {
                 <span className="font-sans text-sm font-bold text-muted-foreground uppercase tracking-widest">Success</span>
               </div>
             </div>
-
+            {/*
             <div className="grid grid-cols-2 gap-4 mt-auto pt-6 border-t border-slate-100">
               {item.stats.map((stat) => (
                 <div key={stat.label}>
@@ -79,6 +79,7 @@ export function ResultsSuccessRates() {
                 </div>
               ))}
             </div>
+            */}
           </motion.div>
         ))}
       </div>
