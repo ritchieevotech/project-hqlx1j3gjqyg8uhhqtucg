@@ -3,24 +3,24 @@ import { motion } from "framer-motion";
 
 const cards = [
   {
-    label: "Main Image Tests",
-    percent: "83.75%",
-    sessions: "+145%",
-    orders: "+547%",
+    label: "Main Image",
+    percent: "71%",
+    sessions: "+132%",
+    orders: "+541%",
     color: "from-emerald-400 to-emerald-200",
   },
   {
-    label: "A+ Content Tests",
-    percent: "86.55%",
-    sessions: "+4933%",
-    orders: "+1080%",
+    label: "A+ Content",
+    percent: "78%",
+    sessions: "+2934%",
+    orders: "+1320%",
     color: "from-sky-400 to-sky-200",
   },
   {
-    label: "Title & Bullets Tests",
-    percent: "71.5%",
-    sessions: "+589%",
-    orders: "+990%",
+    label: "Title & Bullets",
+    percent: "79%",
+    sessions: "+645%",
+    orders: "+1050%",
     color: "from-amber-400 to-amber-200",
   },
 ];
