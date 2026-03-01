@@ -36,15 +36,15 @@ export const ContentResults = () => {
           viewport={{ once: true }}
           className="text-center mb-10"
         >
-          <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary mb-6 tracking-tight">
-            Content That Creates <span className="squiggly-underline">Results</span>
+          <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary mb-6 tracking-tight">            
+            <span className="squiggly-underline">Performance-Driven</span> Content
           </h2>
           <div className="space-y-1">
             <p className="font-sans text-base md:text-lg text-foreground/80">
-              On average, <span className="font-semibold text-primary">80%</span> of clients experience measurable sales lift after implementation.
+              The majority of clients—around 80%—see measurable sales growth after launch.
             </p>
             <p className="font-sans text-base md:text-lg text-foreground/80">
-              Within the first 30 days, a majority see meaningful performance gains following optimized creative deployment and structured testing.
+              Within the first month, performance gains are driven by data-backed creative and systematic testing.
             </p>
           </div>
         </motion.div>
