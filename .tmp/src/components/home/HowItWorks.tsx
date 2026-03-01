@@ -62,7 +62,7 @@ export const HowItWorks = () => {
             viewport={{ once: true }}
             className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary mb-4"
           >
-            How It Works…
+            The Performance Blueprint            
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
