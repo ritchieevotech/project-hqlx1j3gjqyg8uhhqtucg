@@ -61,6 +61,9 @@ export function Hero() {
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary leading-tight">
                 Ready to Scale on the World’s #1 Marketplace?
               </h2>
+              <p className="font-semibold text-primary">
+                Unlock your brand’s full potential on Amazon with optimized listings, data-driven creative, and proven growth strategies.
+              </p>
               
               
               <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
