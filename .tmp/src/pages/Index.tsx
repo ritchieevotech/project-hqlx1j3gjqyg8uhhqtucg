@@ -38,7 +38,7 @@ const Index = () => {
         <ListingOptimization />
         <HowItWorks />
         <DailyOptimizations />
-        <ContentResults />
+       {/*  <ContentResults /> */}
         <ContentCaseStudies />
         <CloserLookGoods />
         <GetItDoneRight />
