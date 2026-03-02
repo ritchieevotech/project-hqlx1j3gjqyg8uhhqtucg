@@ -87,8 +87,7 @@ export const MiniAuditCta = () => {
                 </a>
 
               
-              {/* Optional glow effect behind button on hover */}
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-12 bg-secondary/20 blur-[40px] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              
             </div>
           </div>
         </motion.div>
