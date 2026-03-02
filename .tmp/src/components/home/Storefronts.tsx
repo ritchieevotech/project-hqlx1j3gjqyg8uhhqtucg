@@ -86,8 +86,8 @@ export const Storefronts = () => {
                     aria-label="Play storefront walkthrough video"
                   >
                     <img
-                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772220774268-Screenshot-2026-02-28-at-3.32.29-AM.png"
-                      alt="Engin8 spokesperson with Engin8 logo"
+                      src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772461199678-Screenshot-2026-03-02-at-8.35.17-PM.png"
+                      alt="Kristy from Engin8 smiling in front of a gradient background with the Engin8 logo"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors duration-300">
