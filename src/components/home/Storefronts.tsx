@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Play } from "lucide-react";
+import { Play, Blocks, Gauge, Target, Workflow, ShieldCheck, Handshake } from "lucide-react";
 
 export const Storefronts = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -48,7 +48,10 @@ export const Storefronts = () => {
               { title: "8 — Conversion Levers", desc: "Optimize every module for clarity, speed, and action — ensuring your storefront turns traffic into revenue." },
             ].map((item, idx) => (
               <div key={idx} className="flex items-start gap-4">
-                <span className="text-secondary text-2xl mt-0.5">⚡</span>
+                <span className="text-secondary text-2xl mt-0.5">⚡
+                
+                <Blocks className="h-12 w-12 text-primary/20" />
+                </span>
                 <div>
                   <h4 className="font-heading text-xl text-primary font-bold">{item.title}</h4>
                   <p className="font-sans text-foreground/70">{item.desc}</p>
