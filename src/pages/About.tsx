@@ -431,13 +431,24 @@ const About = () => {
                   
                   <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-[6px] border-white bg-black ring-1 ring-border/40">
                     <AspectRatio ratio={16 / 9}>
-                      <iframe
-                        src="https://drive.google.com/file/d/1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l/preview"
-                        title="Engin8 10-year anniversary team video"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                        className="w-full h-full border-0"
-                      />
+                      <a 
+                        href="https://drive.google.com/file/d/1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l/preview" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="relative block w-full h-full group"
+                      >
+                        <img 
+                          src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772469523989-Screenshot-2026-03-03-at-12.34.54-AM.png" 
+                          alt="Engin8 team celebrating together at a year-end event" 
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute inset-0 bg-black/25 group-hover:bg-black/35 transition-colors duration-300" />
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="h-16 w-16 md:h-20 md:w-20 rounded-full bg-white/90 flex items-center justify-center shadow-xl group-hover:scale-105 transition-transform duration-300">
+                            <span className="ml-1 inline-block border-l-[14px] border-l-primary border-y-[10px] border-y-transparent md:border-l-[18px] md:border-y-[12px]" />
+                          </div>
+                        </div>
+                      </a>
                     </AspectRatio>
                   </div>
 
