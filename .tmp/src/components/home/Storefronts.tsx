@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Play, Blocks, Gauge, Target, Workflow, ShieldCheck, Handshake } from "lucide-react";
+import { Play, Route, Megaphone, Signal, Sparkles, ShieldCheck, Zap } from "lucide-react";
 
 export const Storefronts = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -40,17 +40,17 @@ export const Storefronts = () => {
 
           <div className="space-y-4 mt-2">
             {[
-              { title: "E — Experience Architecture", desc: "Design a guided journey, not a product catalog. Clear sections, intentional flow, and mobile-first layout improve engagement and conversion." },
-              { title: "N — Narrative Positioning", desc: "Use benefit-driven headlines and brand-specific imagery that clearly communicate who the product is for and what problem it solves." },
-              { title: "G — Growth Signals", desc: "Integrate videos, keyword-aligned content, and structured messaging that strengthens search visibility and improves Rufus discoverability." },
-              { title: "I — Intent-Based Content (AEO)", desc: "Answer real customer questions directly. Clear, scannable sections improve answer engine performance and AI surfacing." },
-              { title: "N — Native Social Proof", desc: "Feature authentic reviews, UGC, and measurable outcomes to reinforce trust and buying confidence." },
-              { title: "8 — Conversion Levers", desc: "Optimize every module for clarity, speed, and action — ensuring your storefront turns traffic into revenue." },
+              { icon: Route, title: "E — Experience Architecture", desc: "Design a guided journey, not a product catalog. Clear sections, intentional flow, and mobile-first layout improve engagement and conversion." },
+              { icon: Megaphone, title: "N — Narrative Positioning", desc: "Use benefit-driven headlines and brand-specific imagery that clearly communicate who the product is for and what problem it solves." },
+              { icon: Signal, title: "G — Growth Signals", desc: "Integrate videos, keyword-aligned content, and structured messaging that strengthens search visibility and improves Rufus discoverability." },
+              { icon: Sparkles, title: "I — Intent-Based Content (AEO)", desc: "Answer real customer questions directly. Clear, scannable sections improve answer engine performance and AI surfacing." },
+              { icon: ShieldCheck, title: "N — Native Social Proof", desc: "Feature authentic reviews, UGC, and measurable outcomes to reinforce trust and buying confidence." },
+              { icon: Zap, title: "8 — Conversion Levers", desc: "Optimize every module for clarity, speed, and action — ensuring your storefront turns traffic into revenue." },
             ].map((item, idx) => (
               <div key={idx} className="flex items-start gap-4">
                 <span className="text-secondary text-2xl mt-0.5">⚡
                 
-                <Blocks className="h-12 w-12 text-primary/20" />
+                <item.icon className="h-12 w-12 text-primary/20" />
                 </span>
                 <div>
                   <h4 className="font-heading text-xl text-primary font-bold">{item.title}</h4>
