@@ -76,20 +76,16 @@ export const MiniAuditCta = () => {
                 👇
               </motion.div>
               
-              <Button
-                asChild
-                onClick={() => window.location.href = "https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en"}
-                className="relative group h-auto px-10 py-6 rounded-full bg-white text-brand-blue hover:bg-secondary hover:text-white font-heading tracking-[0.2em] text-xs md:text-sm font-bold uppercase shadow-2xl transition-all duration-500 hover:scale-105 active:scale-95"
-              >
+
                 <a 
                   href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center text-center"
+                  className="relative group h-auto px-10 py-6 rounded-full bg-white text-brand-blue hover:bg-secondary hover:text-white font-heading tracking-[0.2em] text-xs md:text-sm font-bold uppercase shadow-2xl transition-all duration-500 hover:scale-105 active:scale-95 flex items-center justify-center text-center"
                 >
                   Request the FREE Mini Gap Analysis
                 </a>
-              </Button>
+
               
               {/* Optional glow effect behind button on hover */}
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-12 bg-secondary/20 blur-[40px] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
