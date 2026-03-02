@@ -146,11 +146,11 @@ export const HowItWorks = () => {
             <div className="flex justify-center">
               <Button asChild size="lg" className="px-10 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
                 <a 
-                  href="https://calendar.app.google/iqBESxmECENgqPon9" 
+                  href="https://forms.engin8.io/Engin8/form/SignUpforYourFreeAmazonAccountAuditToday/formperma/6372zGl__oyc-Chb5bba6ijq4Mcw2oI960VZR-dGWdg?zf_lang=en" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  Book A Call
+                  Get Your Free Audit
                 </a>
               </Button>
             </div>
