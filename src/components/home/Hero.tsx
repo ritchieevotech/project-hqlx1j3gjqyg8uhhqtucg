@@ -23,7 +23,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="mt-8 font-sans text-xl md:text-2xl text-foreground/70 max-w-2xl mx-auto"
+            className="mt-8 font-sans text-xl md:text-2xl text-foreground/70 max-w-4xl mx-auto"
           >
             If AI can’t read it, it won’t rank.
             Optimized for Rufus, COSMO, and conversion.
