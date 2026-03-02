@@ -21,7 +21,7 @@ export const CloserLookGoods = () => {
         <DetailRow
           isFirst
           isReversed
-          bonusLabel="Bonus"
+          bonusLabel="Included"
           title="Product Images That Convert"
           imageSrc="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771441817248-Untitled-design-9.png"
           imageAlt="Vega protein powder tub with chocolate splash and glass"
