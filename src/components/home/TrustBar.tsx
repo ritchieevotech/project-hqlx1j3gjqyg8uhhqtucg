@@ -24,6 +24,14 @@ const brandLogos = [
   {
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Logo.png",
     alt: "blazON logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474737030-20180324-HAIOTB-Revamp-Logo-Final.jpg",
+    alt: "Health As It Ought To Be logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474737030-Alpine-Innovations-A-logo-light-bkgrnd.png",
+    alt: "Alpine Innovations logo"
   }
 ];
 
