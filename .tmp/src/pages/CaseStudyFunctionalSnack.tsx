@@ -267,7 +267,7 @@ const CaseStudyFunctionalSnack = () => {
                   Engin8 is the white-label creative engine quietly powering marketplace wins behind the scenes.
                 </p>
                 <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90 text-primary font-bold rounded-full px-12 py-6 text-xl">
-                  <a href="mailto:success@engin8.com">Request Strategy Call</a>
+                  <a href="mailto:success@engin8.io">Request Strategy Call</a>
                 </Button>
               </div>
             </motion.article>

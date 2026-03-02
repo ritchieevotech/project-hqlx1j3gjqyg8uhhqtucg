@@ -33,7 +33,7 @@ export function SiteFooter() {
               <div className="space-y-4 font-sans text-sm md:text-base text-primary/90">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-primary/70" />
-                  <a href="mailto:success@engin8.com" className="hover:underline">success@engin8.com</a>
+                  <a href="mailto:success@engin8.io" className="hover:underline">success@engin8.io</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Linkedin className="w-4 h-4 text-primary/70" />
