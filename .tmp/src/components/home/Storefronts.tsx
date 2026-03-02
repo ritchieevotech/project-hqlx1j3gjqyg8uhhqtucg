@@ -47,7 +47,7 @@ export const Storefronts = () => {
               { icon: ShieldCheck, title: "N — Native Social Proof", desc: "Feature authentic reviews, UGC, and measurable outcomes to reinforce trust and buying confidence." },
               { icon: Zap, title: "8 — Conversion Levers", desc: "Optimize every module for clarity, speed, and action — ensuring your storefront turns traffic into revenue." },
             ].map((item, idx) => (
-              <div key={idx} className="flex items-start gap-4">
+              <div key={idx} className="flex items-start gap-4"> 
                 <span className="text-secondary text-2xl mt-0.5">⚡
                 
                 <item.icon className="h-12 w-12 text-primary/20" />
