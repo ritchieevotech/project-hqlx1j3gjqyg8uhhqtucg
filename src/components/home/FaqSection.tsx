@@ -54,7 +54,7 @@ const faqs = [
     answer: "Stock images often look generic and fail to build trust. Custom, optimized images are proven to increase click-through rates and conversion by showing your product's unique value."
   },
   {
-    question: "How long does it take start to finish?",
+    question: "How long does it take from start to finish?",
     answer: "Most projects take between 2–4 weeks from kick-off to final delivery, depending on the complexity and number of products."
   },
   {
@@ -74,7 +74,7 @@ const faqs = [
     answer: "We focus exclusively on the creative and content side. However, we frequently collaborate with account managers to ensure our designs align with your overall strategy."
   },
   {
-    question: "How much are additional product and variations?",
+    question: "How much are additional products and variations?",
     answer: "Add-ons and variations are priced per item. Get in touch for a custom quote tailored to your specific catalog size."
   }
 ];
