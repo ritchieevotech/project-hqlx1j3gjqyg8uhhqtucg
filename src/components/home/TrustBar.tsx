@@ -72,12 +72,12 @@ export const TrustBar = () => {
             {[...brandLogos, ...brandLogos, ...brandLogos].map((logo, index) => (
               <div 
                 key={index} 
-                className="flex-shrink-0 px-8 md:px-16"
+                className="flex-shrink-0 px-6 md:px-12"
               >
                 <img 
                   src={logo.src} 
                   alt={logo.alt} 
-                  className="h-10 md:h-14 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                  className="h-14 md:h-20 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
                 />
               </div>
             ))}
