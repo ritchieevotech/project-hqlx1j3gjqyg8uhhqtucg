@@ -48,8 +48,7 @@ export const Storefronts = () => {
               { icon: Zap, title: "8 — Conversion Levers", desc: "Optimize every module for clarity, speed, and action — ensuring your storefront turns traffic into revenue." },
             ].map((item, idx) => (
               <div key={idx} className="flex items-start gap-4"> 
-                <span className="text-secondary text-2xl mt-0.5">⚡
-                
+                <span className="text-secondary text-2xl mt-0.5">
                 <item.icon className="h-12 w-12 text-primary/20" />
                 </span>
                 <div>
