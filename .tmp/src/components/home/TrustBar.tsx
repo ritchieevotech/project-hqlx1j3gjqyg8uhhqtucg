@@ -77,18 +77,23 @@ export const TrustBar = () => {
             }}
             className="flex w-max whitespace-nowrap items-center"
           >
-            {[...brandLogos, ...brandLogos].map((logo, index) => (
-              <div 
-                key={index} 
-                className="flex-shrink-0 px-6 md:px-12"
-              >
-                <img 
-                  src={logo.src} 
-                  alt={logo.alt} 
-                  className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
-                />
-              </div>
-            ))}
+            {[...brandLogos, ...brandLogos].map((logo, index) => {
+              const isSmallLogo = ["Circulation Plus logo", "blazON logo"].includes(logo.alt);
+              return (
+                <div 
+                  key={index} 
+                  className="flex-shrink-0 px-6 md:px-12"
+                >
+                  <img 
+                    src={logo.src} 
+                    alt={logo.alt} 
+                    className={`${
+                      isSmallLogo ? "h-12 md:h-16" : "h-16 md:h-20"
+                    } w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500`}
+                  />
+                </div>
+              );
+            })}
           </motion.div>
         </div>
 
