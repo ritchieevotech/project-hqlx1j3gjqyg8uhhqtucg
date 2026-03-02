@@ -47,10 +47,6 @@ const galleryItems = [
     alt: "Bible tabs A+ content showing colorful tabs, application steps, and benefits",
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750952-Celsius-Mock-up.png",
-    alt: "Celsius Galaxy Vibe energy drink A+ content with cosmic background and flavor callouts",
-  },
-  {
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750952-Everest-Basic-A-Content-Mockup-V2.png",
     alt: "Everest outdoor apparel A+ content with campsite lifestyle scenes and gear benefits",
   },
