@@ -10,16 +10,16 @@ const brandLogos = [
     alt: "Circulation Plus logo"
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-FINAL-ALL-FRESH-LOGO-W-TM-JPG.jpg",
-    alt: "All Fresh Seafood logo"
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772476108598-DynaLifeTM-Final-Logo-new-color.jpg",
+    alt: "Dyna-Life logo"
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Homewell-logo.jpg",
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772476108598-Homewell-R-Final-Logo.jpg",
     alt: "HomeWell logo"
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Logo-Banner-Premier-Spike-Christina-Ink.jpg",
-    alt: "Premier Spike logo"
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772476108598-iPetPRO-LOGO.jpg",
+    alt: "iPet PRO Blood Glucose Monitoring System logo"
   },
   {
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Logo.png",
