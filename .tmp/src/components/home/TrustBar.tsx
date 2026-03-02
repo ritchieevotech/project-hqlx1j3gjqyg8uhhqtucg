@@ -2,24 +2,28 @@ import { motion } from "framer-motion";
 
 const brandLogos = [
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943113-pasted-image-1771408853393.png",
-    alt: "Emeril Lagasse logo"
-  },
-  {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408859909.png",
-    alt: "Black+Decker logo"
-  },
-  {
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408869336.png",
     alt: "Vega logo"
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408875728.png",
-    alt: "Remington logo"
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282502-Circulation-Plus-Logo.jpg",
+    alt: "Circulation Plus logo"
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771408943114-pasted-image-1771408906562.png",
-    alt: "Copper Chef logo"
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-FINAL-ALL-FRESH-LOGO-W-TM-JPG.jpg",
+    alt: "All Fresh Seafood logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Homewell-logo.jpg",
+    alt: "HomeWell logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Logo-Banner-Premier-Spike-Christina-Ink.jpg",
+    alt: "Premier Spike logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474282503-Logo.png",
+    alt: "blazON logo"
   }
 ];
 
