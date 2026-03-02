@@ -15,8 +15,8 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="font-display text-7xl md:text-9xl text-primary leading-[0.85] tracking-tight uppercase"
           >
-            STOP SETTLING FOR AVERAGE <br />
-            <span className="squiggly-underline">AMAZON CREATIVE</span>
+            AMAZON CREATIVE <br />
+            <span className="squiggly-underline">ENGINEERED FOR AI</span>
           </motion.h1>
           
           <motion.p 
@@ -25,9 +25,12 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="mt-8 font-sans text-xl md:text-2xl text-foreground/70 max-w-2xl mx-auto"
           >
-            We build high-converting listings and storefronts designed by creative marketers, not just designers. 
+            If AI can’t read it, it won’t rank.
+            Optimized for Rufus, COSMO, and conversion.
             <br />
-            <span className="font-semibold text-primary">No long-term retainers—just high-impact assets that make your products stand out and sell.</span>
+            <span className="font-semibold text-primary">
+              No retainers. No fluff. Just assets built for visibility, recommendations, and revenue.
+            </span>
           </motion.p>
         </div>
 
