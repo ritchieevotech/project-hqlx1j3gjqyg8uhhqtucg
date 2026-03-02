@@ -32,6 +32,14 @@ const brandLogos = [
   {
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772474737030-Alpine-Innovations-A-logo-light-bkgrnd.png",
     alt: "Alpine Innovations logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772477770194-MOMARSH-WORD-ONLY-LOGO-BLACK.jpg",
+    alt: "MOMARSH logo"
+  },
+  {
+    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772477770195-Riddex-Logo-Red.jpg",
+    alt: "RIDDEX logo"
   }
 ];
 
