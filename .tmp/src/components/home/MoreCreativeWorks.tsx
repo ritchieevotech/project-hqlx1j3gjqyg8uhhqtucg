@@ -43,10 +43,6 @@ const galleryItems = [
     alt: "DIA hydration electrolyte powder Amazon A+ content highlighting benefits and hydration",
   },
   {
-    src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772050731799-images-7.png",
-    alt: "FRÉ 10% Vitamin C brightening serum Amazon A+ content showcasing clean vegan formula and visible radiance",
-  },
-  {
     src: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772143750950-Essex-Wares-Mock-Up-Option-02.png",
     alt: "Bible tabs A+ content showing colorful tabs, application steps, and benefits",
   },
