@@ -86,7 +86,7 @@ export const TrustBar = () => {
             className="flex w-max whitespace-nowrap items-center"
           >
             {[...brandLogos, ...brandLogos].map((logo, index) => {
-              const isSmallLogo = ["Circulation Plus logo", "blazON logo"].includes(logo.alt);
+              const isSmallLogo = ["Circulation Plus logo", "blazON logo", "MOMARSH logo", "RIDDEX logo"].includes(logo.alt);
               return (
                 <div 
                   key={index} 
