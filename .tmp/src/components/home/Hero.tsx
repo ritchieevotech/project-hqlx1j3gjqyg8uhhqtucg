@@ -35,7 +35,7 @@ export function Hero() {
         </div>
 
         {/* Bottom Section */}
-        <div className="grid md:grid-cols-12 gap-8 md:gap-10 items-center -mt-8 md:-mt-16">
+        <div className="grid md:grid-cols-12 gap-8 md:gap-10 items-center mb-10 -mt-8 md:-mt-16">
           <div className="md:col-span-7 relative">
             {/* Organic Blob Background */}
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-secondary/20 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] animate-pulse" />
