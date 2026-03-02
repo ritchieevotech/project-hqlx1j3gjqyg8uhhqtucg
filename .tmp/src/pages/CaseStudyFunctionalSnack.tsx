@@ -83,8 +83,9 @@ const CaseStudyFunctionalSnack = () => {
               </section>
 
               {/* Before / After Hero Images Row */}
+              {/*
               <div className="grid md:grid-cols-2 gap-8 mb-4">
-                {/*
+                
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-50 aspect-[4/3] mb-4">
                     <img
@@ -176,8 +177,8 @@ const CaseStudyFunctionalSnack = () => {
               </div>
 
               {/* A+ Before/After Row */}
+              {/*              
               <div className="grid md:grid-cols-2 gap-8 mb-4">
-                {/*
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-50 aspect-[4/3] mb-4 flex items-center justify-center">
                     <img
