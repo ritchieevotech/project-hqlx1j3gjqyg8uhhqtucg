@@ -84,6 +84,7 @@ const CaseStudyFunctionalSnack = () => {
 
               {/* Before / After Hero Images Row */}
               <div className="grid md:grid-cols-2 gap-8 mb-4">
+                {/*
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-50 aspect-[4/3] mb-4">
                     <img
@@ -110,6 +111,8 @@ const CaseStudyFunctionalSnack = () => {
               <p className="text-center text-sm text-muted-foreground mb-16 italic">
                 Hero image: Isolated product shot replaced with aspirational lifestyle image for target buyer
               </p>
+              */}
+              
 
               {/* What We Found & What We Changed */}
               <div className="grid md:grid-cols-2 gap-12 mb-16">
@@ -174,6 +177,7 @@ const CaseStudyFunctionalSnack = () => {
 
               {/* A+ Before/After Row */}
               <div className="grid md:grid-cols-2 gap-8 mb-4">
+                {/*
                 <div className="flex flex-col">
                   <div className="rounded-[1.75rem] overflow-hidden border border-border/70 bg-slate-50 aspect-[4/3] mb-4 flex items-center justify-center">
                     <img
@@ -200,6 +204,8 @@ const CaseStudyFunctionalSnack = () => {
               <p className="text-center text-sm text-muted-foreground mb-8 italic">
                 A+ restructure: Shopper objection ('Does it taste good?') answered in the first scroll
               </p>
+              */}
+                
 
               {/* Flavor Comparison Card */}
               <div className="w-full mb-4">
