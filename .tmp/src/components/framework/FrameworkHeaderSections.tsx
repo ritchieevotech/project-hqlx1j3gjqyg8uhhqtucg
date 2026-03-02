@@ -214,7 +214,7 @@ export const FrameworkSixComponents = () => {
                   <div className="w-12 h-12 rounded-2xl bg-primary/5 border border-primary/10 flex items-center justify-center shadow-[0_10px_25px_rgba(15,23,42,0.08)] group-hover:bg-primary/10 transition-colors">
                     <item.icon className="w-6 h-6 text-brand-blue" />
                   </div>
-                  <div className="absolute -right-1 -top-1 w-3.5 h-3.5 rounded-full bg-secondary border-2 border-white shadow-sm" />
+                  
                 </div>
                 <span className="inline-flex items-center rounded-full bg-primary/5 px-3 py-1 text-[10px] md:text-[11px] font-semibold tracking-[0.18em] uppercase text-primary/70">
                   {item.label}
