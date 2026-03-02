@@ -77,11 +77,7 @@ export const TrustBar = () => {
                 <img 
                   src={logo.src} 
                   alt={logo.alt} 
-                  className={`${
-                    ["All Fresh Seafood logo", "HomeWell logo", "Premier Spike logo"].includes(logo.alt)
-                      ? "h-20 md:h-24"
-                      : "h-14 md:h-20"
-                  } w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500`}
+                  className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
                 />
               </div>
             ))}
