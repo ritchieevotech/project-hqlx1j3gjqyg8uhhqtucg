@@ -67,9 +67,9 @@ export const TrustBar = () => {
               repeat: Infinity,
               ease: "linear",
             }}
-            className="flex whitespace-nowrap items-center"
+            className="flex w-max whitespace-nowrap items-center"
           >
-            {[...brandLogos, ...brandLogos, ...brandLogos].map((logo, index) => (
+            {[...brandLogos, ...brandLogos].map((logo, index) => (
               <div 
                 key={index} 
                 className="flex-shrink-0 px-6 md:px-12"
