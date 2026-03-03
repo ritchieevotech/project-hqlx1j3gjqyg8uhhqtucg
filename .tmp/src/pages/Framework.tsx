@@ -3,7 +3,7 @@ import { FrameworkHero, FrameworkIntro, FrameworkSixComponents } from "@/compone
 import { FrameworkAiEra, FrameworkProblems } from "@/components/framework/FrameworkAiAndProblems";
 import { FrameworkPillarE, FrameworkPillarN, FrameworkPillarG } from "@/components/framework/FrameworkPillarsPart1";
 import { FrameworkPillarI, FrameworkPillarN2, FrameworkPillar8 } from "@/components/framework/FrameworkPillarsPart2";
-import { FrameworkImplementation, FrameworkResults, FrameworkMistakes, FrameworkServicesCta, FrameworkNewsletterSignup, FrameworkFaq } from "@/components/framework/FrameworkFooterSections";
+import { FrameworkImplementation, FrameworkResults, FrameworkMistakes, FrameworkServicesCta, FrameworkFaq } from "@/components/framework/FrameworkFooterSections";
 import { SiteFooter } from "@/components/layout/Footer";
 
 const Framework = () => {
@@ -29,7 +29,6 @@ const Framework = () => {
         <FrameworkResults />
         <FrameworkMistakes />
         <FrameworkServicesCta />
-        <FrameworkNewsletterSignup />
         <FrameworkFaq />
       </main>
       <SiteFooter />
