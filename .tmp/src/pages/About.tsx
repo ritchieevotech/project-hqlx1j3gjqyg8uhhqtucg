@@ -379,12 +379,12 @@ const About = () => {
                           </div>
                         </button>
                       ) : (
-                        <iframe 
-                          src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview?autoplay=1" 
-                          className="w-full h-full border-none"
-                          allow="autoplay; encrypted-media" 
-                          allowFullScreen
-                          title="Inside Engin8 in 3 Minutes"
+                        <video
+                          src="https://drive.google.com/uc?export=download&id=1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI"
+                          className="w-full h-full object-cover"
+                          controls
+                          autoPlay
+                          playsInline
                         />
                       )}
                     </AspectRatio>
@@ -474,12 +474,12 @@ const About = () => {
                           </div>
                         </button>
                       ) : (
-                        <iframe 
-                          src="https://drive.google.com/file/d/1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l/preview?autoplay=1" 
-                          className="w-full h-full border-none"
-                          allow="autoplay; encrypted-media" 
-                          allowFullScreen
-                          title="A Decade of Building Marketplace Wins"
+                        <video
+                          src="https://drive.google.com/uc?export=download&id=1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l"
+                          className="w-full h-full object-cover"
+                          controls
+                          autoPlay
+                          playsInline
                         />
                       )}
                     </AspectRatio>
