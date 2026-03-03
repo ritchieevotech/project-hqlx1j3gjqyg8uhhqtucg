@@ -92,7 +92,7 @@ export const FrameworkIntro = () => {
               className="mt-6 bg-secondary hover:bg-secondary/90 text-white font-heading font-bold rounded-full px-8 py-6 shadow-lg shadow-secondary/20 inline-flex items-center gap-2"
             >
               <a
-                href="https://preview--hqlx1j3gjqyg8uhhqtucg.superdev.run/framework"
+                href="https://drive.google.com/file/d/1GS7-t96mkfFZk2Vjff9l-wqd6k3QGIQU/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
