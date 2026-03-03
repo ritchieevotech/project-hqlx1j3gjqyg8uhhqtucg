@@ -26,7 +26,7 @@ const About = () => {
       name: "Henrik Anderson",
       role: "Director of Product",
       specialty: "Amazon operator focused on ranking, conversion, and compliance through disciplined catalog execution.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771963711801-Gemini-Generated-Image-utg57hutg57hutg5.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772504785667-9Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-right"
     },
     {
