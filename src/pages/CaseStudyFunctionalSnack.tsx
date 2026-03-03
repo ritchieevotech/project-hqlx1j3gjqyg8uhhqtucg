@@ -81,7 +81,7 @@ const CaseStudyFunctionalSnack = () => {
                   </p>
                 </div>
               </section>
-
+ 
               {/* What We Found & What We Changed */}
               <div className="grid md:grid-cols-2 gap-12 mb-16">
                 <section>
