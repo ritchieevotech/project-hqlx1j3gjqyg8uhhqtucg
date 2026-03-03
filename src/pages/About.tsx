@@ -401,7 +401,7 @@ const About = () => {
                         </button>
                       ) : (
                         <iframe
-                          src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview?autoplay=1"
+                          src="https://www.youtube.com/embed/od4ezeASkQc"
                           className="w-full h-full border-none"
                           allow="autoplay; encrypted-media; picture-in-picture"
                           allowFullScreen
