@@ -40,7 +40,7 @@ const About = () => {
       name: "Trevar Gale",
       role: "Account Executive",
       specialty: "Building, optimizing, and scaling brands with executive strategy and full-funnel account expertise.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772503292572-Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772507188915-Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-center"
     },
     {
