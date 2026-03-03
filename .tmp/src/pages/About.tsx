@@ -33,7 +33,7 @@ const About = () => {
       name: "Blake Gale",
       role: "Chief Relationship Officer",
       specialty: "Performance marketing operator aligning creative, messaging, and acquisition to improve CAC, CVR, and LTV.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771962948656-Gemini-Generated-Image-c0r71cc0r71cc0r7.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772504889087-6Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-left"
     },
     {
