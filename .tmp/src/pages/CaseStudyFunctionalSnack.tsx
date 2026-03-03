@@ -31,7 +31,7 @@ const CaseStudyFunctionalSnack = () => {
               className="flex flex-col"
             >
               <p className="font-sans text-xs md:text-sm font-semibold uppercase tracking-widest text-muted-foreground/80 mb-4">
-                SOUR POWER · Functional Snack Category
+                1SOUR POWER · Functional Snack Category
               </p>
               
               <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl text-primary leading-tight tracking-tight mb-6 max-w-4xl">
