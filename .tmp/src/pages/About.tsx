@@ -12,7 +12,7 @@ const About = () => {
       name: "Robert Ferreira",
       role: "Founder",
       specialty: "Growth-focused founder building scalable eCommerce systems that drive measurable marketplace performance.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771966126993-1766640578560-pasted-image-1766640468322-1.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772504598086-7Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-left"
     },
     {
