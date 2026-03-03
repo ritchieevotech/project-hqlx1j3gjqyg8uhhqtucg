@@ -19,7 +19,7 @@ const About = () => {
       name: "Lee Loree",
       role: "Founder",
       specialty: "Operator-minded founder turning strategy into clean, repeatable execution for brands and agencies.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771965555709-Gemini-Generated-Image-1vm75r1vm75r1vm7.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772504684642-5Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-center"
     },
     {
