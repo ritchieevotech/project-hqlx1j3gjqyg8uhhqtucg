@@ -63,6 +63,13 @@ const About = () => {
       specialty: "Go-to-market operator refining positioning, packaging, and sales systems that convert interest into revenue.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771963230591-Gemini-Generated-Image-v5r2a4v5r2a4v5r2.png",
       position: "object-center"
+    },
+    {
+      name: "Ata Haee",
+      role: "VP Finance & Revenue Operations",
+      specialty: "Own everything operational as it relates to revenue and finance including strategy and analysis.",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772503965096-2Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
+      position: "object-center"
     }
   ];
 
@@ -387,7 +394,7 @@ const About = () => {
                         </button>
                       ) : (
                         <iframe
-                          src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview"
+                          src="https://drive.google.com/file/d/1oh0QU5ihSqApKXpnMHA8TaAbNmEnLuxI/preview?autoplay=1"
                           className="w-full h-full border-none"
                           allow="autoplay; encrypted-media; picture-in-picture"
                           allowFullScreen
@@ -482,7 +489,7 @@ const About = () => {
                         </button>
                       ) : (
                         <iframe
-                          src="https://drive.google.com/file/d/1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l/preview"
+                          src="https://drive.google.com/file/d/1pYcvcjOsqNINY6XKDLZQQfE5NXMHXn8l/preview?autoplay=1"
                           className="w-full h-full border-none"
                           allow="autoplay; encrypted-media; picture-in-picture"
                           allowFullScreen
