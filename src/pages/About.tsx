@@ -37,6 +37,13 @@ const About = () => {
       position: "object-left"
     },
     {
+      name: "Trevar Gale",
+      role: "Account Executive",
+      specialty: "Building, optimizing, and scaling brands with executive strategy and full-funnel account expertise.",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772503292572-Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
+      position: "object-center"
+    },
+    {
       name: "Lauren Gentile",
       role: "Chief Operations Officer",
       specialty: "Operations operator ensuring fast, organized delivery with rigorous QA and on-time handoff.",
