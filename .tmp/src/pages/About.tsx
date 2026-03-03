@@ -47,7 +47,7 @@ const About = () => {
       name: "Lauren Gentile",
       role: "Chief Operations Officer",
       specialty: "Operations operator ensuring fast, organized delivery with rigorous QA and on-time handoff.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772508736894-8Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772510112195-4Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-center"
     },
     {
