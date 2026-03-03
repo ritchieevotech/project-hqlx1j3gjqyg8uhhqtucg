@@ -54,7 +54,7 @@ const About = () => {
       name: "Kristy Pinand",
       role: "Creative Director",
       specialty: "Creative operator building conversion-first Amazon visuals that look premium and sell with clarity.",
-      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1771966305333-Gemini-Generated-Image-d0k97bd0k97bd0k9.png",
+      image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772508736894-8Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-right"
     },
     {
