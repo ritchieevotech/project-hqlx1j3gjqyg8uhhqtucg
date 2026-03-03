@@ -143,23 +143,6 @@ const CaseStudyFunctionalSnack = () => {
                 </section>
               </div>
 
-              {/* Flavor Comparison Card */}
-              <div className="w-full mb-4">
-                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/70 bg-black aspect-[16/9] mb-12">
-                  <img
-                    src="https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772045010661-Sour-Power-B07K43NCJ5-A-Content-Module-05.png"
-                    alt="Sour Power flavor lineup comparison grid with multiple colorful candy varieties and pricing table"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="text-center">
-                  <h4 className="font-heading text-lg text-primary mb-1">[ IMAGE ] Flavor Comparison Module</h4>
-                  <p className="text-sm text-muted-foreground">Screenshot of new multi-flavor comparison chart — helps shoppers self-select, increases multi-unit orders</p>
-                  <p className="text-center text-sm text-muted-foreground mt-4 italic">
-                    New flavor comparison module reduced exit rate and increased units per order from 1.2 → 1.8
-                  </p>
-                </div>
-              </div>
 
               {/* Results Table */}
               <section className="mb-16 mt-16">
