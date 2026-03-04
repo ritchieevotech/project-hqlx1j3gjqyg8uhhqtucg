@@ -67,7 +67,7 @@ const About = () => {
     },
     {
       name: "Justin Carbaugh",
-      role: "CFO",
+      role: "Chief Financial Officer",
       specialty: "Overseeing financial strategy, capital allocation, and operational performance across the company’s eCommerce software and services portfolio.",
       image: "https://ellprnxjjzatijdxcogk.supabase.co/storage/v1/object/public/superdev-project-images/5f6c1670-6f8a-4941-aa9d-ae316b4e8606/hqlx1j3gjqyg8uhhqtucg/1772504208735-3Gemini-Generated-Image-vgfvkhvgfvkhvgfv.png",
       position: "object-center"
